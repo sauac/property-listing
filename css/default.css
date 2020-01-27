@@ -2212,3 +2212,52 @@ p {
 .normal-text-italic {
     font-style: italic;
 }
+
+
+
+
+
+.horizontal-card {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: 1150px;
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0px;
+    align-content: center;
+}
+
+.top-image-test-block img {
+    display: inline-block;
+    position: relative;
+    ;
+    width: auto;
+    height: 200px;
+    float: left;
+    padding-right: 40px;
+    border-bottom-left-radius: 5px;
+}
+
+.main-content-block-test {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px
+}
+
+.main-content-block-test h1 {
+    padding-top: 0;
+
+}
+
+.main-content-block-test p {}
+
+.main-content-block-test .summary-text {}
