@@ -1414,8 +1414,10 @@ h1 {
     color: black;
 }
 
-.columnx p {
+.columnx,
+.horizontal-card p {
     line-height: 1.4;
+    font-size: 14px;
 }
 
 .columnx.contact-details {
@@ -1833,9 +1835,14 @@ form .form-button input:hover {
 .section-wrapper h1 {
     font-family: "Raleway", sans-serif;
     font-style: normal;
+    /*
     font-weight: 300;
     font-size: 25px;
-    /*    color: #b3b1b9;*/
+    color: #b3b1b9;  
+*/
+    font-weight: 600;
+    font-size: 22px;
+    color: #3e3e3e;
 }
 
 /* Responsive wrapper */
@@ -1909,7 +1916,8 @@ hr {
 
 .summary-text {
     font-family: "Raleway", sans-serif;
-    font-size: 16px;
+    /*    font-size: 16px;*/
+    font-size: 14px;
     font-weight: 300;
     font-style: italic;
     color: #4e4e4e;
