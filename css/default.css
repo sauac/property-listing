@@ -1417,7 +1417,7 @@ h1 {
 .columnx,
 .horizontal-card p {
     line-height: 1.4;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .columnx.contact-details {
@@ -1917,7 +1917,7 @@ hr {
 .summary-text {
     font-family: "Raleway", sans-serif;
     /*    font-size: 16px;*/
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     font-style: italic;
     color: #4e4e4e;
