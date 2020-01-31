@@ -1843,7 +1843,26 @@ form .form-button input:hover {
     font-weight: 600;
     font-size: 22px;
     color: #3e3e3e;
+    /*
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 20px;
+*/
 }
+
+.fa-ul {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    margin-left: 25px !important;
+    color: #7e7e7e;
+}
+
+.fa-ul li {}
+
+.fa-ul .fa-li {
+    padding-left: 0;
+    margin-left: 0;
+}
+
 
 /* Responsive wrapper */
 @media screen and (max-width: 1024px) {
