@@ -1849,6 +1849,24 @@ form .form-button input:hover {
 */
 }
 
+.columnx h1 {
+    margin-top: 0px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    /*
+    font-weight: 300;
+    font-size: 25px;
+    color: #b3b1b9;  
+*/
+    font-weight: 600;
+    font-size: 22px;
+    color: #3e3e3e;
+    /*
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 20px;
+*/
+}
+
 .fa-ul {
     font-family: "Raleway", sans-serif;
     font-style: normal;
