@@ -1889,6 +1889,21 @@ form .form-button input:hover {
 }
 
 
+.property-type {
+    padding-right: 10px;
+}
+
+.font-extra {
+}
+
+.font-extra .fas {
+    padding-left: 15px;
+    padding-right: 7px;
+    color: #3e3e3e;
+    
+}
+
+
 /* Responsive wrapper */
 @media screen and (max-width: 1024px) {
     .section-wrapper {
