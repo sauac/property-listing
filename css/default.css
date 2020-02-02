@@ -1851,6 +1851,7 @@ form .form-button input:hover {
 
 .columnx h1 {
     margin-top: 0px;
+    margin-bottom: 5px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     /*
@@ -1866,6 +1867,17 @@ form .form-button input:hover {
     padding-bottom: 20px;
 */
 }
+
+.main-content-block .price {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none !important;
+    color: #28869b;
+}
+
+
 
 .fa-ul {
     font-family: "Raleway", sans-serif;
