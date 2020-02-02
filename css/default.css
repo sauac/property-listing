@@ -1841,7 +1841,7 @@ form .form-button input:hover {
     color: #b3b1b9;  
 */
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
     color: #3e3e3e;
     /*
     border-bottom: 1px solid #eaeaea;
@@ -1859,7 +1859,7 @@ form .form-button input:hover {
     color: #b3b1b9;  
 */
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
     color: #3e3e3e;
     /*
     border-bottom: 1px solid #eaeaea;
@@ -1893,14 +1893,13 @@ form .form-button input:hover {
     padding-right: 10px;
 }
 
-.font-extra {
-}
+.font-extra {}
 
 .font-extra .fas {
     padding-left: 15px;
     padding-right: 7px;
     color: #3e3e3e;
-    
+
 }
 
 
