@@ -1477,12 +1477,12 @@ h1 {
   filter: brightness(0.95);
 } */
 
-.columnx .cardz > .top-image-test {
+.columnx .cardz > .card-image {
     filter: brightness(1);
     transition: all 400ms ease;
 }
 
-.columnx .cardz:hover > .top-image-test {
+.columnx .cardz:hover > .card-image {
     filter: brightness(0.6);
     transition: all 200ms ease;
 }
@@ -2381,7 +2381,7 @@ p {
 
 
 
-.top-image-test-block img {
+.card-image.horizontal img {
     display: inline-block;
     position: relative;
     width: auto;
@@ -2396,7 +2396,7 @@ p {
 
 /* Responsive columns */
 @media screen and (max-width: 1024px) {
-    .top-image-test-block img {
+    .card-image.horizontal img {
         display: inline-block;
         position: relative;
         width: auto;
@@ -2409,7 +2409,7 @@ p {
 
 /* Responsive columns */
 @media screen and (max-width: 1023px) {
-    .top-image-test-block img {
+    .card-image.horizontal img {
         display: inline-block;
         position: relative;
         width: auto;
@@ -2422,7 +2422,7 @@ p {
 
 /* Responsive columns */
 @media screen and (max-width: 768px) {
-    .top-image-test-block img {
+    .card-image.horizontal img {
         display: inline-block;
         position: relative;
         width: auto;
@@ -2435,7 +2435,7 @@ p {
 
 /* Responsive columns */
 @media screen and (max-width: 767px) {
-    .top-image-test-block img {
+    .card-image.horizontal img {
         /*        width: 100%;*/
         height: inherit;
         padding-right: 0;
@@ -2447,73 +2447,12 @@ p {
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-    .top-image-test-block img {
+    .card-image.horizontal img {
         /*        width: 100%;*/
         height: inherit;
         padding-right: 0;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-    }
-}
-
-
-
-
-
-
-.main-content-block-test {
-    display: inline-block;
-    position: relative;
-    width: 50%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    margin-top: 20px
-}
-
-/* Responsive columns */
-@media screen and (max-width: 1024px) {
-    .main-content-block-test {
-        display: inline-block;
-        position: relative;
-        width: 50%;
-        height: auto;
-        padding: 0;
-        margin: 0;
-        margin-top: 20px
-    }
-}
-
-/* Responsive columns */
-@media screen and (max-width: 1023px) {
-    .main-content-block-test {
-        display: inline-block;
-        position: relative;
-        width: 40%;
-        height: auto;
-        padding: 0;
-        margin: 0;
-        margin-top: 20px
-    }
-}
-
-
-
-
-
-/* Responsive columns */
-@media screen and (max-width: 767px) {
-    .main-content-block-test {
-        width: 100%;
-        padding: 20px;
-    }
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-    .main-content-block-test {
-        width: 100%;
-        padding: 20px;
     }
 }
 
