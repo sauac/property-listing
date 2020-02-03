@@ -2366,6 +2366,13 @@ p {
     margin-left: 20px;
 }
 
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .main-content-block.horizontal {
+        margin-left: 0px;
+    }
+}
+
 
 
 .top-image-test-block img {
