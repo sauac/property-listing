@@ -2292,6 +2292,7 @@ p {
     height: 42px;
     text-align: center;
     z-index: 1003;
+    display: none;
 }
 
 #to-top i {
