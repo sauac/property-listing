@@ -2474,6 +2474,7 @@ p {
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
+    margin-bottom: 30px;
     position: relative;
 }
 
