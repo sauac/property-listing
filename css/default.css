@@ -2529,9 +2529,10 @@ p {
 /* Container for image text */
 .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: #ebebeb;
     padding: 2px 16px;
-    color: white;
+    color: #000000;
+    filter: drop-shadow(1px 3px 2px rgba(0, 0, 0, 0.4));
 }
 
 .row:after {
@@ -2611,4 +2612,10 @@ p {
         height: 250px;
 
     }
+}
+
+
+.caption-container {
+}
+.caption-container #caption {
 }
