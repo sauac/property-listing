@@ -1,9 +1,23 @@
-/*jslint browser: true*/
-/*global $, jQuery*/
-
 $(document).ready(function () {
-    $(".section").click(function () {
-        window.location = $(this).find("a").attr("href");
-        return false;
-    });
+    //Get the button
+    var mybutton = document.getElementById("to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 });
