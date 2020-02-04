@@ -2540,8 +2540,13 @@ p {
 
 
 /* Container for image text */
-.row {
-    display: none;
+.row {}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .row {
+        display: none;
+    }
 }
 
 .row:after {
