@@ -2561,6 +2561,11 @@ p {
     vertical-align: middle;
 }
 
+.propertyslider h2 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+}
+
 .propertyslider img {
     vertical-align: middle;
     border-radius: 0;
