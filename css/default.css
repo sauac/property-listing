@@ -2529,10 +2529,10 @@ p {
 /* Container for image text */
 .caption-container {
     text-align: center;
-    background-color: #ebebeb;
+    background-color: #000000;
     padding: 2px 16px;
-    color: #000000;
-    filter: drop-shadow(1px 3px 2px rgba(0, 0, 0, 0.4));
+    color: #ffffff;
+/*    filter: drop-shadow(1px 3px 2px rgba(0, 0, 0, 0.4));*/
 }
 
 .row:after {
