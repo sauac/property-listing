@@ -2578,8 +2578,24 @@ p {
 }
 
 .propertyslider {
-    margin-top: 100px;
+    margin-top: 70px;
     vertical-align: middle;
+}
+
+.slider-top {
+    margin-top: 0;
+    padding: 10px;
+    /*    padding-top: 0;*/
+    padding-left: 0;
+    /*    text-align: left;*/
+    /*    background-color: white;*/
+}
+
+.slider-top h2 {
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-style: normal;
+    text-align: left !important;
 }
 
 .propertyslider h2 {
