@@ -276,6 +276,8 @@ body p {
     }
 }
 
+
+
 .hamburger {
     display: block;
     position: relative;
@@ -638,7 +640,7 @@ body p {
 @media screen and (max-width: 768px) {
     .navunit.home {
         /*        visibility: collapse;*/
-        display: none;
+        display: block;
     }
 }
 
@@ -660,6 +662,20 @@ body p {
     letter-spacing: 4px;
 }
 
+/* Responsive wrapper */
+@media screen and (max-width: 768px) {
+    .navunit h2 {}
+}
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .navunit h2 {
+        /*        display: none;*/
+        font-size: 20px;
+    }
+}
+
+
 .navunit .fas {
     font-size: 36px;
     padding: 5px;
@@ -678,6 +694,13 @@ body p {
     border: solid 1px rgba(175, 157, 110, 0.62);
 }
 
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .navunit .fas {
+        margin-top: 10px;
+    }
+}
+
 a .navunit:hover {
     filter: brightness(1.4);
 }
@@ -691,12 +714,14 @@ a .navunit:hover {
 }
 
 /* Responsive wrapper */
+/*
 @media screen and (max-width: 768px) {
     .homebutton {
         display: block;
         visibility: visible;
     }
 }
+*/
 
 #temp-home {
     position: relative;
@@ -2509,6 +2534,15 @@ p {
 
 
 /* Responsive columns */
+@media screen and (max-width: 768px) {
+
+    .prev,
+    .next {
+        top: 45%;
+    }
+}
+
+/* Responsive columns */
 @media screen and (max-width: 600px) {
 
     .prev,
@@ -2613,6 +2647,7 @@ p {
     margin-top: 0;
     padding: 10px;
     padding-left: 0;
+    /*    background-color: #ffffff;*/
 }
 
 
@@ -2682,16 +2717,24 @@ p {
 .property-area {
     display: block;
     position: relative;
-    /*
-    margin: 0 !important;
+
+    margin: 0;
     padding: 0 !important;
-*/
-    margin-bottom: 10px;
+
+    margin-bottom: 20px;
     font-size: 20px;
     color: black;
     /*    height: 100%;*/
     /*    line-height: normal;*/
 }
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .property-area {
+        margin-bottom: 10px;
+    }
+}
+
 
 .propertyslider img {
     vertical-align: middle;
