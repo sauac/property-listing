@@ -2513,7 +2513,7 @@ p {
 
     .prev,
     .next {
-        top: 50%;
+        top: 60%;
     }
 }
 
@@ -2630,6 +2630,13 @@ p {
 
 .slider-top .property-name {}
 
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .slider-top .property-name {
+        /*        margin-top: 15px;*/
+    }
+}
+
 .propertyslider h2 {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -2684,6 +2691,14 @@ p {
     margin-bottom: 20px;
 }
 
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .mySlides {
+        height: 250px;
+        margin-bottom: 0px;
+    }
+}
+
 .mySlides img {
     object-fit: cover;
     max-width: 100%;
@@ -2693,14 +2708,7 @@ p {
 }
 
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-    .mySlides {
 
-        height: 250px;
-
-    }
-}
 
 .mySlides .numbertext {}
 
