@@ -2577,6 +2577,8 @@ p {
 .columnc {
     float: left;
     width: 16.66%;
+    /*    padding: 0 10px;*/
+    /*    border: 1px solid grey;*/
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -2587,6 +2589,7 @@ p {
 .active,
 .demo:hover {
     opacity: 1;
+    border: 1px solid #3034a7;
 }
 
 
@@ -2678,6 +2681,7 @@ p {
 
 .mySlides {
     height: 380px;
+    margin-bottom: 20px;
 }
 
 .mySlides img {
