@@ -2615,6 +2615,10 @@ p {
     }
 }
 
+.propertyslider h2 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+}
 
 
 .slider-top h2 {
@@ -2625,10 +2629,7 @@ p {
     text-align: left !important;
 }
 
-.propertyslider h2 {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-}
+
 
 .price {}
 
