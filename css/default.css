@@ -2577,6 +2577,18 @@ p {
     opacity: 1;
 }
 
+
+.section-wrapper.property-slider {}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .section-wrapper.property-slider {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
 .propertyslider {
     margin-top: 70px;
     vertical-align: middle;
@@ -2585,11 +2597,21 @@ p {
 .slider-top {
     margin-top: 0;
     padding: 10px;
-    /*    padding-top: 0;*/
     padding-left: 0;
-    /*    text-align: left;*/
-    /*    background-color: white;*/
 }
+
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .slider-top {
+        margin-top: 0;
+        padding: 10px;
+        padding-left: 20px;
+    }
+}
+
+
 
 .slider-top h2 {
     display: inline-block;
