@@ -2458,24 +2458,17 @@ p {
 }
 
 
-
-.main-content-block-test h1 {
-    padding-top: 0;
-
-}
-
-.main-content-block-test p {
-    color: black;
-}
-
-.main-content-block-test .summary-text {}
-
-
-
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     margin-bottom: 30px;
     position: relative;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .container {
+        margin-bottom: 0px;
+    }
 }
 
 /* Hide the images by default */
@@ -2506,6 +2499,16 @@ p {
     -webkit-user-select: none;
 }
 
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+
+    .prev,
+    .next {
+        top: 50%;
+    }
+}
+
 /* Position the "next button" to the right */
 .next {
     right: 0;
@@ -2526,6 +2529,7 @@ p {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Container for image text */
