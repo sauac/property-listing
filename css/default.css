@@ -2592,6 +2592,7 @@ p {
 }
 
 .slider-top h2 {
+    display: inline-block;
     margin-bottom: 5px;
     font-size: 32px;
     font-style: normal;
@@ -2601,6 +2602,25 @@ p {
 .propertyslider h2 {
     font-family: "Raleway", sans-serif;
     font-style: normal;
+}
+
+.price {}
+
+.price.property-page {
+    align-content: flex-end;
+    justify-content: flex-end;
+    float: right;
+    color: #29867f;
+    font-weight: 600;
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .price.property-page {
+        width: 100%;
+        margin-top: 5px;
+    }
 }
 
 .propertyslider img {
