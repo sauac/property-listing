@@ -1365,9 +1365,17 @@ table .table-block-top {
     font-size: 32px;
     font-style: normal;
     margin-bottom: 0;
-    color: #ceab6a;
+    color: #4d4f52;
     /*    padding-left: 10px;*/
 }
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .section .intro-title {
+        font-size: 28px;
+    }
+}
+
 
 .section-title-divider {
     height: 0.7px;
@@ -2615,6 +2623,10 @@ p {
     }
 }
 
+
+
+.slider-top .property-name {}
+
 .propertyslider h2 {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -2627,6 +2639,13 @@ p {
     font-size: 32px;
     font-style: normal;
     text-align: left !important;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .slider-top h2 {
+        font-size: 28px;
+    }
 }
 
 
