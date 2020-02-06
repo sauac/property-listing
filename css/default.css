@@ -269,7 +269,7 @@ body p {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 875px) {
     .navunit {
         /*        visibility: collapse;*/
         display: none;
@@ -310,7 +310,7 @@ body p {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 875px) {
     .hamburger input {
         display: block;
         visibility: visible;
@@ -338,7 +338,7 @@ body p {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 875px) {
     .hamburger span {
         display: block;
         visibility: visible;
@@ -422,7 +422,7 @@ body p {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 875px) {
     .hamburger .responsive-menu2 {
         display: block;
         visibility: visible;
@@ -637,7 +637,7 @@ body p {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 875px) {
     .navunit.home {
         /*        visibility: collapse;*/
         display: block;
