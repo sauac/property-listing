@@ -1425,6 +1425,13 @@ table .table-block-top {
     color: #4d4f52;
 }
 
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .section-wrapper .seasons-title {
+        font-size: 26px;
+    }
+}
+
 .margin-adjust.contact-tp {
     margin-top: -70px;
 }
