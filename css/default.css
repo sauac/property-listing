@@ -2426,7 +2426,7 @@ p {
     display: inline-block;
     position: relative;
     width: auto;
-    height: 240px;
+    height: 200px;
     float: left;
     /*    padding-right: 10px;*/
     border-bottom-left-radius: 5px;
@@ -2441,7 +2441,7 @@ p {
         display: inline-block;
         position: relative;
         width: auto;
-        height: 240px;
+        height: 200px;
         float: left;
         /*        padding-right: 40px;*/
         border-bottom-left-radius: 5px;
@@ -2454,7 +2454,7 @@ p {
         display: inline-block;
         position: relative;
         width: auto;
-        height: 240px;
+        height: 200px;
         float: left;
         /*        padding-right: 40px;*/
         border-bottom-left-radius: 5px;
@@ -2467,7 +2467,7 @@ p {
         display: inline-block;
         position: relative;
         width: auto;
-        height: 240px;
+        height: 200px;
         float: left;
         /*        padding-right: 30px;*/
         border-bottom-left-radius: 5px;
