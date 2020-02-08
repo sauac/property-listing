@@ -786,6 +786,7 @@ a .navunit:hover {
     padding-top: 190px;
     padding-bottom: 150px;
     background-color: #000000;
+
 }
 
 ttt {}
@@ -805,6 +806,7 @@ ttt {}
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url('/images/family-sitting-on-sofa.jpg');
 }
 
 
@@ -817,7 +819,7 @@ ttt {}
 
 
 .section.hero.homepage:before {
-    background-image: url('/images/family-sitting-on-sofa.jpg');
+    /*    background-image: url('/images/family-sitting-on-sofa.jpg');*/
 }
 
 /* Responsive  */
