@@ -812,11 +812,7 @@ ttty {}
 .section.hero.homepage {}
 
 .section.hero.homepage:before {
-<<<<<<< HEAD
     background-image: url('/images/apartment1.jpg');
-=======
-    background-image: url('https://raw.githubusercontent.com/sauac/property-listing/master/images/apartment7.jpg');
->>>>>>> 205f42207373958d459aa42e0fbc8502c3b691c8
 }
 
 
