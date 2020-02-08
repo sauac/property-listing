@@ -812,12 +812,12 @@ ttt {}
 .section.hero.homepage {}
 
 .section.hero.homepage:before {
-    /*    background-image: url('/images/apartment1.jpg');*/
+    background-image: url('/images/apartment1.jpg');
 }
 
 
 .section.hero.homepage:before {
-    background-image: url('/images/apartment2.jpg');
+    /*    background-image: url('/images/apartment2.jpg');*/
 }
 
 /* Responsive  */
