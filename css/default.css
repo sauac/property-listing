@@ -813,7 +813,6 @@ ttty {}
 
 .section.hero.homepage:before {
     background-image: url('/images/apartment7.jpg');
-    z-index: 1;
 }
 
 
