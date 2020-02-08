@@ -810,16 +810,16 @@ a .navunit:hover {
 
 .section.hero.homepage {}
 
+.section.hero.homepage:before {
+    background-image: url('/images/apartment1.jpg');
+}
+
+
 /*
 .section.hero.homepage:before {
-        background-image: url('/images/apartment1.jpg');
+    background-image: url('/images/family-sitting-on-sofa.jpg');
 }
 */
-
-
-.section.hero.homepage:before {
-    background-image: url('/family-sitting-on-sofa.jpg');
-}
 
 /* Responsive  */
 @media screen and (max-width: 768px) {
