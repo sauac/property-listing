@@ -811,14 +811,10 @@ ttty {}
 
 .section.hero.homepage {}
 
-.section.hero.homepage:before {
-    background-image: url(/images/apartment1.jpg);
-}
+.section.hero.homepage:before {}
 
 
-.section.hero.homepage:before {
-    /*    background-image: url('/images/apartment2.jpg');*/
-}
+.section.hero.homepage:before {}
 
 /* Responsive  */
 @media screen and (max-width: 768px) {
