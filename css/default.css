@@ -811,10 +811,12 @@ ttty {}
 
 .section.hero.homepage {}
 
-.section.hero.homepage:before {}
 
 
-.section.hero.homepage:before {}
+
+.section.hero.homepage:before {
+    background-image: url(/images/apartment8.jpg);
+}
 
 /* Responsive  */
 @media screen and (max-width: 768px) {
