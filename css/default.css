@@ -768,6 +768,27 @@ a .navunit:hover {
     }
 }
 
+.propertysearch-box {
+    position: absolute;
+    top: 100px;
+    padding: 20px;
+    width: 400px;
+    color: white;
+    background-color: rgba(73, 85, 111, 0.9);
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#propertysearch {}
+
+#propertysearch input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+
 
 /*
 .section.homepage {
@@ -782,6 +803,7 @@ a .navunit:hover {
 
 
 .section.hero {
+    /*    margin-top: 70px;*/
     position: relative;
     padding-top: 190px;
     padding-bottom: 150px;
@@ -809,7 +831,12 @@ ttty {}
 
 
 
-.section.hero.homepage {}
+.section.hero.homepage {
+/*
+    padding-top: 240px;
+    padding-bottom: 200px;
+*/
+}
 
 
 
