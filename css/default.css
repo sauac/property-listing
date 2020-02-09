@@ -774,9 +774,18 @@ a .navunit:hover {
     padding: 20px;
     width: 400px;
     color: white;
-    background-color: rgba(73, 85, 111, 0.9);
+    background-color: rgba(49, 61, 85, 0.9);
     border-radius: 5px;
     z-index: 100;
+}
+
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .propertysearch-box {
+        width: auto;
+        max-width: 100%;
+    }
 }
 
 #propertysearch {}
@@ -832,7 +841,7 @@ ttty {}
 
 
 .section.hero.homepage {
-/*
+    /*
     padding-top: 240px;
     padding-bottom: 200px;
 */
