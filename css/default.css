@@ -815,13 +815,13 @@ ttty {}
 
 
 .section.hero.homepage:before {
-    background-image: url("../images/apartment8.jpg");
+    background-image: url("../images/Putney.jpg");
 }
 
 /* Responsive  */
 @media screen and (max-width: 768px) {
     .section.hero.homepage:before {
-        background-position: 80% 100%;
+        background-position: 40% 100%;
     }
 }
 
