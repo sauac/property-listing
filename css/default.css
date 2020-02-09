@@ -769,14 +769,21 @@ a .navunit:hover {
 }
 
 .propertysearch-box {
-    position: absolute;
-    top: 100px;
+    position: relative;
+    top: -70px;
     padding: 20px;
     width: 400px;
     color: white;
     background-color: rgba(49, 61, 85, 0.9);
     border-radius: 5px;
     z-index: 100;
+
+    /*
+    flex-direction: row !important;
+    align-content: flex-start !important;
+    justify-content: flex-start !important;
+*/
+
 }
 
 
@@ -841,10 +848,12 @@ ttty {}
 
 
 .section.hero.homepage {
+
     /*
-    padding-top: 240px;
-    padding-bottom: 200px;
+    padding-top: 290px;
+    padding-bottom: 215px;
 */
+
 }
 
 
@@ -940,6 +949,7 @@ ttty {}
 }
 
 
+/*
 .section-wrapper.hero p {
     font-family: 'Dancing Script', cursive;
     font-size: 44px;
@@ -947,6 +957,7 @@ ttty {}
     margin-bottom: 0;
     padding-bottom: 0;
 }
+*/
 
 
 /* Responsive  */
@@ -1033,10 +1044,10 @@ ttty {}
 
 .section-wrapper.hero {
     display: flex;
-    flex-direction: column;
+    /*    flex-direction: column;*/
     flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
+    /*    justify-content: center;*/
     align-items: center;
 }
 
