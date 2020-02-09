@@ -2839,3 +2839,12 @@ p {
 .caption-container {}
 
 .caption-container #caption {}
+
+.propertysearch-heading {
+    margin-bottom: 0;
+    font-style: normal;
+}
+
+.search-subheading {
+    margin-top: 5px;
+}
