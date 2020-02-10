@@ -817,6 +817,7 @@ a .navunit:hover {
     border-style: none;
     cursor: pointer;
     font-size: 14px;
+    font-weight: bold;
 }
 
 #propertysearch button:hover {
@@ -2911,6 +2912,7 @@ p {
 .propertysearch-heading {
     margin-bottom: 0;
     font-style: normal;
+    font-weight: bold;
 }
 
 .search-subheading {
