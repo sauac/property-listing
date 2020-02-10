@@ -164,7 +164,7 @@ body p {
 
 .responsive-menu2 .dropdown:hover {
     color: #ffffff !important;
-    background-color: #49556f;
+    background-color: #0a4a7f;
 }
 
 
@@ -260,7 +260,7 @@ body p {
 }
 
 .navunit p {
-    color: #49556f;
+    color: #0a4a7f;
     font-size: 18px;
 }
 
@@ -460,7 +460,7 @@ body p {
 
 .responsive-menu2 li:hover {
     color: #df9d42 !important;
-    background-color: #49556f;
+    background-color: #0a4a7f;
 }
 
 .responsive-menu2 .git-hub-button:hover {
@@ -657,7 +657,7 @@ body p {
     margin-top: 15px;
     /*    padding: 0;*/
     /*    margin: 0;*/
-    color: #49556f;
+    color: #0a4a7f;
     /*    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.26);*/
     letter-spacing: 4px;
 }
@@ -687,7 +687,7 @@ body p {
     display: inline-block;
     color: rgb(216, 140, 18);
     /*    background-color: rgba(149, 116, 27, 0.62);*/
-    background-color: #49556f;
+    background-color: #0a4a7f;
     width: 35px;
     /*    height: 35px;*/
     /*    border: solid 1px #717171;*/
@@ -772,10 +772,11 @@ a .navunit:hover {
     position: relative;
     top: -50px;
     padding: 20px;
+    /*    padding-bottom: 40px;*/
     width: 400px;
     color: white;
-    background-color: rgba(0, 51, 94, 0.9);
-    border: 1px solid rgba(0, 66, 121, 0.9);
+    background-color: rgba(0, 20, 38, 0.73);
+    border: 1px solid rgba(0, 41, 78, 0.9);
     border-radius: 5px;
     z-index: 100;
     display: flex flex-direction: row !important;
@@ -1345,7 +1346,7 @@ table tr:nth-of-type(3) {
 
 /*
 table th {
-    background-color: #49556f;
+    background-color: #0a4a7f;
 }
 */
 
@@ -1357,7 +1358,7 @@ table th {
 table .table-top-row th {
     border-bottom: 1px solid #b7b7b7;
     /*    border-top: 2px solid #f1f1f1;*/
-    background-color: #49556f;
+    background-color: #0a4a7f;
     color: #ffffff;
 }
 
@@ -1480,7 +1481,7 @@ td {
 
 table .table-block-top {
     position: relative;
-    background-color: #49556f;
+    background-color: #0a4a7f;
     /*
     border-top: 1px solid #f4f4f4;
     border-left: 1px solid #f4f4f4;
@@ -1691,7 +1692,7 @@ h1 {
 }
 
 .contact-top .main-content-block p .fas {
-    color: #49556f;
+    color: #0a4a7f;
     padding-right: 10px;
 }
 
@@ -1718,7 +1719,7 @@ h1 {
     display: inline-block;
     color: rgb(255, 255, 255);
     /*    background-color: rgba(149, 116, 27, 0.62);*/
-    background-color: #49556f;
+    background-color: #0a4a7f;
     width: 33px;
     height: 33px;
     /*    border: solid 1px #717171;*/
@@ -1756,7 +1757,7 @@ h1 {
 
 .contact-top .main-content-block h1 {
     font-style: normal;
-    color: #49556f;
+    color: #0a4a7f;
 }
 
 .main-content-block.contact-info,
@@ -1927,7 +1928,7 @@ form label p {
 }
 
 form .form-button input {
-    background-color: #49556f;
+    background-color: #0a4a7f;
     color: white;
     cursor: pointer;
     -webkit-appearance: button;
@@ -2149,7 +2150,7 @@ hr {
 }
 
 .main-content .title-highlight-winter {
-    color: #49556f;
+    color: #0a4a7f;
 }
 
 .main-content p::first-letter {
@@ -2309,7 +2310,7 @@ p {
     padding-top: 60px;
     padding-bottom: 20px;
     color: #fff;
-    background-color: #49556f;
+    background-color: #0a4a7f;
 }
 
 .section.footer-section p {
@@ -2382,7 +2383,7 @@ p {
     padding-top: 60px;
     padding-bottom: 20px;
     color: #fff;
-    background-color: #49556f;
+    background-color: #0a4a7f;
     text-decoration: none;
 }
 
