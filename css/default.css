@@ -770,7 +770,7 @@ a .navunit:hover {
 
 .propertysearch-box {
     position: relative;
-    top: -70px;
+    top: -50px;
     padding: 20px;
     width: 400px;
     color: white;
@@ -888,6 +888,9 @@ ttty {}
     padding-bottom: 215px;
 */
 
+    padding-top: 150px;
+    padding-bottom: 110px;
+
 }
 
 
@@ -922,7 +925,7 @@ ttty {}
 
 /* Responsive  */
 @media screen and (max-width: 600px) {
-    .section.homepage {
+    .section.hero.homepage {
         padding-top: 160px;
         padding-bottom: 100px;
     }
