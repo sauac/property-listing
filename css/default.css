@@ -2444,7 +2444,8 @@ p {
     height: 42px;
     text-align: center;
     z-index: 1003;
-    display: none;
+    /*    display: none;*/
+    opacity: 1;
 }
 
 #to-top i {
