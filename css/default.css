@@ -144,6 +144,10 @@ font-family: 'PT Sans', sans-serif;
     cursor: pointer;
 }
 
+button.dropbtn:focus {
+    outline: none;
+}
+
 
 
 .dropdown .fas.fa-flip-vertical {
