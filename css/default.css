@@ -297,7 +297,7 @@ button.dropbtn:focus {
 }
 
 .navunit p {
-    color: #0a4a7f;
+    color: #4d4f52;
     font-size: 18px;
 }
 
@@ -2103,7 +2103,7 @@ form .form-button input:hover {
 */
     font-weight: 600;
     font-size: 20px;
-    color: #3e3e3e;
+    color: #4d4f52;
     /*
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 20px;
@@ -2122,7 +2122,7 @@ form .form-button input:hover {
 */
     font-weight: 600;
     font-size: 20px;
-    color: #3e3e3e;
+    color: #4d4f52;
     /*
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 20px;
@@ -2150,7 +2150,7 @@ form .form-button input:hover {
 
 
 .main-content-block .fa-li .fas {
-    color: #3e3e3e;
+    color: #4d4f52;
 
 }
 
@@ -2160,7 +2160,7 @@ form .form-button input:hover {
 .fa-ul .fa-li {
     padding-left: 0;
     margin-left: 0;
-    color: #3e3e3e;
+    color: #4d4f52;
 }
 
 
@@ -2173,7 +2173,7 @@ form .form-button input:hover {
 .font-extra .fas {
     padding-left: 15px;
     padding-right: 7px;
-    color: #3e3e3e;
+    color: #4d4f52;
 
 }
 
