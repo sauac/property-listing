@@ -20,6 +20,27 @@ body p {
     line-height: 1.5;
 }
 
+/*
+font choices
+
+Raleway
+font-family: 'Lato', sans-serif;
+
+Open Sans
+font-family: 'Open Sans', sans-serif;
+
+Lato
+font-family: 'Lato', sans-serif;
+
+Source Sans Pro
+font-family: 'Source Sans Pro', sans-serif;
+
+PT Sans
+font-family: 'PT Sans', sans-serif;
+*/
+
+
+
 .navbar {
     top: 0;
     position: fixed;
@@ -793,6 +814,16 @@ a .navunit:hover {
         flex: 0 1 calc(100%);
 
     }
+}
+
+.propertysearch-heading {
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.search-subheading {
+    margin-top: 5px;
 }
 
 #propertysearch {}
@@ -2909,13 +2940,3 @@ p {
 .caption-container {}
 
 .caption-container #caption {}
-
-.propertysearch-heading {
-    margin-bottom: 0;
-    font-style: normal;
-    font-weight: bold;
-}
-
-.search-subheading {
-    margin-top: 5px;
-}
