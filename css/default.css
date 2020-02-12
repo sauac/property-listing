@@ -1656,6 +1656,7 @@ h1 {
     padding: 0 10px;
     display: flex;
     /*    width: 66%;*/
+    /*    flex: 1 60%;*/
     flex: 1 auto;
     margin-bottom: 20px;
 
@@ -1712,6 +1713,28 @@ h1 {
     /*    cursor: pointer;*/
     /*    padding-bottom: 5px;*/
 }
+
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .columnx.contact-details {
+        flex: 0 1 calc(40%);
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .columnx.contact-details-2 {
+        flex: 0 1 60%;
+
+    }
+}
+
+
+
+
+
 
 /* Responsive columns */
 @media screen and (max-width: 730px) {
@@ -1824,6 +1847,24 @@ h1 {
 .contact-top .main-content-block h1 {
     font-style: normal;
     color: #0a4a7f;
+}
+
+
+.section-wrapper .main-content-block.contact-info {}
+
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .section-wrapper .main-content-block.contact-info {
+        padding-right: 5px !important;
+    }
+}
+
+
+
+
+.section-wrapper .main-content-block.google-map {
+    padding: 25px;
 }
 
 .main-content-block.contact-info,
