@@ -1644,6 +1644,12 @@ h1 {
     padding-bottom: 20px;
 }
 
+.contact-info .contact-email {
+    display: inline-block !important;
+}
+
+
+
 .columnx.contact-details-2 {
     padding: 0 10px;
     display: flex;
