@@ -1648,6 +1648,8 @@ h1 {
     display: inline-block !important;
 }
 
+.contact-info .contact-email:hover {}
+
 
 
 .columnx.contact-details-2 {
