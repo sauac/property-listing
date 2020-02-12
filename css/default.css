@@ -98,8 +98,8 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .dropdown-content a:hover {
-    /*    background-color: #df9d42;*/
-    background-color: #ecb86f;
+    /*    background-color: #d84712;*/
+    background-color: #d84712;
     color: white;
 }
 
@@ -137,7 +137,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .dropdown:hover p {
-    color: #df9d42;
+    color: #d84712;
 }
 
 .dropdown:hover {
@@ -283,7 +283,7 @@ button.dropbtn:focus {
 .navunit.season p {}
 
 .navunit.season p:hover {
-    color: #df9d42;
+    color: #d84712;
     cursor: pointer;
 }
 
@@ -293,7 +293,7 @@ button.dropbtn:focus {
 
 .navunit a p:hover {
     /*    text-decoration: none;*/
-    color: #df9d42;
+    color: #d84712;
 }
 
 .navunit p {
@@ -496,7 +496,7 @@ button.dropbtn:focus {
 }
 
 .responsive-menu2 li:hover {
-    color: #df9d42 !important;
+    color: #d84712 !important;
     background-color: #0a4a7f;
 }
 
@@ -516,7 +516,7 @@ button.dropbtn:focus {
 }
 
 .hamburger li:hover {
-    color: #df9d42;
+    color: #d84712;
     /*    transition: color 0.2s;*/
 }
 
@@ -535,7 +535,7 @@ button.dropbtn:focus {
 .hamburger .fab.fa-github-square {
     font-size: 20px;
     padding-left: 5px;
-    color: #ff5800;
+    color: #d84712;
 }
 
 .hamburger input:checked ~ .responsive-menu2 {
@@ -722,7 +722,7 @@ button.dropbtn:focus {
     padding-right: 5px;
 */
     display: inline-block;
-    color: rgb(216, 140, 18);
+    color: #d84712;
     /*    background-color: rgba(149, 116, 27, 0.62);*/
     background-color: #0a4a7f;
     width: 35px;
@@ -886,7 +886,7 @@ a .navunit:hover {
 #propertysearch button.to-buy {}
 
 #propertysearch button.to-rent {
-    background-color: #74009d;
+    background-color: #5a93ff;
 }
 
 #propertysearch button.to-rent:hover {
@@ -1158,7 +1158,7 @@ ttty {}
     margin-bottom: 5px;
     font-size: 52px;
     color: #fff;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+    /*    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);*/
     z-index: 10;
 }
 
@@ -1174,8 +1174,8 @@ ttty {}
     color: white;
     z-index: 10;
     font-size: 30px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
-    /*    font-style: normal;*/
+    /*    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);*/
+    font-style: normal;
 }
 
 
@@ -2511,13 +2511,13 @@ p {
 }
 
 .git-hub-button .red-text {
-    color: #ff5800;
+    color: #d84712;
 }
 
 .fab.fa-github-square {
     font-size: 20px;
     padding-left: 5px;
-    color: #ff5800;
+    color: #d84712;
 }
 
 .copyright-year-date {
