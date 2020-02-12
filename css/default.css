@@ -1645,7 +1645,7 @@ h1 {
 }
 
 .contact-info .contact-email {
-    display: inline-block !important;
+    /*    display: inline-block !important;*/
 }
 
 .contact-info .contact-email:hover {}
@@ -1705,9 +1705,12 @@ h1 {
 }
 
 .columnx .cardz p a {
+    display: inline-block;
     color: black;
     background-color: white;
-    /*    text-decoration: none;*/
+    text-decoration: none;
+    /*    cursor: pointer;*/
+    /*    padding-bottom: 5px;*/
 }
 
 /* Responsive columns */
