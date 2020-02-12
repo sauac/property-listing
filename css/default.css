@@ -1707,7 +1707,7 @@ h1 {
 .columnx .cardz p a {
     color: black;
     background-color: white;
-    text-decoration: none;
+    /*    text-decoration: none;*/
 }
 
 /* Responsive columns */
