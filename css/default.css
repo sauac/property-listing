@@ -1121,6 +1121,14 @@ a .navunit:hover {
 }
 
 
+/* Responsive  */
+@media screen and (max-width: 600px) {
+    .section .hero-sub-heading {
+        font-size: 20px;
+    }
+}
+
+
 
 
 
