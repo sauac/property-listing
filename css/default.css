@@ -158,9 +158,10 @@ button.dropbtn:focus {
     width: auto;
     margin-right: inherit;
     margin-left: 5px;
-    color: inherit;
+    /*    color: grey;*/
     background-color: rgba(0, 0, 0, 0);
     border: none;
+    -webkit-text-stroke: 1px white;
 }
 
 
@@ -867,7 +868,8 @@ a .navunit:hover {
     margin-left: 0;
     padding: 10px 25px;
     color: #ffffff;
-    background-color: #0045ff;
+    /*    background-color: #0045ff;*/
+    background-color: #d84712;
     border-radius: 3px;
     border-style: none;
     cursor: pointer;
