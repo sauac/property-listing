@@ -836,7 +836,7 @@ a .navunit:hover {
 /* Responsive wrapper */
 @media screen and (max-width: 600px) {
     .propertysearch-box {
-        flex: 0 1 calc(100%);
+        width: auto;
     }
 }
 
@@ -959,13 +959,16 @@ a .navunit:hover {
 
 
 .section.hero.homepage:before {
-    background-image: url("../images/Putney.jpg");
+    background-image: url("../images/apartment1.jpg");
+    /*    background-image: url("../images/Putney.jpg");*/
 }
 
 /* Responsive  */
 @media screen and (max-width: 768px) {
     .section.hero.homepage:before {
-        background-position: 40% 100%;
+        /*        putney*/
+        /*        background-position: 40% 100%;*/
+        background-position: 70% 100%;
     }
 }
 
@@ -996,6 +999,11 @@ a .navunit:hover {
 
 
 .section.hero.about {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    /*    justify-content: center !important;*/
+    align-items: center !important;
     position: relative;
     padding-top: 120px;
     padding-bottom: 60px;
@@ -1083,22 +1091,26 @@ a .navunit:hover {
 }
 
 
-.section-wrapper.hero {
+.section-wrapper.hero {}
+
+
+
+.section-wrapper.hero.homepage {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
     /*    justify-content: center;*/
-    align-items: center;
+    align-items: flex-start;
 }
 
 
-
-.section-wrapper.hero.homepage {
-    flex-direction: row;
+.section-wrapper .promoise {
+    margin: 0 0 20px;
+    font-size: 35px;
+    color: #3b3b3b;
+    z-index: 1;
 }
-
-
 
 
 .section .hero .main-title {
