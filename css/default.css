@@ -888,8 +888,11 @@ a .navunit:hover {
 #propertysearch button.to-buy {}
 
 #propertysearch button.to-rent {
-    background-color: #5a93ff;
+    background-color: #0a4a7f;
+    border: 1px solid #4959ab;
 }
+
+#d84712
 
 #propertysearch button.to-rent:hover {
     background-color: #000000 !important;
