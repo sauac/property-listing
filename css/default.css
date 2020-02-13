@@ -916,7 +916,7 @@ a .navunit:hover {
     background-color: #000000;
 }
 
-ttty {}
+
 
 .section.hero:before {
     content: ' ';
@@ -988,99 +988,41 @@ ttty {}
 }
 
 
-/*
-.christmas-image {
-    background-image: url('clipart-winter-berry-12.png');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-color: #8e8e8e;
-    z-index: 1000;
-}
-*/
-
-
-
-
-
-.section-wrapper.christmas {
-    display: flex;
-    padding-left: 0;
-    padding-right: 0;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.section .christmas-image {
-    text-align: center;
-    /*    padding-right: 0;*/
-    /*    margin-right: 0;*/
-    top: -15px;
-    position: relative;
-    height: 93px;
-}
-
-.section .christmas-image.center {
-    text-align: left;
-    /*    padding-right: 0;*/
-    /*    margin-right: 0;*/
-    top: -15px;
-    position: relative;
-    height: 93px;
-    justify-content: center;
-    align-content: center;
-    left: -22px;
-}
-
-/* Responsive  */
-@media screen and (max-width: 600px) {
-    .section .christmas-image.center {
-        height: 73px;
-        left: -10px;
-    }
-}
-
-
-/*
-.section-wrapper.hero p {
-    font-family: 'Dancing Script', cursive;
-    font-size: 44px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-*/
-
-
-/* Responsive  */
-@media screen and (max-width: 600px) {
-    .section .christmas-image {
-        height: 73px;
-    }
-}
-
-
 
 .section.hero.about {
-    position: unset;
+    position: relative;
     padding-top: 120px;
     padding-bottom: 60px;
     background: linear-gradient(90deg,
             rgba(187, 184, 129, 1) 0%,
             rgba(189, 175, 107, 1) 50%,
             rgba(191, 143, 84, 1) 100%);
+    z-index: -1;
+}
+
+.section.hero.about:before {
+    display: inherit;
+    position: block;
 }
 
 .section.hero.contact {
-    position: unset;
+    position: relative;
     padding-top: 120px;
     padding-bottom: 60px;
     background: linear-gradient(90deg,
             rgba(187, 184, 129, 1) 0%,
             rgba(189, 175, 107, 1) 50%,
             rgba(191, 143, 84, 1) 100%);
+    z-index: -1;
 }
+
+.section.hero.contact:before {
+    display: inherit;
+    position: block;
+}
+
+
+
 
 .section.seasonshero {
     padding-top: 120px;
@@ -1714,7 +1656,21 @@ h1 {
     /*    padding-bottom: 5px;*/
 }
 
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .columnx.contact-details {
+        flex: 0 1 calc(40%);
+        margin-bottom: 20px;
+    }
+}
 
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .columnx.contact-details-2 {
+        flex: 0 1 60%;
+
+    }
+}
 
 
 
