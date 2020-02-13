@@ -975,6 +975,7 @@ a .navunit:hover {
 /* Responsive  */
 @media screen and (max-width: 600px) {
     .section.hero.homepage:before {
+        /*        background-position: 75% 100%;*/
         background-position: 25% 100%;
     }
 }
@@ -1112,6 +1113,12 @@ a .navunit:hover {
     z-index: 1;
 }
 
+/* Responsive  */
+@media screen and (max-width: 600px) {
+    .section-wrapper .promoise {
+        font-size: 28px;
+    }
+}
 
 .section .hero .main-title {
     /*    margin-top: 10px;*/
