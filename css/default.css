@@ -1440,6 +1440,7 @@ table .table-top-row h2 {
 
 table .table-top-row {
     position: relative;
+    /*    padding: 5px;*/
     width: 100%;
     background-color: white;
     /*    filter: drop-shadow(1px 3px 2px rgba(0, 0, 0, 0.4));*/
@@ -1466,6 +1467,19 @@ table .table-top-row .icon-key {
     padding-right: 15px;
     color: #D84712;
 }
+
+
+
+tr .fas {}
+
+.icon-row .fas {
+    padding-right: 10px;
+    width: 35px;
+    color: #D84712;
+    font-size: 20px;
+}
+
+.fas.fa-bed {}
 
 
 table .table-top-row .spring {
@@ -1515,6 +1529,7 @@ table td {
     /*    width: 50%;*/
     height: 70px;
     /*    border-right: 1px solid #ed0000 !important;*/
+    text-align: center;
 }
 
 td {
@@ -1563,14 +1578,22 @@ table .table-block-top {
 */
     width: 100%;
     /*    box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.5);*/
-    filter: drop-shadow(1px 3px 2px rgba(0, 0, 0, 0.4));
+    /*    filter: drop-shadow(1px 3px 2px rgba(0, 0, 0, 0.4));*/
+    /*    box-shadow: 0 6px 4px -2px #8b8b8b;*/
 }
+
+
 
 .table-title {
     margin: 7px 0;
     color: #ffffff;
     font-size: 30px;
     font-style: normal;
+}
+
+table .white-block {
+    padding: 2px;
+    background-color: #ffffff;
 }
 
 
