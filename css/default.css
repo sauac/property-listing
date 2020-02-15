@@ -20,6 +20,11 @@ body p {
     line-height: 1.5;
 }
 
+.accent-colour {
+    color: #d84712;
+    background-color: #d84712;
+}
+
 /*
 font choices
 
@@ -1481,7 +1486,7 @@ tr .fas {}
     font-size: 20px;
 }
 
-.fas.fa-bed {}
+
 
 
 table .table-top-row .spring {
@@ -1494,42 +1499,13 @@ table .table-top-row .spring {
 }
 
 
-table .table-top-row .summer {
-    font-style: normal;
-    /*    color: #4e902c;*/
-    color: #ffffff;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    letter-spacing: 2px;
-}
-
-table .table-top-row .autumn {
-    font-style: normal;
-    /*    color: #a98663;*/
-    color: #ffffff;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    letter-spacing: 2px;
-}
-
-table .table-top-row .winter {
-    font-style: normal;
-    /*    color: #3f77e0;*/
-    color: #ffffff;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    letter-spacing: 2px;
-}
-
-
-
-
 table td {
     /*    background-color: #dde8eb;*/
     background-color: #f4f4f5;
     color: #000000;
     /*    width: 50%;*/
-    height: 70px;
+    /*    height: 70px;*/
+    height: 60px;
     /*    border-right: 1px solid #ed0000 !important;*/
     text-align: center;
 }
@@ -1593,11 +1569,13 @@ table .table-block-top {
     font-style: normal;
 }
 
-table .white-block {
+
+
+
+table .accent-colour.trim-block {
     padding: 2px;
     background-color: #d84712;
 }
-
 
 
 .section .intro-title {
