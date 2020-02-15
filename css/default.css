@@ -2900,11 +2900,16 @@ p {
     clear: both;
 }
 
+.m-adjust {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
 /* Six columns side by side */
 .columnc {
     float: left;
     width: 16.66%;
-    /*    padding: 0 10px;*/
+        padding: 0 5px;
     /*    border: 1px solid grey;*/
 }
 
