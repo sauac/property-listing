@@ -1314,6 +1314,7 @@ blockquote-temp p {}
     /*    margin-top: -160px;*/
     /*    padding: 20px;*/
     flex: 1;
+    align-self: flex-start;
     /*    background-color: #f4f4f4;*/
     background-color: #f7f7f7;
     /*
