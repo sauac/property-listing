@@ -1364,7 +1364,8 @@ table {
     margin-bottom: 40px;
     font-family: 'Lato', sans-serif;
     width: 100%;
-    border-bottom: 2px solid #ffffff;
+    /*        border-bottom: 2px solid #ffffff;*/
+    /*    background-color: #F7F7F7;*/
     /*    text-align: left;*/
     /*    border-top: 4px solid #fff;*/
     /*    table-layout: fixed;*/
@@ -1398,7 +1399,7 @@ table th {
 */
 
 table th {
-    background-color: #e7e8e8;
+    /*    background-color: #F7F7F7;*/
     color: #2a2a2a;
 }
 
@@ -1501,7 +1502,8 @@ table .table-top-row .spring {
 
 table td {
     /*    background-color: #dde8eb;*/
-    background-color: #f4f4f5;
+    /*    background-color: #f4f4f5;*/
+    background-color: #ffffff;
     color: #000000;
     /*    width: 50%;*/
     /*    height: 70px;*/
@@ -1530,7 +1532,7 @@ table tr th {
 
 table,
 th {
-    background-color: #989898;
+    background-color: #F7F7F7;
 }
 
 table,
