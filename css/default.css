@@ -1332,6 +1332,7 @@ blockquote-temp p {}
 @media screen and (max-width: 730px) {
     .sidebar.blog {
         flex: 0 1 calc(100%);
+        margin-top: 20px;
     }
 }
 
@@ -2909,7 +2910,7 @@ p {
 .columnc {
     float: left;
     width: 16.66%;
-        padding: 0 5px;
+    padding: 0 5px;
     /*    border: 1px solid grey;*/
 }
 
