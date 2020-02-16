@@ -969,10 +969,7 @@ a .navunit:hover {
             rgba(189, 175, 107, 1) 50%,
             rgba(191, 143, 84, 1) 100%);
 */
-    background: linear-gradient(90deg,
-            rgba(92, 116, 136, 1) 0%,
-            rgba(66, 101, 130, 1) 35%,
-            rgba(10, 74, 127, 1) 100%);
+    background: linear-gradient(90deg, rgba(80, 112, 138, 1) 0%, rgba(10, 74, 127, 1) 100%);
     z-index: -1;
 }
 
@@ -998,10 +995,7 @@ a .navunit:hover {
             rgba(189, 175, 107, 1) 50%,
             rgba(191, 143, 84, 1) 100%);
 */
-    background: linear-gradient(90deg,
-            rgba(92, 116, 136, 1) 0%,
-            rgba(66, 101, 130, 1) 35%,
-            rgba(10, 74, 127, 1) 100%);
+    background: linear-gradient(90deg, rgba(80, 112, 138, 1) 0%, rgba(10, 74, 127, 1) 100%);
     z-index: -1;
 }
 
