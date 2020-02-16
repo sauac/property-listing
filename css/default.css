@@ -1326,7 +1326,8 @@ table tbody {}
 table tr {}
 
 table tr:nth-child(1n + 3) {
-    border-bottom: 1px solid #b7b7b7;
+    /*    border-bottom: 1px solid #cccccc;*/
+    border-bottom: 1px solid #dadada;
 }
 
 table tr:nth-child(5) {
