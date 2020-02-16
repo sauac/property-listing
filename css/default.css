@@ -2389,7 +2389,8 @@ p {
     padding: 0 10px;
     display: flex;
     /*    width: 25%;*/
-    flex: 0 1 calc(33.33333333%);
+    /*    flex: 0 1 calc(33.33333333%);*/
+    flex: 0 1 calc(25%);
     margin-bottom: 20px;
     flex-direction: column;
 }
@@ -2422,7 +2423,7 @@ p {
 /* Responsive columns */
 @media screen and (max-width: 1024px) {
     .column-footer {
-        flex: 0 1 calc(33.33333333%);
+        flex: 0 1 calc(25%);
         margin-bottom: 20px;
     }
 }
