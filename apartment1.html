@@ -48,7 +48,6 @@
                 map: map
             });
         }
-
     </script>
 
 
@@ -78,7 +77,6 @@
                 } // End if
             });
         });
-
     </script>
 
 
@@ -88,7 +86,6 @@
             $("#header").load("header2.html");
             //            $("#footer").load("footer.html");
         });
-
     </script>
 
 
@@ -117,7 +114,6 @@
                 document.documentElement.scrollTop = 0;
             }
         });
-
     </script>
 
 
@@ -458,7 +454,6 @@
             dots[slideIndex - 1].className += " active";
             captionText.innerHTML = dots[slideIndex - 1].alt;
         }
-
     </script>
 
 
@@ -583,7 +578,6 @@
 
                     // Get the element with id="defaultOpen" and click on it
                     document.getElementById("defaultOpen").click();
-
                 </script>
 
 
@@ -643,7 +637,10 @@
 
                     <div class="contact-agent">
                         <h2 class="contact-agent-title">Contact Agent</h2>
+                        <p><i class="fas fa-phone"></i>+44 7734567890</p>
                     </div>
+
+
 
                     <form>
                         <div class="ctc-agent f-name">
@@ -653,12 +650,18 @@
 
                         <div class="ctc-agent l-name">
 
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name" required />
+                            <input type="email" id="lname" name="email" placeholder="Your email address" required />
                         </div>
 
+                        <!--
                         <div class="ctc-agent text-area">
 
                             <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px" required></textarea>
+                        </div>
+-->
+
+                        <div class="ctc-agent text-area">
+                            <textarea id="subject" name="subject" placeholder="Write your message.."  rows="3" required></textarea>
                         </div>
 
                         <!--
@@ -1354,6 +1357,4 @@
         </div>
     </div>
     <!--<div id="footer"></div>-->
-</body>
-
-</html>
+</body></html>

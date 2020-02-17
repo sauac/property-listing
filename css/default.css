@@ -1295,7 +1295,7 @@ blockquote-temp p {}
 
 .sidebar-info-block .contact-agent {
     position: relative;
-    padding: 20px 0;
+    padding: 20px 0 0;
     /*    padding-top: 20px;*/
     width: 100%;
     background-color: initial;
@@ -1310,13 +1310,31 @@ blockquote-temp p {}
     font-style: normal;
 }
 
+.contact-agent p {}
+
+.contact-agent .contact-agent-title {}
+
+.contact-agent .fas {
+    padding-right: 10px;
+}
+
+.ctc-agent #fname::placeholder {
+    font-size: 13px !important;
+}
+
+.ctc-agent #lname::placeholder {
+    font-size: 13px !important;
+}
+
+.ctc-agent #subject::placeholder {
+    font-size: 13px !important;
+}
+
+
+}
 
 .ctc-agent {}
 
-
-.ctc-agent.f-name {}
-
-.ctc-agent.l-name {}
 
 
 .sidebar-info-block.table #fname {
@@ -1325,7 +1343,7 @@ blockquote-temp p {}
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 26px;
+    margin-bottom: 15px;
     transition: border 200ms ease;
     -webkit-transition: border 200ms;
 }
@@ -1336,7 +1354,7 @@ blockquote-temp p {}
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 26px;
+    margin-bottom: 15px;
     transition: border 200ms ease;
     -webkit-transition: border 200ms;
 }
