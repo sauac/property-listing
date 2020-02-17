@@ -1314,16 +1314,32 @@ blockquote-temp p {}
 .ctc-agent {}
 
 
-.ctc-agent.f-name {
-    
+.ctc-agent.f-name {}
+
+.ctc-agent.l-name {}
+
+
+.sidebar-info-block.table #fname {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 26px;
+    transition: border 200ms ease;
+    -webkit-transition: border 200ms;
 }
 
-.ctc-agent.l-name {
-    
+.sidebar-info-block.table #lname {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 26px;
+    transition: border 200ms ease;
+    -webkit-transition: border 200ms;
 }
-
-
-
 
 
 
