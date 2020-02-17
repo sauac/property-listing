@@ -48,6 +48,7 @@
                 map: map
             });
         }
+
     </script>
 
 
@@ -77,6 +78,7 @@
                 } // End if
             });
         });
+
     </script>
 
 
@@ -86,6 +88,7 @@
             $("#header").load("header2.html");
             //            $("#footer").load("footer.html");
         });
+
     </script>
 
 
@@ -114,6 +117,7 @@
                 document.documentElement.scrollTop = 0;
             }
         });
+
     </script>
 
 
@@ -454,6 +458,7 @@
             dots[slideIndex - 1].className += " active";
             captionText.innerHTML = dots[slideIndex - 1].alt;
         }
+
     </script>
 
 
@@ -578,6 +583,7 @@
 
                     // Get the element with id="defaultOpen" and click on it
                     document.getElementById("defaultOpen").click();
+
                 </script>
 
 
@@ -635,29 +641,67 @@
 
                 <div class="sidebar-info-block table">
 
+                    <div class="contact-agent">
+                        <h2 class="contact-agent-title">Contact Agent</h2>
+                    </div>
+
+                    <form>
+                        <div class="ctc-agent f-name">
+
+                            <input type="text" id="fname" name="firstname" placeholder="Your name" required />
+                        </div>
+
+                        <div class="ctc-agent l-name">
+
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name" required />
+                        </div>
+
+                        <div class="ctc-agent text-area">
+
+                            <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px" required></textarea>
+                        </div>
+
+                        <!--
+                            <div class="form-button">
+                                <input type="submit" value="Submit" />
+                            </div>
+-->
+                        <button class="button contactagent" type="submit">Submit</button>
+
+                    </form>
+
+                    <!--
                     <table>
+                        
                         <tr>
                             <th class="table-block-top" colspan="3">
                                 <h2 class="table-title">Main Features</h2>
                             </th>
                         </tr>
 
-                        <!--
+
+                        <tr>
+                            <th class="table-block-top contact-agent" colspan="3">
+                                <h2 class="contact-agent-title">Contact Agent</h2>
+                            </th>
+                        </tr>
+
+                        
                         <tr>
                             <th class="table-top-row" colspan="3">
                                 <div class="icon-key"><i class="fas fa-bed"></i><i class="fas fa-bath"></i><i class="fas fa-car"></i></div>
                             </th>
                         </tr>
--->
 
-                        <!--
+
+                        
                         <tr class="table-top-row" colspan="3">
                             <th>
                                 <div class="icon-key"><i class="fas fa-bed"></i><i class="fas fa-bath"></i><i class="fas fa-car"></i></div>
                             </th>
                             
                         </tr>
--->
+
                         <tr>
                             <th class="accent-colour trim-block" colspan="3">
 
@@ -666,29 +710,24 @@
 
                         <tr class="icon-row">
                             <th><i class="fas fa-bed"></i>Bedrooms</th>
-                            <!--                            <td>Y</td>-->
+                                                        <td>Y</td>
                             <td>2</td>
                         </tr>
 
                         <tr class="icon-row">
                             <th><i class="fas fa-bath"></i>Bathrooms</th>
-                            <!--                            <td>Y</td>-->
+                                                        <td>Y</td>
                             <td>1</td>
                         </tr>
 
                         <tr class="icon-row">
                             <th><i class="fas fa-car"></i>Garage</th>
-                            <!--                            <td>Y</td>-->
+                                                        <td>Y</td>
                             <td>1</td>
                         </tr>
 
-
-
-
-
-
-
                     </table>
+-->
 
                     <!--
                     <table>
@@ -1315,4 +1354,6 @@
         </div>
     </div>
     <!--<div id="footer"></div>-->
-</body></html>
+</body>
+
+</html>
