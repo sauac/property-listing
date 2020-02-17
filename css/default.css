@@ -2943,8 +2943,7 @@ p {
 .tab {
     overflow: hidden;
     display: flex;
-    align-items: stretch !important;
-
+    align-items: stretch;
     background-color: #f1f1f1;
 }
 
@@ -2960,6 +2959,9 @@ p {
     transition: 0.3s;
     font-size: 17px;
     border-bottom: 5px solid #f1f1f1;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 
 }
 
@@ -3032,7 +3034,11 @@ p {
 }
 
 
-.tabblock .tablinks {}
+.tabblock .tablinks {
+    padding: 14px 10px;
+    text-align: center;
+
+}
 
 .tabblock .tablinks h2 {
     padding: 0;
@@ -3040,4 +3046,11 @@ p {
     font-size: 18px;
     font-style: normal;
 
+
 }
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .tabblock .tablinks h2 {
+        font-size: 16px;
+    }
