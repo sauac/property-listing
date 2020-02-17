@@ -3030,3 +3030,14 @@ p {
 #Paris.tabcontent h3 {
     text-align: center;
 }
+
+
+.tabblock .tablinks {}
+
+.tabblock .tablinks h2 {
+    padding: 0;
+    margin: inherit;
+    font-size: 18px;
+    font-style: normal;
+
+}
