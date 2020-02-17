@@ -2792,7 +2792,8 @@ p {
 .active,
 .demo:hover {
     opacity: 1;
-    border: 1px solid #3034a7;
+    /*    border: 1px solid #3034a7;*/
+    border: 1px solid #0A4A7F;
 }
 
 .section-wrapper.property-slider {}
