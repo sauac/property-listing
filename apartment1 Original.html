@@ -26,31 +26,6 @@
     <!--    <script src="js/scripts.js"></script>-->
     <script src="https://kit.fontawesome.com/2e63bdd35c.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAllq6MedUp-05mg2t1Mhi7ZUrx5tx6ng4&callback=initMap" type="text/javascript"></script>
-
-    <script>
-        // Initialize and add the map
-        function initMap() {
-            // The location of UK
-            var uk = {
-                lat: 51.507351,
-                lng: -0.127758
-            };
-            // The map, centered at Uluru
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 4,
-                center: uk
-            });
-            // The marker, positioned at Uluru
-            var marker = new google.maps.Marker({
-                position: uk,
-                map: map
-            });
-        }
-    </script>
-
-
     <script>
         $(document).ready(function() {
             // Add smooth scrolling to all links
@@ -79,15 +54,12 @@
         });
     </script>
 
-
-
     <script>
         $(function() {
             $("#header").load("header2.html");
             //            $("#footer").load("footer.html");
         });
     </script>
-
 
 
     <script>
@@ -460,62 +432,10 @@
     <div id="natures-clock-link" class="section natures-clock">
         <div class="section-wrapper column">
             <div class="blog-content left">
-
-                <div class="tabblock">
-                    <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Description</button>
-                        <button class="tablinks" onclick="openCity(event, 'Paris')">Floor Plan</button>
-                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Map</button>
-                    </div>
-
-                    <div id="London" class="tabcontent">
-                        <h3>London</h3>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore itaque modi, reprehenderit, mollitia accusamus quibusdam quia sunt libero praesentium voluptas sed porro harum illum alias dolor laudantium, a obcaecati nulla.</p>
-                        <p>Dolorum cumque esse, similique harum illo quibusdam non dicta dignissimos. Molestias totam autem optio dignissimos ducimus reprehenderit omnis nostrum. Illo minus delectus voluptatibus vel sequi exercitationem porro assumenda, ipsam quos.</p>
-                        <p>Excepturi doloribus accusamus quo, voluptates nulla accusantium ipsa repellat eaque. Enim saepe laudantium error ipsam necessitatibus hic, nostrum molestias unde, alias natus maxime rerum omnis, quam eveniet reprehenderit laboriosam voluptates!</p>
-                        <p>Repellendus iste vero eveniet possimus magni fugit obcaecati debitis ut aspernatur molestias soluta maxime dicta, quas officiis optio facere, atque dolorem neque! Fuga natus ea quas quam, rem amet qui.</p>
-
-                    </div>
-
-                    <div id="Paris" class="tabcontent floor-plan">
-                        <h3>2 Bed Room Bungalow</h3>
-                        <div class="floorplan"><img src="images/floorplan.jpg" alt="spring-bench"></div>
-                    </div>
-
-                    <div id="Tokyo" class="tabcontent">
-                        <h3>Local Area</h3>
-                        <div id="map"></div>
-                    </div>
-                </div>
-
-                <script>
-                    function openCity(evt, cityName) {
-                        var i, tabcontent, tablinks;
-                        tabcontent = document.getElementsByClassName("tabcontent");
-                        for (i = 0; i < tabcontent.length; i++) {
-                            tabcontent[i].style.display = "none";
-                        }
-                        tablinks = document.getElementsByClassName("tablinks");
-                        for (i = 0; i < tablinks.length; i++) {
-                            tablinks[i].className = tablinks[i].className.replace(" active", "");
-                        }
-                        document.getElementById(cityName).style.display = "block";
-                        evt.currentTarget.className += " active";
-                    }
-
-                    // Get the element with id="defaultOpen" and click on it
-                    document.getElementById("defaultOpen").click();
-                </script>
-
-
-
-                <!--
                 <h2 class="intro-title">
                     Description<span class="section-title-divider"></span>
-                    <hr>
+                    <!--                <hr>-->
                 </h2>
--->
 
 
                 <!--
@@ -532,12 +452,10 @@
 -->
 
 
-                <!--
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore itaque modi, reprehenderit, mollitia accusamus quibusdam quia sunt libero praesentium voluptas sed porro harum illum alias dolor laudantium, a obcaecati nulla.</p>
                 <p>Dolorum cumque esse, similique harum illo quibusdam non dicta dignissimos. Molestias totam autem optio dignissimos ducimus reprehenderit omnis nostrum. Illo minus delectus voluptatibus vel sequi exercitationem porro assumenda, ipsam quos.</p>
                 <p>Excepturi doloribus accusamus quo, voluptates nulla accusantium ipsa repellat eaque. Enim saepe laudantium error ipsam necessitatibus hic, nostrum molestias unde, alias natus maxime rerum omnis, quam eveniet reprehenderit laboriosam voluptates!</p>
                 <p>Repellendus iste vero eveniet possimus magni fugit obcaecati debitis ut aspernatur molestias soluta maxime dicta, quas officiis optio facere, atque dolorem neque! Fuga natus ea quas quam, rem amet qui.</p>
--->
 
             </div>
 
