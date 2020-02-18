@@ -1333,12 +1333,6 @@ blockquote-temp p {}
 */
 
 
-}
-
-.ctc-agent {}
-
-
-
 .sidebar-info-block.table #fname {
     padding: 12px;
     border: 1px solid #ccc;
@@ -1361,9 +1355,21 @@ blockquote-temp p {}
     -webkit-transition: border 200ms;
 }
 
+.sidebar-info-block.table #cemail {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    transition: border 200ms ease;
+    -webkit-transition: border 200ms;
+    width: 100%;
+}
 
-
-
+form input[type="email"] {
+    font-size: 16px;
+}
 
 .button.contactagent {
     /*
