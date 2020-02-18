@@ -1318,6 +1318,7 @@ blockquote-temp p {}
     padding-right: 10px;
 }
 
+/*
 .ctc-agent #fname::placeholder {
     font-size: 13px !important;
 }
@@ -1329,6 +1330,7 @@ blockquote-temp p {}
 .ctc-agent #subject::placeholder {
     font-size: 13px !important;
 }
+*/
 
 
 }
