@@ -1217,6 +1217,7 @@ blockquote-temp p {
 }
 
 .section.natures-clock {
+    padding-top: 50px;
     background-color: #fff;
     padding-bottom: 60px;
 }
@@ -2815,7 +2816,7 @@ p {
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     position: relative;
 }
 
@@ -3130,6 +3131,8 @@ p {
     background-color: #0a4a7f;
     color: white;
     border-bottom: 5px solid #D84712;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(0, 0, 0, 0.94);
+    z-index: 10;
 }
 
 /* Style the tab content */
@@ -3191,3 +3194,36 @@ p {
     .tabblock .tablinks h2 {
         font-size: 16px;
     }
+}
+
+
+
+
+
+
+.tabblock .feature-item {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #606060;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(0, 0, 0, 0.24);
+}
+
+.tabblock .feature-item p {
+    margin: 0px;
+}
+
+.tabblock .feature-item .fas {
+    display: inline-block;
+    /*    color: #0a4a7f;*/
+    color: #d84712;
+}
+
+.tabblock .feature-item .fas p {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px
+}
