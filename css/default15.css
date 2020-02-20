@@ -1247,19 +1247,44 @@ blockquote-temp p {}
 
 .blog-content.left p {}
 
+
 /* Responsive columns */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .blog-content.left {
-        flex: 0 1 calc(50%);
+        flex: 0 1 calc(60%);
+        margin-right: 50px;
     }
 }
 
 /* Responsive columns */
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 875px) {
     .blog-content.left {
         flex: 0 1 calc(100%);
+        margin-right: 0;
     }
 }
+
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .blog-content.left {
+        flex: 0 1 calc(100%);
+        margin-right: 0;
+    }
+}
+
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .blog-content.left .tabblock {
+        flex: 0 1 calc(100%);
+        /*        width: 100%;*/
+    }
+}
+
+
+
 
 .sidebar.blog {
     /*    margin-top: -160px;*/
@@ -1280,18 +1305,19 @@ blockquote-temp p {}
 }
 
 /* Responsive columns */
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 875px) {
     .sidebar.blog {
         flex: 0 1 calc(100%);
-        margin-top: 20px;
+        margin-top: 30px;
     }
 }
+
+.sidebar.blog p {}
 
 .sidebar-info-block {
     padding: 30px;
     padding-top: 0;
 }
-
 
 
 .contact-agent {
@@ -1419,7 +1445,7 @@ form input[type="email"] {
     font-weight: bold;
 }
 
-.sidebar.blog p {}
+
 
 .sidebar-sub-heading {
     font-size: 20px;
@@ -3157,23 +3183,6 @@ p {
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
     3px 3px 10px rgba(39, 44, 49, 0.18);
 */
-}
-
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-    .blog-content.left .tabblock {
-        flex: 0 1 calc(100%);
-        /*        width: 100%;*/
-    }
-}
-
-
-/* Responsive columns */
-@media screen and (max-width: 760px) {
-    .blog-content.left {
-        margin-right: 0px;
-    }
 }
 
 
