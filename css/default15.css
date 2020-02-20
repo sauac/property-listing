@@ -1329,6 +1329,8 @@ blockquote-temp p {}
     font-style: normal;
 }
 
+.sidebar-info-block h2 {}
+
 .contact-agent p {}
 
 .contact-agent .contact-agent-title {}
