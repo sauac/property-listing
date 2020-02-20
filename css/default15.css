@@ -1302,7 +1302,7 @@ blockquote-temp p {}
 
 .contact-logo .fas {}
 
-.navunit {}
+
 
 .navunit.logo {}
 
@@ -1320,8 +1320,10 @@ blockquote-temp p {}
 
 
 .sidebar-info-block .contact-agent-title {
+    display: inline-block;
+    position: relative;
     margin: 0;
-    color: #0A4A7F !important;
+    color: #0a4a7f !important;
     color: inherit;
     font-size: 30px;
     font-style: normal;
@@ -1538,9 +1540,19 @@ table .table-top-row .icon-key {
     color: #d84712;
 }
 
+.blog-content .icon-row {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+
+
 tr .fas {}
 
 .icon-row .fas {
+    margin-left: 3px;
+    /*    padding-left: 10px;*/
     padding-right: 10px;
     width: 35px;
     color: #0a4a7f;
@@ -1589,6 +1601,7 @@ table tr th {
 table,
 th {
     background-color: #ffffff;
+
 }
 
 table,
@@ -1599,7 +1612,10 @@ td {
     /*    border: 1px solid #ffffff;*/
     border-collapse: collapse;
     padding: 15px;
-    padding-left: 20px;
+
+    padding-left: 0;
+
+    /*    padding-left: 20px;*/
     /*    margin-top: 40px;*/
     text-align: left;
     color: #ffffff;
@@ -3103,10 +3119,10 @@ p {
 /* Style the tab content */
 .tabcontent {
     display: none;
-    padding: 6px 12px;
+    /*    padding: 6px 12px;*/
     background-color: #ffffff;
     border-top: none;
-    padding: 20px;
+    /*    padding: 20px;*/
 }
 
 
