@@ -1659,6 +1659,8 @@ table .accent-colour.trim-block {
 
 .section-title-divider.property {
     width: 100%;
+    padding-bottom: 30px;
+    background-color: #f9f9f9;
 }
 
 .section .intro-title {
