@@ -1238,7 +1238,7 @@ blockquote-temp p {}
 
 .blog-content.left {
     flex: 2;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .blog-content.left .intro-title {}
