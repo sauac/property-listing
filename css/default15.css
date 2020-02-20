@@ -1267,7 +1267,7 @@ blockquote-temp p {}
     flex: 1;
     align-self: flex-start;
     /*    background-color: #f4f4f4;*/
-    background-color: #f7f7f7;
+    background-color: #fbfbfb;
     /*
     -webkit-box-shadow: 0 0 1px rgba(43, 48, 54, 0.31),
     0 3px 16px rgba(39, 44, 49, 0.07);
@@ -1288,7 +1288,7 @@ blockquote-temp p {}
 }
 
 .sidebar-info-block {
-    padding: 20px;
+    padding: 30px;
     padding-top: 0;
 }
 
@@ -1342,15 +1342,15 @@ blockquote-temp p {}
 
 /*
 .ctc-agent #fname::placeholder {
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 
 .ctc-agent #lname::placeholder {
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 
-.ctc-agent #subject::placeholder {
-    font-size: 13px !important;
+.ctc-agent #cemail::placeholder {
+    font-size: 14px !important;
 }
 */
 
@@ -1366,6 +1366,10 @@ blockquote-temp p {}
     -webkit-transition: border 200ms;
 }
 
+.sidebar-info-block.table #fname:hover {
+    border: 1px solid #9f9f9f;
+}
+
 .sidebar-info-block.table #lname {
     padding: 12px;
     border: 1px solid #ccc;
@@ -1377,6 +1381,7 @@ blockquote-temp p {}
     -webkit-transition: border 200ms;
 }
 
+
 .sidebar-info-block.table #cemail {
     padding: 12px;
     border: 1px solid #ccc;
@@ -1387,6 +1392,10 @@ blockquote-temp p {}
     transition: border 200ms ease;
     -webkit-transition: border 200ms;
     width: 100%;
+}
+
+.sidebar-info-block.table #cemail:hover {
+    border: 1px solid #9f9f9f;
 }
 
 form input[type="email"] {
@@ -3089,7 +3098,7 @@ p {
 
 /* Style the buttons inside the tab */
 .tab button {
-    background-color: inherit;
+    background-color: #f7f7f7;
     float: left;
     border: none;
     outline: none;
