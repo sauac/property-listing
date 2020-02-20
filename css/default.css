@@ -3206,9 +3206,9 @@ p {
     padding: 10px;
     margin-top: 20px;
     margin-right: 15px;
-    background-color: #ffffff;
+    background-color: #176db4;
     border-radius: 4px;
-    color: #606060;
+    color: #fff;
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(0, 0, 0, 0.24);
 }
 
@@ -3219,7 +3219,7 @@ p {
 .tabblock .feature-item .fas {
     display: inline-block;
     /*    color: #0a4a7f;*/
-    color: #d84712;
+    color: #ffffff;
 }
 
 .tabblock .feature-item .fas p {
