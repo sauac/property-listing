@@ -1450,6 +1450,11 @@ form input[type="email"] {
 }
 
 
+.button.contactagent:hover {
+    background-color: #072a48;
+    color: #ffffff;
+}
+
 
 .sidebar-sub-heading {
     font-size: 20px;
@@ -3296,7 +3301,8 @@ p {
     content: "\f45c";
     color: #0a4a7f;
     padding-right: 10px;
-
+    top: -2px;
+    position: relative;
 }
 
 .tabblock .description-text {
