@@ -1291,11 +1291,10 @@ blockquote-temp p {}
 .sidebar.blog {
     /*    margin-top: -160px;*/
     /*    padding: 20px;*/
-    flex: 1;
-    align-self: flex-start;
+
     /*    background-color: #f4f4f4;*/
     /*    background-color: #e7e9ef;*/
-    background-color: #fbfbfb;
+
     /*
     -webkit-box-shadow: 0 0 1px rgba(43, 48, 54, 0.31),
     0 3px 16px rgba(39, 44, 49, 0.07);
@@ -1303,9 +1302,23 @@ blockquote-temp p {}
     0 3px 16px rgba(39, 44, 49, 0.07);
 */
 
+    /*
     -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 3px 3px 10px rgba(39, 44, 49, 0.18);
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 3px 3px 10px rgba(39, 44, 49, 0.18);
+*/
+    /*    background-color: #fbfbfb;*/
+
+
+
+    flex: 1;
+    align-self: flex-start;
+
+    background-color: #f7f7f7;
     border-radius: 5px;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+
 }
 
 /* Responsive columns */
