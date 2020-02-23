@@ -1439,12 +1439,6 @@ blockquote-temp p {}
     color: #ffffff;
 }
 
-.tabblock .feature-item .fas p {
-    display: inline-block;
-    padding-left: 10px;
-    font-size: 20px;
-}
-
 
 .feature-item p:nth-child(1) {
     display: inline-block;
