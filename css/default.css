@@ -2344,6 +2344,7 @@ form :-ms-input-placeholder {
 }
 
 form ::placeholder {
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     color: #a8a8a8;
 }
