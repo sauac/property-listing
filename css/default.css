@@ -1373,7 +1373,7 @@ blockquote-temp p {}
 .tabblock .tablinks {
     padding: 14px 10px;
     text-align: center;
-
+    border-radius: 5px;
     border-top-right-radius: 5px;
 
 }
