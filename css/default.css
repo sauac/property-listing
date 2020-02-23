@@ -1616,9 +1616,20 @@ blockquote-temp p {}
 */
 
 
+
+.sidebar-info-block #fname,
+#cemail,
+#subject {
+    /*    border: 1px solid #ececec !important;*/
+    border: 1px solid #ececec !important;
+}
+
+
+
+
 .sidebar-info-block #fname {
     padding: 12px;
-    border: 1px solid #b5b5b5;
+    /*    border: 1px solid #b5b5b5;*/
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -1650,7 +1661,7 @@ blockquote-temp p {}
 
 .sidebar-info-block #cemail {
     padding: 12px;
-    border: 1px solid #b5b5b5;
+    /*    border: 1px solid #b5b5b5;*/
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -1675,7 +1686,7 @@ form input[type="email"] {
 
 .sidebar-info-block #subject {
     padding: 12px;
-    border: 1px solid #b5b5b5;
+    /*    border: 1px solid #b5b5b5;*/
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
