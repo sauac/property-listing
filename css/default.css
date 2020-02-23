@@ -1307,7 +1307,7 @@ blockquote-temp p {}
     cursor: pointer;
     width: 33.3333%;
     padding: 14px 16px;
-    transition: 0.3s;
+    transition: 0.1s;
     font-size: 17px;
     border-bottom: 5px solid #f1f1f1;
     justify-content: center;
@@ -1430,6 +1430,7 @@ blockquote-temp p {}
 
 .tabblock .feature-item p {
     margin: 0px;
+    font-size: 14px;
 }
 
 .tabblock .feature-item .fas {
