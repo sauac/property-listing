@@ -1360,8 +1360,11 @@ blockquote-temp p {}
 }
 
 
-.tabblock .floorplan {
+.tabblock .floorplan-img {
     margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
 }
 
 
@@ -1412,8 +1415,8 @@ blockquote-temp p {}
 }
 
 
-.tabcontent-heading.decription {
-    padding: 0;
+.tabcontent-heading h2 {
+    padding: 40px 0 30px;
     margin: 0;
     /*    font-size: 22px;*/
     font-style: normal;
