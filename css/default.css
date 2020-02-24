@@ -1450,24 +1450,34 @@ blockquote-temp p {}
 
 
 
+
+.m-adjust2 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+
+
 .tabblock .features-horizontal {
     display: flex;
     flex-direction: row !important;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: left;
 }
 
 
 .tabblock .feature-item2 {
     display: inline-block;
     padding: 10px;
+
     /*    margin-top: 10px;*/
     margin-bottom: 10px;
     /*    margin-right: 15px;*/
     /*    margin-right: 10px;*/
-    margin-right: 5px;
+    margin: 5px 5px;
     /*    width: 92px;*/
     /*    width: auto;*/
-    flex: 0 1 calc(24%);
+    flex: 0 1 calc(23.5%);
     /*    flex-basis: 50%;*/
     /*    width: 50%;*/
     /*    margin: auto;*/
@@ -1479,10 +1489,29 @@ blockquote-temp p {}
     /*    border-radius: 4px;*/
 }
 
+
+/* Responsive columns */
+@media screen and (max-width: 1024px) {
+    .tabblock .feature-item2 {
+        flex-basis: 31.6%;
+        /*        padding: 10px;*/
+    }
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .tabblock .feature-item2 {
+        flex-basis: 23.5%;
+        /*        padding: 10px;*/
+    }
+}
+
+
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .tabblock .feature-item2 {
-        flex-basis: 48%;
+        flex-basis: 46.5%;
         /*        padding: 10px;*/
     }
 }
@@ -1491,7 +1520,7 @@ blockquote-temp p {}
 .tabblock .feature-item2 p {
     display: inline-block;
     margin: 0px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tabblock .feature-item2 .fas {
