@@ -1418,8 +1418,12 @@ blockquote-temp p {}
 }
 
 
+.tabcontent-heading {
+    margin: 40px 0 15px;
+}
+
 .tabcontent-heading h2 {
-    padding: 40px 0 30px;
+    /*    padding: 40px 0 30px;*/
     margin: 0;
     /*    font-size: 22px;*/
     font-style: normal;
@@ -1482,6 +1486,7 @@ blockquote-temp p {}
 
 .tabblock .features-horizontal {
     display: flex;
+    margin-bottom: 35px;
     flex-direction: row !important;
     flex-wrap: wrap;
     justify-content: left;
@@ -1564,15 +1569,9 @@ blockquote-temp p {}
     /*    color: red;*/
 }
 
-
-
-
-
-
-
-
 .additional-features {
-    padding: 40px 0 0px;
+    /*    padding: 40px 0 0px;*/
+    margin-bottom: 20px;
     padding-left: 0;
 }
 
@@ -1588,7 +1587,8 @@ blockquote-temp p {}
 
 
 .tabblock ul {
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 28px;
     /*    padding-top: 10px;*/
     padding-left: 10px;
     list-style-type: none;
@@ -1621,12 +1621,12 @@ blockquote-temp p {}
 }
 
 .tabblock .description-text {
-    padding-top: 20px;
+    /*    padding-top: 20px;*/
 }
 
 
 
-
+#map-tab #map {}
 
 
 
