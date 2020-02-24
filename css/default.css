@@ -1468,7 +1468,7 @@ blockquote-temp p {}
 
 .tabblock .feature-item2 {
     display: inline-block;
-    padding: 10px;
+    padding: 5px 10px;
 
     /*    margin-top: 10px;*/
     margin-bottom: 10px;
