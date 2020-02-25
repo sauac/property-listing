@@ -1425,10 +1425,11 @@ blockquote-temp p {}
 .tabcontent-heading h2 {
     /*    padding: 40px 0 30px;*/
     margin: 0;
-    /*    font-size: 22px;*/
+        font-size: 20px;
     font-style: normal;
     /*    font-weight: bold;*/
-    color: #505050;
+/*    color: #505050;*/
+    color: #000000;
     /*    text-align: center;*/
 }
 
@@ -1495,7 +1496,7 @@ blockquote-temp p {}
 
 .tabblock .feature-item2 {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 7px 10px;
 
     /*    margin-top: 10px;*/
     margin-bottom: 10px;
@@ -1508,14 +1509,15 @@ blockquote-temp p {}
     /*    flex-basis: 50%;*/
     /*    width: 50%;*/
     /*    margin: auto;*/
-    /*    background-color: #0a4a7f;*/
+    /*        background-color: #0a4a7f;*/
+    background-color: #eaecf3;
     border-radius: 5px;
     color: #0a4a7f;
     /*    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(0, 0, 0, 0.24);*/
     /*    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);*/
     /*    border-right: 2px solid white;*/
     /*    border-radius: 4px;*/
-    border: 1px solid #bcbcbc;
+    /*    border: 1px solid #bcbcbc;*/
     /*        border: 1px solid rgba(10, 74, 127, 0.23);*/
 }
 
@@ -1546,11 +1548,20 @@ blockquote-temp p {}
     }
 }
 
-
+/*
 .tabblock .feature-item2 p {
     display: inline-block;
     margin: 0px;
     font-size: 16px;
+    font-weight: bold;
+}
+*/
+
+k .feature-item2 p {
+    display: inline-block;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .tabblock .feature-item2 .fas {
@@ -1579,10 +1590,11 @@ blockquote-temp p {}
 .additional-features .additional-features-heading {
     padding: 0;
     margin: 0;
-    /*    font-size: 22px;*/
+        font-size: 18px;
     font-style: normal;
     font-weight: normal;
-    color: #505050;
+/*    color: #505050;*/
+    color: #000000;
 }
 
 
@@ -1596,6 +1608,7 @@ blockquote-temp p {}
 
 .tabblock ul li {
     padding-bottom: 12px;
+/*    color: #000000;*/
     /*    line-height: 1.2em;*/
 
 }
