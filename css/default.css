@@ -1322,7 +1322,7 @@ blockquote-temp p {}
 }
 
 .tab button:nth-child(4) {
-    /*    display: none;*/
+    display: none;
     /*
     border: 1px solid #d4947c;
     border-bottom: none;
@@ -1696,7 +1696,7 @@ k .feature-item2 p {
 .feature-item2 p:nth-child(1) {
     display: inline-block;
     padding-left: 0px;
-    font-size: 28px;
+    font-size: 22px;
     margin-bottom: 0;
     color: #0a4a7f;
 }
