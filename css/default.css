@@ -1243,6 +1243,7 @@ blockquote-temp p {}
 .blog-content.left {
     flex: 2;
     margin-right: 50px;
+    /*    flex: 0 1 calc(100%);*/
 }
 
 .blog-content.left .intro-title {}
@@ -1561,7 +1562,8 @@ blockquote-temp p {}
 */
 
 
-/*
+/* Primary original
+
 .tabblock .feature-item2 p {
     display: inline-block;
     margin: 0px;
@@ -1585,7 +1587,7 @@ blockquote-temp p {}
 
 
 
-/*
+/* Primary inspiration
 k .feature-item2 p {
     display: inline-block;
     margin: 0px;
@@ -1609,6 +1611,7 @@ k .feature-item2 p {
 */
 
 
+/* Primary idea 1 
 .feature-item2 p {
     margin: 15px 0;
     font-size: 20px;
@@ -1630,6 +1633,34 @@ k .feature-item2 p {
     padding-left: 0px;
     font-size: 20px;
 }
+*/
+
+/* Primary idea 3 */
+.feature-item2 p {
+    margin: 0px 0 15px;
+    font-size: 20px;
+    padding: 0px 0 !important;
+    color: #0a4a7f;
+}
+
+
+.tabblock .feature-item2 .fas {
+    display: inline-block;
+    padding: 0 10px;
+    padding-left: 5px;
+    color: #0a4a7f;
+    font-size: 20px;
+}
+
+
+.feature-item2 p:nth-child(1) {
+    display: inline-block;
+    padding-left: 0px;
+    font-size: 28px;
+    margin-bottom: 0;
+    color: #0a4a7f;
+}
+
 
 .additional-features {
     /*    padding: 40px 0 0px;*/
