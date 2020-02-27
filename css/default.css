@@ -1870,7 +1870,15 @@ k .feature-item2 p {
     display: inline-block;
     padding: 0 10px 20px;
     padding-left: 0;
-    float: left;
+    /*    float: left;*/
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .contact-agent {
+        /*        display: inline-block;*/
+    }
 }
 
 .contact-agent .fas {
@@ -2082,7 +2090,7 @@ form input[type="email"] {
     /*    border: 1px solid #b6bcd1;*/
 }
 
-.button.contactagent2:nth-child(3) {
+.button.contactagent2:nth-child(2) {
     /*
     margin: 10px;
 */
@@ -2101,22 +2109,33 @@ form input[type="email"] {
     /*    border: 1px solid #b6bcd1;*/
 }
 
-.button {
-}
-.button.contactagent2{
-}
-.button .fas {
-}
-.button .fas.button {
-}
+
 .button.contactagent2 .fas {
     padding-right: 10px;
 }
 
-:nth-child(2) .button.contactagent2:hover {
+.button.contactagent2:hover {
     background-color: #072a48;
     color: #ffffff;
 }
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .button.contactagent2 {
+        /*        display: block;*/
+    }
+}
+
+
+.cont-buttn-pair {
+    /*    margin-top: 10px;*/
+    /*    border-top: 1px solid #ededed;*/
+    padding-top: 10px;
+    /*    display: inline-block;*/
+    /*    margin: auto !important;*/
+}
+
+
 
 
 .sidebar-sub-heading {
