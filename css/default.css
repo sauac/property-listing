@@ -2068,7 +2068,13 @@ form input[type="email"] {
     color: #ffffff;
 }
 
-
+.cont-buttn-pair {
+    /*    margin-top: 10px;*/
+    /*    border-top: 1px solid #ededed;*/
+    padding-top: 10px;
+    /*    display: inline-block;*/
+    /*    margin: auto !important;*/
+}
 
 .button.contactagent2 {
     /*
@@ -2088,6 +2094,7 @@ form input[type="email"] {
     font-weight: bold;
     /*    border: 1px solid #1893e0;*/
     /*    border: 1px solid #b6bcd1;*/
+    /*    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, .12);*/
 }
 
 .button.contactagent2:nth-child(2) {
@@ -2127,13 +2134,7 @@ form input[type="email"] {
 }
 
 
-.cont-buttn-pair {
-    /*    margin-top: 10px;*/
-    /*    border-top: 1px solid #ededed;*/
-    padding-top: 10px;
-    /*    display: inline-block;*/
-    /*    margin: auto !important;*/
-}
+
 
 
 
