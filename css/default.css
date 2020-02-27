@@ -1862,7 +1862,7 @@ k .feature-item2 p {
 
 .sidebar-info-block {
     padding: 30px;
-    padding-top: 0;
+    /*    padding-top: 0;*/
 }
 
 
@@ -2067,9 +2067,6 @@ form input[type="email"] {
     margin-top: 0;
 }
 
-.sidebar-info-block {
-    /*    border-top: 1px solid #e7e7e7;*/
-}
 
 table {
     margin-top: 20px;
