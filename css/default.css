@@ -1443,22 +1443,6 @@ blockquote-temp p {}
 }
 
 
-.primary-features {
-    padding: 40px 0 30px;
-    padding-left: 0;
-}
-
-.primary-features .primary-features-heading {
-    padding: 0;
-    margin: 0;
-    /*    font-size: 22px;*/
-    font-style: normal;
-    /*    font-weight: bold;*/
-    color: #505050;
-    /*    text-align: center;*/
-}
-
-
 .tabcontent-heading {
     margin: 40px 0 15px;
 }
@@ -1466,13 +1450,59 @@ blockquote-temp p {}
 .tabcontent-heading h2 {
     /*    padding: 40px 0 30px;*/
     margin: 0;
-    font-size: 20px;
+/*    font-size: 20px;*/
     font-style: normal;
     /*    font-weight: bold;*/
     /*    color: #505050;*/
     color: #000000;
     /*    text-align: center;*/
 }
+
+
+.property-type-block {
+    display: inline-block;
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+/*    padding-right: 60px;*/
+    border-right: 1px solid #e6e6e6;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .property-type-block {
+        /*        margin-bottom: 50px;*/
+        width: 48%;
+    }
+}
+
+.property-type-block:nth-child(3) {
+    padding-left: 20px;
+}
+
+
+.tabcontent-heading.property-type {
+    margin-top: 0px;
+    margin-bottom: 0;
+    
+}
+.tabcontent-heading.property-type h2 {
+    font-size: 20px;
+/*    color: #0a4a7f;*/
+}
+
+.tabcontent-heading .fas {
+    padding-right: 10px;
+    color: #0a4a7f;
+/*    color: #d84712;*/
+}
+
+.property-type-block .property-type-answer {
+    margin-top: 5px;
+    margin-bottom: auto;
+    color: rgba(0, 0, 0, 0.8);
+}
+
 
 
 
