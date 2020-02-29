@@ -1300,6 +1300,8 @@ blockquote-temp p {}
     background-color: #f1f1f1;
     /*    border-top-right-radius: 5px;*/
     border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
     border: 1px solid #ececec;
 }
 
@@ -1422,6 +1424,8 @@ blockquote-temp p {}
     text-align: center;
     border-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 
 }
 
