@@ -1513,7 +1513,7 @@ blockquote-temp p {}
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     flex-direction: row !important;
     flex-wrap: wrap;
     justify-content: left;
@@ -1541,6 +1541,10 @@ blockquote-temp p {}
 }
 
 .property-type-block2 .tabcontent-heading2 h2 {
+    
+}
+
+.property-page-h2subheadings {
     font-size: 20px;
     font-style: normal;
     margin-top: 0px;
@@ -1550,14 +1554,17 @@ blockquote-temp p {}
 
 
 
-.property-type-block2 .property-type-answer2 {
+.property-highlight-p {
     margin-top: 5px;
     color: rgba(0, 0, 0, 0.8);
     width: auto;
 }
 
-
-
+.property-highlight-p {
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.8);
+    width: auto;
+}
 
 
 .tabblock .feature-item {
@@ -1792,7 +1799,9 @@ k .feature-item2 p {
 }
 
 
-.additional-features .additional-features-heading {
+
+
+.property-h3subheadings {
     padding: 0;
     margin: 0;
     font-size: 18px;
@@ -1802,6 +1811,10 @@ k .feature-item2 p {
     color: #000000;
 }
 
+.additional-features .property-h3subheadings {
+    margin-bottom: inherit;
+    
+}
 
 .tabblock ul {
     margin-top: 0px;
@@ -1824,6 +1837,11 @@ k .feature-item2 p {
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+}
+
+.additional-features p {
+    display: inline-block;
+    margin: 0;
 }
 
 .tabblock ul li::before {
