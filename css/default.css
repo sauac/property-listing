@@ -1667,7 +1667,7 @@ blockquote-temp p {}
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .tabblock .feature-item2 {
-        flex-basis: 46.5%;
+        flex: 45%;
         /*        padding: 10px;*/
     }
 }
