@@ -1553,15 +1553,8 @@ blockquote-temp p {}
 }
 
 
-
 .property-highlight-p {
-    margin-top: 5px;
-    color: rgba(0, 0, 0, 0.8);
-    width: auto;
-}
-
-.property-highlight-p {
-    margin-top: 5px;
+    margin-top: 0px;
     color: rgba(0, 0, 0, 0.8);
     width: auto;
 }
@@ -1955,6 +1948,16 @@ k .feature-item2 p {
     .sidebar.blog {
         flex: 0 1 calc(100%);
         margin-top: 60px;
+        padding-top: 60px;
+        border-radius: 0;
+        border-top: 1px solid #e3e3e3;
+    }
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .sidebar.blog {
+        box-shadow: none;
     }
 }
 
@@ -1963,6 +1966,14 @@ k .feature-item2 p {
 .sidebar-info-block {
     padding: 30px;
     /*    padding-top: 0;*/
+}
+
+@media screen and (max-width: 600px){
+    .sidebar-info-block {
+/*    padding: 30px;*/
+    padding: 0px;
+    /*    padding-top: 0;*/
+}
 }
 
 
