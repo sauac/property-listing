@@ -1416,9 +1416,6 @@ blockquote-temp p {}
 }
 
 
-
-
-
 .tabblock .tablinks {
     padding: 14px 10px;
     text-align: center;
@@ -1426,7 +1423,7 @@ blockquote-temp p {}
     border-top-right-radius: 5px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-
+    color: #333;
 }
 
 .tabblock .tablinks h2 {
@@ -1435,8 +1432,6 @@ blockquote-temp p {}
     font-size: 18px;
     font-style: normal;
     text-align: center;
-
-
 }
 
 /* Responsive columns */
@@ -1458,7 +1453,7 @@ blockquote-temp p {}
     font-style: normal;
     /*    font-weight: bold;*/
     /*    color: #505050;*/
-    color: #000000;
+    color: #333;
     /*    text-align: center;*/
 }
 
