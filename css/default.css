@@ -3849,10 +3849,8 @@ p {
 }
 
 .price.property-page {
-/*
     align-content: flex-end;
     justify-content: flex-end;
-*/
     float: right;
     color: #0a4a7f;
     font-weight: 600;
