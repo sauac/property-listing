@@ -3806,6 +3806,7 @@ p {
     margin-top: 0;
     padding: 10px;
     padding-left: 0;
+    padding-right: 0;
     /*    background-color: #ffffff;*/
 }
 
@@ -3848,8 +3849,10 @@ p {
 }
 
 .price.property-page {
+/*
     align-content: flex-end;
     justify-content: flex-end;
+*/
     float: right;
     color: #0a4a7f;
     font-weight: 600;
