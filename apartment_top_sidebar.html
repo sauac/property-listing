@@ -418,207 +418,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="sidebar blog top">
-
-                <!--
-                <div class="sidebar-info-block">
-
-                    <div class="contact-agent">
-                        <i class="fas fa-seedling"></i>
-                        <h2 class="contact-agent-title">Contact Agent</h2>
-                    </div>
-
-                    <form>
-                        <div class="ctc-agent f-name">
-
-                            <input type="text" id="fname" name="firstname" placeholder="Your name" required />
-                        </div>
-
-
-                        <div class="ctc-agent l-name">
-
-                            <input type="email" id="cemail" name="email" placeholder="Your email address" required />
-                        </div>
-
-
-
-                        <div class="ctc-agent text-area">
-                            <textarea id="subject" name="subject" placeholder="Write your message.." rows="3" required></textarea>
-                        </div>
-
-
-                        <button class="button contactagent" type="submit">Submit</button>
-
-                    </form>
-
-
-
-                </div>
--->
-
-
-                <div class="sidebar-info-block cont-buttons">
-
-                    <div class="contact-agent">
-                        <i class="fas fa-seedling"></i>
-                        <h2 class="contact-agent-title">Contact Agent</h2>
-                        <!--                            <p><i class="fas fa-phone"></i>+44 7734567890</p>-->
-
-                        <p>To view this property and for further information contact one of our agents.</p>
-                        <!--                                                <p>To arrange a viewing or if you have a question contact one of our agents.</p>-->
-                        <!--                        <p>To arrange a viewing and for further information contact one of our agents.</p>-->
-                        <!--                        <span class="section-title-divider"></span>-->
-                    </div>
-
-
-
-                    <div class="cont-buttn-pair">
-
-                        <button class="button contactagent2" type="button"><i class="fas fa-envelope"></i>Email</button>
-                        <button class="button contactagent2" type="button"><i class="fas fa-phone"></i>Phone</button>
-
-                    </div>
-
-                    <!--
-                    <table>
-                        
-                        <tr>
-                            <th class="table-block-top" colspan="3">
-                                <h2 class="table-title">Main Features</h2>
-                            </th>
-                        </tr>
-
-
-                        <tr>
-                            <th class="table-block-top contact-agent" colspan="3">
-                                <h2 class="contact-agent-title">Contact Agent</h2>
-                            </th>
-                        </tr>
-
-                        
-                        <tr>
-                            <th class="table-top-row" colspan="3">
-                                <div class="icon-key"><i class="fas fa-bed"></i><i class="fas fa-bath"></i><i class="fas fa-car"></i></div>
-                            </th>
-                        </tr>
-
-
-                        
-                        <tr class="table-top-row" colspan="3">
-                            <th>
-                                <div class="icon-key"><i class="fas fa-bed"></i><i class="fas fa-bath"></i><i class="fas fa-car"></i></div>
-                            </th>
-                            
-                        </tr>
-
-                        <tr>
-                            <th class="accent-colour trim-block" colspan="3">
-
-                            </th>
-                        </tr>
-
-                        <tr class="icon-row">
-                            <th><i class="fas fa-bed"></i>Bedrooms</th>
-                                                        <td>Y</td>
-                            <td>2</td>
-                        </tr>
-
-                        <tr class="icon-row">
-                            <th><i class="fas fa-bath"></i>Bathrooms</th>
-                                                        <td>Y</td>
-                            <td>1</td>
-                        </tr>
-
-                        <tr class="icon-row">
-                            <th><i class="fas fa-car"></i>Garage</th>
-                                                        <td>Y</td>
-                            <td>1</td>
-                        </tr>
-
-                    </table>
--->
-
-                    <!--
-                    <table>
-                        <tr>
-                            <th class="table-block-top" colspan="3">
-                                <h2 class="table-title">Key Features</h2>
-                            </th>
-                        </tr>
-
-                        <tr class="table-top-row">
-                            <th>
-                                <h2 class="spring">Spring</h2>
-                            </th>
-                            <th>Starts</th>
-                            <th>Ends</th>
-                        </tr>
-
-                        <tr>
-                            <th>Astronomically</th>
-                            <td>March 20</td>
-                            <td>June 20</td>
-                        </tr>
-
-                        <tr>
-                            <th>Meteorologically</th>
-                            <td>March</td>
-                            <td>May</td>
-                        </tr>
-
-                    </table>
--->
-
-                </div>
-
-            </div>
-        
-        
-        
-        
-        
-    </div>
-
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            var captionText = document.getElementById("caption");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            captionText.innerHTML = dots[slideIndex - 1].alt;
-        }
-    </script>
-
-
-    <div id="natures-clock-link" class="section natures-clock">
-        <div class="section-wrapper column">
+            
             <div class="blog-content left">
 
                 <div class="tabblock">
@@ -963,8 +763,9 @@
 -->
 
             </div>
-
-            <div class="sidebar blog">
+        </div>
+        
+        <div class="sidebar blog top">
 
                 <!--
                 <div class="sidebar-info-block">
@@ -1118,9 +919,50 @@
                 </div>
 
             </div>
-
-        </div>
+        
+        
+        
+        
+        
     </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+
+
+    
 
 
 
