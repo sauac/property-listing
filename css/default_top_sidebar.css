@@ -3827,6 +3827,12 @@ p {
     border: 1px solid #0A4A7F;
 }
 
+
+
+.section.propertinfo {
+    background-color: #ffffff;
+}
+
 .section-wrapper.property-slider {
     display: flex;
     flex-wrap: wrap;
