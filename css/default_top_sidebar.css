@@ -3830,6 +3830,8 @@ p {
 
 
 .section.propertinfo {
+/*    margin-top: 0;*/
+    padding-top: initial;
     background-color: #ffffff;
 }
 
@@ -3870,7 +3872,7 @@ p {
 
 @media screen and (max-width: 768px) {
     .sidebar.blog.top {
-        margin: 50px 0px 60px;
+        margin: 50px 0px 20px;
 /*        padding-top: 50px;*/
 
     }
@@ -3878,7 +3880,7 @@ p {
 
 @media screen and (max-width: 600px) {
     .sidebar.blog.top {
-        margin: 50px 20px;
+        margin: 50px 20px 20px;
         padding-top: 50px;
 
     }
