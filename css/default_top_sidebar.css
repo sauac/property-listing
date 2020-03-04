@@ -3981,7 +3981,7 @@ p {
     flex-wrap: nowrap;
     justify-content: space-between;
     /*    margin-top: 20px;*/
-    margin-bottom: 10px;
+/*    margin-bottom: 10px;*/
 }
 
 .slider-top2 .leftinfo {}
@@ -3990,8 +3990,9 @@ p {
     margin: 0;
 }
 
-.slider-top2 .property-area2 {
+.slider-top2 .property-h3subheadings.property-area2 {
     margin-top: 5px;
+    margin-bottom: 25px;
 }
 
 .slider-top2 .rightinfo {}
@@ -4001,6 +4002,8 @@ p {
     color: #0a4a7f;
 }
 
+.property-h3subheadings.property-area2{
+}
 
 
 
