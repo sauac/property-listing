@@ -3888,16 +3888,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
 .slider-top {
     margin-top: 0;
     padding: 10px;
@@ -3980,6 +3970,35 @@ p {
         margin-bottom: 10px;
     }
 }
+
+
+
+.slider-top2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between
+}
+.slider-top2 .leftinfo {
+}
+.slider-top2 .property-name2 {
+}
+.slider-top2 .property-area2 {
+}
+.slider-top2 .rightinfo {
+}
+.slider-top2 .price {
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .propertyslider img {
     vertical-align: middle;
