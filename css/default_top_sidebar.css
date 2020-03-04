@@ -3984,6 +3984,17 @@ p {
     /*    margin-bottom: 10px;*/
 }
 
+@media screen and (max-width: 600px) {
+    .slider-top2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0 20px;
+        /*    margin-bottom: 10px;*/
+    }
+}
+
 .slider-top2 .leftinfo {}
 
 .slider-top2 .property-name2 {
@@ -3995,7 +4006,23 @@ p {
     margin-bottom: 25px;
 }
 
+@media screen and (max-width: 600px) {
+    .slider-top2 .property-h3subheadings.property-area2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+
 .slider-top2 .rightinfo {}
+
+@media screen and (max-width: 600px) {
+    .slider-top2 .rightinfo {
+        /*        justify-content: flex-start;*/
+        /*        align-content: flex-start;*/
+        margin-bottom: 20px;
+    }
+}
 
 .slider-top2 .price {
     margin: 0;
