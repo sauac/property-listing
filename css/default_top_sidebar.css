@@ -1257,8 +1257,8 @@ blockquote-temp p {}
 /* Responsive columns */
 @media screen and (max-width: 1024px) {
     .blog-content.left {
-        flex: 0 1 calc(60%);
-        margin-right: 50px;
+        flex: 0 1 calc(100%);
+        margin-right: 0;
     }
 }
 
@@ -2310,7 +2310,7 @@ form input[type="email"] {
 @media screen and (max-width: 1024px) {
     .button.contactagent2 {
         /*        display: block;*/
-        padding: 10px 24px;
+        padding: 10px 25px;
     }
 }
 
@@ -3718,7 +3718,7 @@ p {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 44.5%;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -3852,7 +3852,7 @@ p {
 .propertyslider {
     margin-top: 70px;
     vertical-align: middle;
-    flex: 0 1 calc(63.5%);
+    flex: 0 1 calc(63.4%);
     margin-right: 50px;
 }
 
