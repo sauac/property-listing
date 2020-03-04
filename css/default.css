@@ -3829,6 +3829,17 @@ p {
     /*    margin-bottom: 10px;*/
 }
 
+@media screen and (max-width: 600px) {
+    .slider-top {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0 20px;
+        /*    margin-bottom: 10px;*/
+    }
+}
+
 .slider-top .leftinfo {}
 
 .slider-top .property-name {
@@ -3840,7 +3851,23 @@ p {
     margin-bottom: 25px;
 }
 
+@media screen and (max-width: 600px) {
+    .slider-top .property-h3subheadings.property-area {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+
 .slider-top .rightinfo {}
+
+@media screen and (max-width: 600px) {
+    .slider-top .rightinfo {
+        /*        justify-content: flex-start;*/
+        /*        align-content: flex-start;*/
+        margin-bottom: 20px;
+    }
+}
 
 .slider-top .price {
     margin: 0;
