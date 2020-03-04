@@ -3830,7 +3830,8 @@ p {
 
 
 .section.propertinfo {
-/*    margin-top: 0;*/
+    /*    margin-top: 0;*/
+/*        margin-top: 20px;*/
     padding-top: initial;
     background-color: #ffffff;
 }
@@ -3850,7 +3851,8 @@ p {
 }
 
 .propertyslider {
-    margin-top: 70px;
+    /*    margin-top: 70px;*/
+    margin-top: 110px;
     vertical-align: middle;
     flex: 0 1 calc(63.4%);
     margin-right: 50px;
@@ -3867,13 +3869,14 @@ p {
 
 
 .sidebar.blog.top {
-    margin-top: 110px;
+/*    margin-top: 110px;*/
+    margin-top: 185px;
 }
 
 @media screen and (max-width: 768px) {
     .sidebar.blog.top {
         margin: 50px 0px 20px;
-/*        padding-top: 50px;*/
+        /*        padding-top: 50px;*/
 
     }
 }
@@ -3976,17 +3979,25 @@ p {
 .slider-top2 {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between
+    justify-content: space-between;
+    /*    margin-top: 20px;*/
 }
-.slider-top2 .leftinfo {
-}
+
+.slider-top2 .leftinfo {}
+
 .slider-top2 .property-name2 {
+    margin: 0;
 }
+
 .slider-top2 .property-area2 {
+    margin-top: 5px;
 }
-.slider-top2 .rightinfo {
-}
+
+.slider-top2 .rightinfo {}
+
 .slider-top2 .price {
+    margin: 0;
+    color: #0a4a7f;
 }
 
 
