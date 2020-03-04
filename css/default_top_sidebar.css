@@ -3870,7 +3870,7 @@ p {
 
 .sidebar.blog.top {
 /*    margin-top: 110px;*/
-    margin-top: 185px;
+    margin-top: 195px;
 }
 
 @media screen and (max-width: 768px) {
@@ -3981,6 +3981,7 @@ p {
     flex-wrap: nowrap;
     justify-content: space-between;
     /*    margin-top: 20px;*/
+    margin-bottom: 10px;
 }
 
 .slider-top2 .leftinfo {}

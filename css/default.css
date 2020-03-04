@@ -3836,7 +3836,7 @@ p {
 .slider-top h2 {
     display: inline-block;
     margin-bottom: 5px;
-    font-size: 32px;
+/*    font-size: 32px;*/
     font-style: normal;
     text-align: left !important;
 }
@@ -3853,7 +3853,7 @@ p {
     justify-content: flex-end;
     float: right;
     color: #0a4a7f;
-    font-weight: 600;
+/*    font-weight: 600;*/
 }
 
 /* Responsive columns */
