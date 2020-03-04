@@ -3860,7 +3860,7 @@ p {
 
 @media screen and (max-width: 768px) {
     .propertyslider {
-        margin-top: 70px;
+/*        margin-top: 70px;*/
         vertical-align: middle;
         flex: 0 1 calc(100%);
         margin-right: 0px;
