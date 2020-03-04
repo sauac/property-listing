@@ -3676,7 +3676,7 @@ p {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 40.7%;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -3785,7 +3785,18 @@ p {
     border: 1px solid #0A4A7F;
 }
 
-.section-wrapper.property-slider {}
+.section.propertinfo {
+    /*    margin-top: 0;*/
+    /*        margin-top: 20px;*/
+    padding-top: initial;
+    background-color: #ffffff;
+}
+
+.section-wrapper.property-slider {
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
@@ -3801,53 +3812,43 @@ p {
     vertical-align: middle;
 }
 
-.slider-top {
-    margin-top: 0;
-    /*    padding: 10px;*/
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 10px;
-    /*    background-color: #ffffff;*/
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-    .slider-top {
-        margin-top: 0;
-        padding: 10px;
-        padding-left: 20px;
-    }
-}
-
-.slider-top .property-name {}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-    .slider-top .property-name {
-        /*        margin-top: 15px;*/
-    }
-}
-
 .propertyslider h2 {
     font-family: "Lato", sans-serif;
     font-style: normal;
 }
 
-.slider-top h2 {
-    display: inline-block;
-    /*    margin-bottom: 5px;*/
-    margin: 0;
-    /*    font-size: 32px;*/
-    font-style: normal;
-    text-align: left !important;
+
+
+
+.slider-top {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /*    margin-top: 20px;*/
+    /*    margin-bottom: 10px;*/
 }
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-    .slider-top h2 {
-        font-size: 26px;
-    }
+.slider-top .leftinfo {}
+
+.slider-top .property-name {
+    margin: 0;
 }
+
+.slider-top .property-h3subheadings.property-area {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.slider-top .rightinfo {}
+
+.slider-top .price {
+    margin: 0;
+    color: #0a4a7f;
+}
+
+
+
+
 
 .price.property-page {
     align-content: flex-end;
@@ -3865,20 +3866,17 @@ p {
     }
 }
 
+/*
 .property-area {
     display: block;
     position: relative;
-    /*    margin: 0;*/
-    margin-top: 5px;
+    margin: 0;
     padding: 0 !important;
-
-
-    /*    margin-bottom: 20px;*/
+    margin-bottom: 20px;
     font-size: 20px;
     color: black;
-    /*    height: 100%;*/
-    /*    line-height: normal;*/
 }
+*/
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
