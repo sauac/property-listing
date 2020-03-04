@@ -1521,7 +1521,7 @@ blockquote-temp p {}
 }
 
 .m-adjust2 .property-type-block2:nth-child(2) {
-    
+
     border-right: 1px solid #e5e5e5;
 }
 
@@ -1535,9 +1535,7 @@ blockquote-temp p {}
     width: auto;
 }
 
-.property-type-block2 .tabcontent-heading2 h2 {
-    
-}
+.property-type-block2 .tabcontent-heading2 h2 {}
 
 .property-page-h2subheadings {
     font-size: 20px;
@@ -1801,7 +1799,7 @@ k .feature-item2 p {
 
 .additional-features .property-h3subheadings {
     margin-bottom: inherit;
-    
+
 }
 
 .additional-features p {
@@ -1951,9 +1949,9 @@ k .feature-item2 p {
     .sidebar.blog {
         flex: 0 1 calc(100%);
         margin-top: 60px;
-/*        padding-top: 60px;*/
+        /*        padding-top: 60px;*/
         border-radius: 0;
-/*        border-top: 1px solid #e3e3e3;*/
+        /*        border-top: 1px solid #e3e3e3;*/
     }
 }
 
@@ -1978,12 +1976,12 @@ k .feature-item2 p {
     /*    padding-top: 0;*/
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .sidebar-info-block {
-/*    padding: 30px;*/
-    padding: 0px;
-    /*    padding-top: 0;*/
-}
+        /*    padding: 30px;*/
+        padding: 0px;
+        /*    padding-top: 0;*/
+    }
 }
 
 
@@ -3798,14 +3796,14 @@ p {
 }
 
 .propertyslider {
-/*    margin-top: 70px;*/
+    /*    margin-top: 70px;*/
     margin-top: 110px;
     vertical-align: middle;
 }
 
 .slider-top {
     margin-top: 0;
-/*    padding: 10px;*/
+    /*    padding: 10px;*/
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 10px;
@@ -3837,9 +3835,9 @@ p {
 
 .slider-top h2 {
     display: inline-block;
-/*    margin-bottom: 5px;*/
+    /*    margin-bottom: 5px;*/
     margin: 0;
-/*    font-size: 32px;*/
+    /*    font-size: 32px;*/
     font-style: normal;
     text-align: left !important;
 }
@@ -3856,7 +3854,7 @@ p {
     justify-content: flex-end;
     float: right;
     color: #0a4a7f;
-/*    font-weight: 600;*/
+    /*    font-weight: 600;*/
 }
 
 /* Responsive columns */
@@ -3870,12 +3868,12 @@ p {
 .property-area {
     display: block;
     position: relative;
-/*    margin: 0;*/
+    /*    margin: 0;*/
     margin-top: 5px;
     padding: 0 !important;
-    
 
-/*    margin-bottom: 20px;*/
+
+    /*    margin-bottom: 20px;*/
     font-size: 20px;
     color: black;
     /*    height: 100%;*/
