@@ -3876,7 +3876,8 @@ p {
 .sidebar.blog.top {
     /*    margin-top: 110px;*/
 /*    margin-top: 195px;*/
-    margin-top: 220px;
+/*    margin-top: 220px;*/
+    margin-top: 90px;
 }
 
 @media screen and (max-width: 768px) {
@@ -4020,7 +4021,7 @@ p {
 
 }
 
-.slider-top2 .rightinfo {}
+
 
 @media screen and (max-width: 600px) {
     .slider-top2 .rightinfo {
@@ -4030,10 +4031,29 @@ p {
     }
 }
 
-.slider-top2 .price {
+
+
+
+
+.rightinfo {
+}
+
+.rightinfo .price {
     margin: 0;
     color: #0a4a7f;
+    font-style: normal;
 }
+
+.rightinfo .property-h3subheadings {
+}
+
+.rightinfo .share {
+}
+
+.rightinfo a .fab {
+}
+
+
 
 
 .property-h3subheadings.pshare {
