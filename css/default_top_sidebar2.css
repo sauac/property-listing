@@ -2027,9 +2027,9 @@ k .feature-item2 p {
 @media screen and (max-width: 768px) {
     .sidebar-info-block {
         /*    padding: 30px;*/
-/*        padding: 0px;*/
+        /*        padding: 0px;*/
         /*    padding-top: 0;*/
-/*
+        /*
         -webkit-box-shadow: none;
         box-shadow: none;
 */
@@ -2037,6 +2037,9 @@ k .feature-item2 p {
     }
 }
 
+.sidebar-info-block {}
+
+.sidebar-info-block.cont-buttons {}
 
 .contact-agent {
     display: block;
@@ -3904,7 +3907,7 @@ p {
         margin: 50px 0px 20px;
         flex-wrap: wrap !important;
         align-content: stretch;
-/*        flex-direction: column;*/
+        /*        flex-direction: column;*/
         /*        padding-top: 50px;*/
 
     }
@@ -4060,7 +4063,24 @@ p {
 
 .shareinfo {
     align-content: flex-end;
+}
 
+@media screen and (max-width: 768px) {
+    .shareinfo {
+        flex-grow: 100%;
+        width: 100%;
+        align-self: flex-end;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .shareinfo {
+        flex-grow: 100%;
+        width: inherit;
+        align-self: flex-end;
+
+    }
 }
 
 
@@ -4068,6 +4088,12 @@ p {
     margin: 0 0 55px;
     color: #0a4a7f;
     font-style: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .rightinfo .price {
+        margin: 0 0 10px;
+    }
 }
 
 
@@ -4090,22 +4116,22 @@ p {
 @media screen and (max-width: 600px) {
     .share-property {
         margin-bottom: 20px;
-        
-/*        padding: 10px 20px;*/
-/*        background-color: #f2f2f2;*/
+
+        /*        padding: 10px 20px;*/
+        /*        background-color: #f2f2f2;*/
         border-bottom: 1px solid #e6e6e6;
     }
 }
 
 @media screen and (max-width: 768px) {
     .share-property {
-/*        margin-bottom: 20px;*/
-        
-/*        padding: 10px 20px;*/
-/*        background-color: #f2f2f2;*/
-        border-bottom: 1px solid #e6e6e6;
-/*        flex-grow: 1;*/
-        
+        margin-bottom: 10px;
+
+        /*        padding: 10px 20px;*/
+        /*        background-color: #f2f2f2;*/
+        /*        border-bottom: 1px solid #e6e6e6;*/
+        /*        flex-grow: 1;*/
+
     }
 }
 
@@ -4115,6 +4141,13 @@ p {
     display: inline-flex;
     justify-content: space-between;
     width: 110px;
+}
+
+@media screen and (max-width: 768px) {
+    .shareblock {
+
+        align-self: flex-end;
+    }
 }
 
 .shareblock .share {

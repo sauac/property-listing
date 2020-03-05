@@ -2019,6 +2019,8 @@ k .feature-item2 p {
         /*    padding: 30px;*/
         padding: 0px;
         /*    padding-top: 0;*/
+        -webkit-box-shadow: none;
+    box-shadow: none;
     }
 }
 
