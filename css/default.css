@@ -2028,6 +2028,45 @@ k .feature-item2 p {
 
 
 
+/*
+.shareblock .fab.fa-facebook-f {
+    font-size: 16px;
+    background-color: inherit;
+    border: none;
+    color: #4267B2;
+    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    border-radius: initial;
+    border-radius: 50%;
+}
+
+
+.shareblock .fab.fa-twitter {
+    background-color: inherit;
+    border: none;
+    color: #1DA1F2;
+    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    border-radius: initial;
+    border-radius: 50%;
+}
+
+
+.shareblock .fab.fa-linkedin-in {
+    background-color: inherit;
+    border: none;
+    color: #2867B2;
+    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    border-radius: initial;
+    border-radius: 50%;
+}
+*/
+
+
+
+
+
 
 .sidebar.blog p {
     color: rgba(0, 0, 0, 0.8);
