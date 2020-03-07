@@ -2096,6 +2096,14 @@ k .feature-item2 p {
 }
 
 
+@media screen and (max-width: 875px) {
+    .sidebar-info-block {
+       flex: 100%;
+        
+    }
+}
+
+
 
 @media screen and (max-width: 768px) {
     .sidebar-info-block {
