@@ -17,7 +17,8 @@ body {
 }
 
 body p {
-    line-height: 1.5;
+/*    line-height: 1.5;*/
+    line-height: 1.7;
 }
 
 .accent-colour {
@@ -1754,6 +1755,7 @@ k .feature-item2 p {
     font-size: 20px;
     padding: 0px 0 !important;
     color: #0a4a7f;
+    line-height: 1.5
 }
 
 

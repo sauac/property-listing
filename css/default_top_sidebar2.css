@@ -1949,7 +1949,7 @@ blockquote-temp p {}
 }
 
 @media screen and (max-width: 768px) {
-    .sidebar-info-block {
+\    .sidebar-info-block {
         /*    padding: 30px;*/
         /*        padding: 0px;*/
         /*    padding-top: 0;*/
@@ -4033,7 +4033,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding-bottom: 20px;
+/*    padding-bottom: 20px;*/
+    padding-bottom: 25px;
     justify-content: flex-end;
 
 }
