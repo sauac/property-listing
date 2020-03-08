@@ -1998,7 +1998,7 @@ k .feature-item2 p {
         margin-top: 60px;
         padding-top: 60px;
         border-radius: 0;
-        border-top: 1px solid #e3e3e3;
+        border-top: 1px solid #f4f4f4;
         box-shadow: none;
     }
 }
@@ -3916,7 +3916,7 @@ p {
 
 @media screen and (max-width: 600px) {
     .sidebar.blog.top {
-        margin: 50px 20px 20px;
+        margin: 30px 20px 20px;
         padding-top: 20px;
 
     }
@@ -4114,15 +4114,6 @@ p {
 
 }
 
-@media screen and (max-width: 600px) {
-    .share-property {
-        margin-bottom: 20px;
-
-        /*        padding: 10px 20px;*/
-        /*        background-color: #f2f2f2;*/
-        border-bottom: 1px solid #e6e6e6;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .share-property {
@@ -4135,6 +4126,17 @@ p {
 
     }
 }
+
+@media screen and (max-width: 600px) {
+    .share-property {
+        margin-bottom: 50px;
+
+        /*        padding: 10px 20px;*/
+        /*        background-color: #f2f2f2;*/
+        border-bottom: 1px solid #e6e6e6;
+    }
+}
+
 
 
 
