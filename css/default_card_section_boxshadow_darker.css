@@ -347,7 +347,8 @@ button.dropbtn:focus {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #808080;
+/*    background: #808080;*/
+    background: #ffffff;
     border-radius: 3px;
     z-index: 1000;
     transform-origin: 4px 0px;
