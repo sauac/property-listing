@@ -1196,7 +1196,7 @@ blockquote-temp p {
     padding-top: 30px;
     padding-bottom: 50px;
     /*    background-color: #f7f7fa;*/
-    background-color: #f7f7f7;
+    background-color: #efefef;
 }
 
 .section-wrapper {
@@ -1229,7 +1229,7 @@ blockquote-temp p {
 
 .section.property-description {
     padding-top: 0px;
-    background-color: #fff;
+    background-color: #f7f7f7;
     padding-bottom: 60px;
 }
 
@@ -1415,6 +1415,9 @@ blockquote-temp p {}
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
     3px 3px 10px rgba(39, 44, 49, 0.18);
 */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #ffffff;
 }
 
 
@@ -1931,7 +1934,7 @@ k .feature-item2 p {
 .sidebar.blog {
     flex: 1;
     align-self: flex-start;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -2109,6 +2112,7 @@ k .feature-item2 p {
 .sidebar-info-block {
     padding: 30px;
     margin-bottom: 50px;
+    background-color: #ffffff;
     /*    padding-top: 0;*/
     -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
@@ -2693,6 +2697,7 @@ table .accent-colour.trim-block {
 
 .section.seasons {
     padding-bottom: 50px;
+    
 }
 
 .section-wrapper .seasons-title {
@@ -2817,6 +2822,8 @@ table .accent-colour.trim-block {
     margin: 0 !important;
     flex: 1;
     padding-left: 20px !important;
+    background-color: #ffffff;
+    
 }
 
 @media screen and (max-width:768px) {
@@ -4097,7 +4104,7 @@ p {
     /*    margin-top: 0;*/
     /*        margin-top: 20px;*/
     padding-top: initial;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
 }
 
 .section-wrapper.property-slider {
