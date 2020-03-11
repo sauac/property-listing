@@ -722,7 +722,7 @@ button.dropbtn:focus {
     background-color: #0A0F7F;
     width: 35px;
 /*    border: solid 2.8px #46749a;*/
-    border: solid 2px #d4d8e5;
+    border: solid 1px #5c6686;
     /* -webkit-text-stroke: 2px #7ac1fd; */
     /* -webkit-text-stroke: 2px #46749a; */
 }
