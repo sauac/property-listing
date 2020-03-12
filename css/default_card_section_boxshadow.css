@@ -1342,6 +1342,14 @@ blockquote-temp p {}
     text-align: center;
 }
 
+.tab button:nth-child(2) {
+    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(167, 167, 167, 0.94);
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(167, 167, 167, 0.94);
+/*    background-color: #8bb6d9;*/
+    z-index: 7;
+  
+}
+
 .tab button:nth-child(4) {
     display: none;
     /*
@@ -1455,9 +1463,12 @@ blockquote-temp p {}
 .tabblock .tablinks:nth-child(2) {
     z-index: 5;
 /*    color: red;*/
+    -webkit-appearance: none;
+/*
     -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(167, 167, 167, 0.94);
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(167, 167, 167, 0.94);
-    -webkit-appearance: none;
+*/
+    
 }
 
 .tabblock .tablinks:nth-child(3) {
