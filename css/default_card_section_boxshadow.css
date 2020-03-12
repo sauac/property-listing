@@ -1312,6 +1312,7 @@ blockquote-temp p {}
 
 /* Style the tab */
 .tab {
+/*    position: relative;*/
     overflow: hidden;
     display: flex;
     align-items: stretch;
@@ -1343,10 +1344,16 @@ blockquote-temp p {}
 }
 
 .tab button:nth-child(2) {
+/*
     -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(167, 167, 167, 0.94);
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(167, 167, 167, 0.94);
+*/
 /*    background-color: #8bb6d9;*/
     z-index: 7;
+/*
+    border-right: 2px solid  #bababa;
+    border-left: 2px solid  #bababa;
+*/
   
 }
 
@@ -1380,6 +1387,20 @@ blockquote-temp p {}
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(0, 0, 0, 0.94);
     z-index: 10;
 }
+
+
+/*
+.tab button:nth-child(1).active > .tab button:nth-child(2) {
+   border-right: 2px solid  #bababa;
+    color red;
+}
+*/
+
+.tab button:nth-child(1).active > .tabblock .tablinks:nth-child(2) {
+   border-right: 2px solid  #bababa;
+    color red;
+}
+
 
 
 /* Change background color of buttons on hover */
