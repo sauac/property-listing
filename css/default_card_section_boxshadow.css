@@ -1386,6 +1386,7 @@ blockquote-temp p {}
     background-color: #0a4a7f;
     color: white;
     border-bottom: 5px solid #D84712;
+    -webkit-box-shadow:box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(0, 0, 0, 0.94);
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(0, 0, 0, 0.94);
     z-index: 10;
 }
@@ -1448,7 +1449,23 @@ blockquote-temp p {}
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     color: #333;
+/*    z-index: 0;*/
 }
+
+.tabblock .tablinks:nth-child(2) {
+    z-index: 5;
+/*    color: red;*/
+    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(167, 167, 167, 0.94);
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(167, 167, 167, 0.94);
+    -webkit-appearance: none;
+}
+
+.tabblock .tablinks:nth-child(3) {
+/*    z-index: 0;*/
+    
+}
+
+
 
 .tabblock .tablinks h2 {
     padding: 0;
