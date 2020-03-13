@@ -1352,21 +1352,13 @@ blockquote-temp p {}
     z-index: 7;
     border-left: 2px solid #d3d3d3;
     border-right: 2px solid #d3d3d3;
-
-
 }
 
-.tab button.active {
-    
-}
 
 .tab button:nth-child(2).active {
     border-right: none;
     border-left: none;
 }
-
-
-
 
 
 .tab button:nth-child(4) {
