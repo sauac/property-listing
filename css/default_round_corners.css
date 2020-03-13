@@ -1630,7 +1630,8 @@ blockquote-temp p {}
     /*    margin-right: 15px;*/
     /*    margin-right: 10px;*/
     margin: 5px 5px;
-    height: 91.67px;
+/*    height: 91.67px;*/
+    height: 75px;
     /*    width: 92px;*/
     /*    width: auto;*/
     flex: 0 1 calc(23.47%);
@@ -1762,10 +1763,11 @@ k .feature-item2 p {
 
 /* Primary idea 3 */
 .feature-item2 p {
-    margin: 0px 0 15px;
+    margin: 0px 0 0px;
     font-size: 20px;
     padding: 0px 0 !important;
     color: #0a4a7f;
+    line-height: 1.2;
 }
 
 
