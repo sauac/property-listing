@@ -1438,6 +1438,16 @@ blockquote-temp p {}
     padding: 0 30px 60px;
 }
 
+.tabcontent.map {
+    display: none;
+    /*    padding: 6px 12px;*/
+    background-color: #ffffff;
+    border-top: none;
+    /*    padding: 20px;*/
+
+/*    padding: 0 30px 30px;*/
+}
+
 
 .blog-content.left .tabblock {
     font-family: "Lato", sans-serif;
