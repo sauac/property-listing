@@ -1518,7 +1518,7 @@ blockquote-temp p {}
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     flex-direction: row !important;
     flex-wrap: wrap;
     justify-content: left;
@@ -1556,7 +1556,7 @@ blockquote-temp p {}
 
 
 .property-type-block2 .property-type-answer2 {
-    margin-top: 5px;
+    margin: 0px;
     color: rgba(0, 0, 0, 0.8);
     width: auto;
 }
