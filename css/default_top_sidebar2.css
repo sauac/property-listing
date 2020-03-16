@@ -1670,7 +1670,7 @@ blockquote-temp p {}
     /*    margin-right: 15px;*/
     /*    margin-right: 10px;*/
     margin: 5px 5px;
-/*    height: 91.67px;*/
+    /*    height: 91.67px;*/
     height: 75px;
     /*    width: 92px;*/
     /*    width: auto;*/
@@ -1722,12 +1722,12 @@ blockquote-temp p {}
 
 /* Primary idea 3 */
 .feature-item2 p {
-/*    margin: 0px 0 15px;*/
+    /*    margin: 0px 0 15px;*/
     margin: 0px 0 0px;
     font-size: 20px;
     padding: 0px 0 !important;
     color: #0a4a7f;
-/*    line-height: 1.5;*/
+    /*    line-height: 1.5;*/
     line-height: 1.2;
 }
 
@@ -1943,8 +1943,9 @@ blockquote-temp p {}
         margin-top: 60px;
         padding-top: 60px;
         border-radius: 0;
-        border-top: 1px solid #f4f4f4;
+        /*        border-top: 1px solid #f4f4f4;*/
         box-shadow: none;
+        justify-content: flex-start;
     }
 }
 
@@ -3868,7 +3869,6 @@ p {
 }
 
 
-
 .slider-top {
     margin-top: 0;
     padding: 10px;
@@ -4023,8 +4023,13 @@ p {
 @media screen and (max-width: 600px) {
     .shareinfo {
         flex-grow: 100%;
-        width: inherit;
-        align-self: flex-end;
+        /*        width: inherit;*/
+        align-self: flex-start;
+        align-content: flex-start;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+
 
     }
 }
@@ -4048,6 +4053,13 @@ p {
     align-self: flex-end;
 }
 
+
+@media screen and (max-width: 600px) {
+    .property-h3subheadings.pshare {
+        margin-bottom: 10px !important;
+        align-self: flex-start;
+    }
+}
 
 
 .share-property {
@@ -4075,11 +4087,12 @@ p {
 
 @media screen and (max-width: 600px) {
     .share-property {
-        margin-bottom: 50px;
+        margin-bottom: 60px;
 
         /*        padding: 10px 20px;*/
         /*        background-color: #f2f2f2;*/
         border-bottom: 1px solid #e6e6e6;
+        justify-content: flex-start;
     }
 }
 
@@ -4096,6 +4109,13 @@ p {
     .shareblock {
 
         align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .shareblock {
+
+        align-self: flex-start;
     }
 }
 
