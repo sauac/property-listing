@@ -2753,14 +2753,8 @@ table .accent-colour.trim-block {
     flex-direction: row;
     /*    height: auto;*/
     flex-flow: column !important;
-
-
-
-
-
     -webkit-transition: box-shadow 0.3s ease;
     transition: box-shadow 0.3s ease;
-
     -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
 }
@@ -2808,15 +2802,8 @@ table .accent-colour.trim-block {
 
 .card-image.sbar img {
     position: relative;
-    /*    float: left;*/
-    /*    width: 100px;*/
-    /*    height: auto;*/
-    /*    display: inline-flex;*/
-    /*    flex: 0 1 auto;*/
     border-radius: unset;
 }
-
-
 
 .main-content-block.sidebar-recent {
     /*    display: inline-flex;*/
@@ -2857,7 +2844,6 @@ table .accent-colour.trim-block {
 
 @media screen and (max-width: 600px) {
     .main-content-block.sidebar-recent h1 {
-
         margin-top: 15px;
     }
 }
