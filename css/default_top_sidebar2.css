@@ -2567,7 +2567,7 @@ table .accent-colour.trim-block {
         flex-wrap: nowrap;
         flex-direction: row;
         /*    height: 200px;*/
-/*        height: auto;*/
+        /*        height: auto;*/
         flex-flow: column !important;
 
     }
@@ -2579,7 +2579,7 @@ table .accent-colour.trim-block {
         flex-wrap: nowrap;
         flex-direction: row;
         /*    height: 200px;*/
-/*        height: 100px;*/
+        /*        height: 100px;*/
         flex-flow: column !important;
     }
 }
@@ -2587,16 +2587,16 @@ table .accent-colour.trim-block {
 
 .card-image.sbar {
     display: inline-flex;
-/*    height: 100px;*/
+    /*    height: 100px;*/
     flex: 0 1 45%;
     height: auto;
 }
 
 @media screen and (max-width: 1024px) {
     .card-image.sbar {
-/*        height: 100px;*/
+        /*        height: 100px;*/
         height: 100.625px;
-/*        flex: 0 1 auto;*/
+        /*        flex: 0 1 auto;*/
     }
 }
 
@@ -2620,7 +2620,8 @@ table .accent-colour.trim-block {
 
 @media screen and (max-width: 768px) {
     .card-image.sbar {
-                max-height: 100px;
+        /*        max-height: 100px;*/
+        max-height: 116px;
         flex: 0 1 24%;
     }
 }
@@ -2628,7 +2629,7 @@ table .accent-colour.trim-block {
 @media screen and (max-width: 600px) {
     .card-image.sbar {
         height: auto;
-        flex: 0 1 24%;
+        flex: 0 1 40%;
     }
 }
 
@@ -2645,10 +2646,10 @@ table .accent-colour.trim-block {
     /*    width: 50px !important;*/
     /*    padding: 0 !important;*/
     /*    padding: 0 0 0 20px !important;*/
-/*    padding: 3% 5% !important;*/
+    /*    padding: 3% 5% !important;*/
     padding: 3% 3% 3% 5% !important;
-/*    padding: 1.5rem 1.5rem !important;*/ 
-/*    margin: auto !important;*/
+    /*    padding: 1.5rem 1.5rem !important;*/
+    /*    margin: auto !important;*/
     flex: 1;
     height: auto;
     /*    padding-left: 20px;*/
@@ -2679,14 +2680,14 @@ table .accent-colour.trim-block {
 .main-content-block.sidebar-recent h2 {
     font-size: 16px;
     font-size: 1.1em;
-/*    margin: 0;*/
+    /*    margin: 0;*/
 }
 
 .main-content-block.sidebar-recent h1 {
     /*    font-size: 16px;*/
     font-size: 1.2em;
-/*    margin-top: 20px;*/
-/*
+    /*    margin-top: 20px;*/
+    /*
     margin: 0%;
     margin-bottom: 1%;
 */
