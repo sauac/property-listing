@@ -1890,6 +1890,7 @@ blockquote-temp p {}
     -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
     background-color: cadetblue;
+    background-color: #1f789a;
 }
 
 @media screen and (max-width: 960px) {
@@ -2349,17 +2350,21 @@ form input[type="email"] {
     /*    margin-top: 20px;*/
     position: relative;
     /*    margin-left: 10px;*/
-    padding: 10px 25px;
+    padding: 15px 25px;
     color: #ffffff;
     /*    background-color: #0a4a7f;*/
     background-color: #156fba;
+    background-color: #258be0;
+    background-color: #2292ef;
+    background-color: #0a4a7f;
+/*    background-color: #0a4a7f;*/
     border-radius: 3px;
     border-style: none;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
     /*    border: 1px solid #1893e0;*/
-    /*    border: 1px solid #b6bcd1;*/
+/*        border: 1px solid #c7c7c7;*/
     /*    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, .12);*/
 }
 
@@ -2378,6 +2383,7 @@ form input[type="email"] {
     padding: 10px 25px;
     color: #ffffff;
     background-color: #0a4a7f;
+    background-color: #2292ef;
     border-radius: 3px;
     border-style: none;
     cursor: pointer;
@@ -2385,6 +2391,7 @@ form input[type="email"] {
     font-weight: bold;
     /*    border: 1px solid #1893e0;*/
     /*    border: 1px solid #b6bcd1;*/
+/*    border: 1px solid #c7c7c7;*/
 }
 
 
@@ -2402,7 +2409,7 @@ form input[type="email"] {
 @media screen and (max-width: 1024px) {
     .button.contactagent2 {
         /*        display: block;*/
-        padding: 10px 25px;
+/*        padding: 10px 25px;*/
     }
 }
 
