@@ -2384,6 +2384,7 @@ form input[type="email"] {
     color: #ffffff;
     background-color: #0a4a7f;
     background-color: #2292ef;
+    background-color: #1f789a;
     border-radius: 3px;
     border-style: none;
     cursor: pointer;
@@ -2391,7 +2392,7 @@ form input[type="email"] {
     font-weight: bold;
     /*    border: 1px solid #1893e0;*/
     /*    border: 1px solid #b6bcd1;*/
-/*    border: 1px solid #c7c7c7;*/
+    border: 1px solid #dcdcdc;
 }
 
 
