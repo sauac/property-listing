@@ -1895,7 +1895,7 @@ blockquote-temp p {}
 
 @media screen and (max-width: 960px) {
     .sidebar-info-block {
-/*        padding: 0px;*/
+        /*        padding: 0px;*/
         margin-top: 30px;
         -webkit-box-shadow: none;
         box-shadow: none;
@@ -1913,7 +1913,7 @@ blockquote-temp p {}
 
 @media screen and (max-width: 600px) {
     .sidebar-info-block {
-/*        padding: 0px;*/
+        /*        padding: 0px;*/
         -webkit-box-shadow: none;
         box-shadow: none;
     }
@@ -2150,7 +2150,7 @@ blockquote-temp p {}
     display: inline-block;
     position: relative;
     margin: 0;
-/*    color: #0a4a7f !important;*/
+    /*    color: #0a4a7f !important;*/
     color: #ffffff;
     font-size: 30px;
     font-style: normal;
@@ -2170,7 +2170,7 @@ blockquote-temp p {}
     /*    padding: 20px;*/
     /*    margin-bottom: 16px;*/
     /*    background-color: #eaecf3;*/
-/*    color: rgba(0, 0, 0, 0.8);*/
+    /*    color: rgba(0, 0, 0, 0.8);*/
     color: #ffffff;
     border-radius: 5px;
     font-size: 18px;
@@ -2358,15 +2358,16 @@ form input[type="email"] {
     background-color: #258be0;
     background-color: #2292ef;
     background-color: #0a4a7f;
-/*    background-color: #1f789a;*/
+    /*    background-color: #1f789a;*/
     border-radius: 3px;
     border-style: none;
     cursor: pointer;
     font-size: 14px;
     font-size: 16px;
     font-weight: bold;
-    /*    border: 1px solid #1893e0;*/
-/*        border: 1px solid #ffffff;*/
+    border: 1px solid #ffffff;
+    border: 0.5px solid #adbcc9;
+/*    border: 1px solid #adbcc9;*/
     /*    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, .12);*/
 }
 
@@ -2378,14 +2379,14 @@ form input[type="email"] {
     margin-left: 10px;
     color: #ffffff;
     background-color: #0a4a7f;
-/*
+    /*
     background-color: #2292ef;
     background-color: #1f789a;
 */
     /*    border: 1px solid #1893e0;*/
     /*    border: 1px solid #b6bcd1;*/
-/*    border: 1px solid #dcdcdc;*/
-/*    border: 1px solid #ffffff;*/
+    /*    border: 1px solid #dcdcdc;*/
+    /*    border: 1px solid #ffffff;*/
 }
 
 
@@ -2395,6 +2396,7 @@ form input[type="email"] {
 
 .button.contactagent2:hover {
     background-color: #072a48;
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -2403,7 +2405,7 @@ form input[type="email"] {
 @media screen and (max-width: 1024px) {
     .button.contactagent2 {
         /*        display: block;*/
-/*        padding: 10px 25px;*/
+        /*        padding: 10px 25px;*/
     }
 }
 
@@ -2776,13 +2778,11 @@ table .accent-colour.trim-block {
 }
 
 @media screen and (max-width: 1024px) {
-    .main-content-block.sidebar-recent h1 {
-    }
+    .main-content-block.sidebar-recent h1 {}
 }
 
 @media screen and (max-width: 876px) {
-    .main-content-block.sidebar-recent h1 {
-    }
+    .main-content-block.sidebar-recent h1 {}
 }
 
 @media screen and (max-width: 600px) {
@@ -3015,7 +3015,7 @@ h1 {
     height: 33px;
     /*    border: solid 1px #717171;*/
     /*    border: solid 1px rgba(175, 157, 110, 0.62);*/
-/*    border: solid 1px #b6bcd1;*/
+    /*    border: solid 1px #b6bcd1;*/
     border-radius: 4px;
 }
 
