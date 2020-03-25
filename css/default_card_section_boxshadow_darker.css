@@ -814,8 +814,9 @@ a .navunit:hover {
     /*    background-color: rgba(0, 20, 38, 0.73);*/
 /*    background-color: #0a4a7f;*/
     background-color: #0a4a7fd9;
+    background-color: #0a4a7f;
 /*    border: 1px solid #175384;*/
-    border-radius: 5px;
+/*    border-radius: 5px;*/
     z-index: 100;
     /*    display: flex flex-direction: row !important;*/
     align-content: flex-start !important;
