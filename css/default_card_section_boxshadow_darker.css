@@ -876,12 +876,13 @@ a .navunit:hover {
     background-color: #d84712;
     background-color: #0a4a7f;
     background-color: #1f789a;
+    background-color: #3393e3;
     border-radius: 3px;
     border-style: none;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
-    border: 1px solid #adbcc9;
+/*    border: 1px solid #adbcc9;*/
 }
 
 #propertysearch button:hover {
@@ -897,11 +898,13 @@ a .navunit:hover {
 #propertysearch button.to-rent {
 /*    background-color: #2d81c7;*/
 /*    background-color: #0E66AE;*/
+/*
     background-color: #d84712;
     background-color: #1f789a;
+*/
 /*    background-color: #09b192;*/
 /*    background-color: #1e1c8e;*/
-    border: 1px solid #adbcc9;
+/*    border: 1px solid #adbcc9;*/
 }
 
 #propertysearch button.to-rent:hover {
