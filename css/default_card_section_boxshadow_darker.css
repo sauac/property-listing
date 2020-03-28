@@ -184,6 +184,11 @@ font-family: 'PT Sans', sans-serif;
     color: white;
 }
 
+.dropdown-content a:nth-child(2) {
+    border-bottom: none;
+}
+
+
 
 .dropdown-content.level2 {
     position: relative;
@@ -263,6 +268,7 @@ font-family: 'PT Sans', sans-serif;
     color: #d84712;
     color: #020a10;
     color: #ffffff;
+    color: #020a10;
 }
 
 .dropdown:hover {
@@ -285,23 +291,27 @@ button.dropbtn:focus {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0);
     border: none;
-    /*    -webkit-text-stroke: 1px white;*/
-    -webkit-text-stroke: 1px #0a4a7f;
+    -webkit-text-stroke: 1px #1f789a;
 }
 
+.dropdown:hover .fas.fa-flip-vertical {
+    color: #020a10;
+    border: none;
+    -webkit-text-stroke: 1px #1f789a;
+}
+
+/*
 .dropdown .fas.fa-caret-down {
     font-size: inherit;
-    /*    line-height: inherit;*/
     padding: inherit;
     height: inherit;
     width: auto;
     margin-right: inherit;
     margin-left: 5px;
-    /*    color: inherit;*/
-    /*    color: #ffffff !important;*/
     background-color: inherit;
     border: none;
 }
+*/
 
 .navunit.season {
     /*    height: 70px;*/
@@ -324,6 +334,23 @@ button.dropbtn:focus {
     color: #d84712;
     color: #020a10;
 }
+
+.navunit a p:active {
+    /*    text-decoration: none;*/
+    
+    color: #ff0000;
+}
+
+/*
+.navunit p:active {
+    color: #ff0000 !important;
+}
+*/
+
+.navunit > p.active {
+    color: red;
+}
+
 
 .navunit p {
     /*    color: #4d4f52;*/
