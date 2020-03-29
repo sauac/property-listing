@@ -104,7 +104,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .responsive-menu2 .dropdown:hover p {
-    /*    color: #ffffff !important;*/
+        color: #ffffff;
 }
 
 .responsive-menu2 .dropdown .dropdown-content {
@@ -126,6 +126,7 @@ font-family: 'PT Sans', sans-serif;
     padding: 20px 50px 20px;
     width: inherit;
     height: unset;
+    border-bottom: 1px solid rgba(31, 120, 154, 0.27);
 }
 
 .responsive-menu2 .dropbtn:hover {}
@@ -302,7 +303,6 @@ button.dropbtn:focus {
     -webkit-text-stroke: 1px #1f789a;
 }
 
-/*
 .dropdown .fas.fa-caret-down {
     font-size: inherit;
     padding: inherit;
@@ -313,7 +313,6 @@ button.dropbtn:focus {
     background-color: inherit;
     border: none;
 }
-*/
 
 .navunit.season {
     /*    height: 70px;*/
@@ -508,11 +507,7 @@ button.dropbtn:focus {
     position: relative !important;
     margin: 0px 0 0px 0px !important;
     padding: 70px 0px 30px;
-    padding: 70px 0px 15px;
-    /*
-    padding-top: 70px;
-    padding-bottom: 30px;
-*/
+    padding: 70px 0px 80px;
     border-top: 1px solid rgba(190, 190, 190, 0.25);
 }
 
@@ -532,6 +527,7 @@ button.dropbtn:focus {
     padding: 20px 50px 20px !important;
     font-size: 20px;
     list-style-type: none;
+    border-bottom: 1px solid rgba(31, 120, 154, 0.27);
     width: 100%;
 }
 
@@ -585,17 +581,15 @@ button.dropbtn:focus {
 }
 
 
-
-
 .menu-github-section {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 20px !important;
+/*    margin-top: 15px !important;*/
     padding-top: 30px;
     padding-bottom: 20px;
     text-decoration: none;
-    border-top: 1px solid rgba(190, 190, 190, 0.25);
+/*    border-top: 1px solid rgba(190, 190, 190, 0.25);*/
 }
 
 
