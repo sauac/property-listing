@@ -484,10 +484,8 @@ button.dropbtn:focus {
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 
-/*
     visibility: collapse;
     display: none;
-*/
 }
 
 /* Responsive wrapper */
