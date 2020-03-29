@@ -95,6 +95,7 @@ font-family: 'PT Sans', sans-serif;
     /*    padding-top: 10px;*/
     /*    padding-left: 50px;*/
     height: inherit;
+    text-align: center;
 }
 
 .responsive-menu2 .dropdown:hover {
@@ -119,12 +120,9 @@ font-family: 'PT Sans', sans-serif;
 .responsive-menu2 .dropbtn {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    /*
-    padding-top: 0px;
-    padding-left: 0px;
-*/
-    padding: 20px 50px 20px;
-    width: inherit;
+    padding: 20px 0px 20px;
+    width: 70%;
+    margin: auto !important;
     height: unset;
     border-bottom: 1px solid rgba(31, 120, 154, 0.27);
 }
@@ -147,12 +145,12 @@ font-family: 'PT Sans', sans-serif;
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid #d5d5d5;
+    font-size: 20px;
+    text-align: left;
 }
 
-.responsive-menu2 .dropdown-content a:nth-last-of-type(1) {
-    border-bottom: none;
-}
+
 
 .responsive-menu2 .dropdown-content p:hover {
     color: white;
@@ -201,12 +199,7 @@ font-family: 'PT Sans', sans-serif;
 /*    display: block;*/
 }
 
-.dropdown-content.level2 a {
-/*    color: red;*/
-    font-size: 20px;
-/*    border-bottom: 1px solid #f4f4f4;*/
-    border-bottom: 1px solid #d0d0d0;
-}
+
 
 .dropdown-content.level2 a:hover {
     background-color: #1f789a;
@@ -491,8 +484,10 @@ button.dropbtn:focus {
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 
+/*
     visibility: collapse;
     display: none;
+*/
 }
 
 /* Responsive wrapper */
@@ -523,11 +518,13 @@ button.dropbtn:focus {
 
 .responsive-menu2 li {
     color: black !important;
+/*
     padding: 10px 50px 25px !important;
     padding: 20px 50px 20px !important;
+*/
     font-size: 20px;
     list-style-type: none;
-    border-bottom: 1px solid rgba(31, 120, 154, 0.27);
+/*    border-bottom: 1px solid rgba(31, 120, 154, 0.27);*/
     width: 100%;
 }
 
@@ -535,6 +532,13 @@ button.dropbtn:focus {
 /*    color: #d84712 !important;*/
     color: #ffffff !important;
     background-color: #0a4a7f;
+}
+
+.responsive-menu2 .bottom-border {
+    padding: 20px 0px 20px !important;
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid rgba(31, 120, 154, 0.27);
 }
 
 .responsive-menu2 .git-hub-button:hover {
@@ -546,16 +550,6 @@ button.dropbtn:focus {
     text-decoration: none;
 }
 
-.hamburger li {
-    color: black;
-    padding: 10px 0;
-/*    font-size: 22px;*/
-}
-
-.hamburger li:hover {
-    color: #d84712;
-    /*    transition: color 0.2s;*/
-}
 
 .hamburger .git-hub-button {
     /*    display: flex;*/
