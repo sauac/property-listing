@@ -1568,9 +1568,15 @@ blockquote-temp p {}
     border-right: 1px solid #e5e5e5;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 360px) {
     .m-adjust2 .property-type-block2 {
         flex: 45%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .m-adjust2 .property-type-block2 {
+/*        flex: 45%;*/
     }
 }
 
