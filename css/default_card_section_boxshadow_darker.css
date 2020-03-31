@@ -1697,11 +1697,14 @@ blockquote-temp p {}
     visibility: hidden;
 }
 
-/* Responsive columns */
+
 @media screen and (max-width: 600px) {
     .empty {
+/*
         display: none !important;
         visibility: hidden;
+*/
+        padding: 0;
     }
 }
 
@@ -1726,7 +1729,7 @@ blockquote-temp p {}
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .tabblock .feature-item2 {
-        flex: 45%;
+/*        flex: 45%;*/
     }
 }
 
