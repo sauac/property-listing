@@ -1547,8 +1547,8 @@ blockquote-temp p {}
 
 .m-adjust2.propertytype {
     display: flex;
-    margin-left: -10px;
-    margin-right: -10px;
+/*    margin-left: -10px;*/
+/*    margin-right: -10px;*/
     margin-bottom: 40px;
     flex-direction: row !important;
     flex-wrap: wrap;
@@ -1557,7 +1557,9 @@ blockquote-temp p {}
 
 .m-adjust2 .property-type-block2 {
     flex: 0 1 23.5%;
+    flex: 1 1 calc(23.478%);
     margin: 30px 10px 0px;
+    margin: 5px 5px;
     border-right: 1px solid #e6e6e6;
 }
 
@@ -1568,7 +1570,7 @@ blockquote-temp p {}
 
 @media screen and (max-width: 600px) {
     .m-adjust2 .property-type-block2 {
-        flex: 1;
+        flex: 45%;
     }
 }
 
@@ -1688,8 +1690,8 @@ blockquote-temp p {}
     padding-left: 20px;
     margin: 5px 5px;
     height: 0px !important;
-    flex: 0 1 calc(23.478%);
-    flex-grow: 1;
+    flex: 1 1 calc(23.478%);
+/*    flex-grow: 1;*/
     background-color: #f1f1f1;
     border-radius: 5px;
     color: #0a4a7f;
