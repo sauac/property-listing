@@ -1664,6 +1664,7 @@ blockquote-temp p {}
     /*    width: 92px;*/
     /*    width: auto;*/
     flex: 0 1 calc(23.478%);
+    flex-grow: 1;
     /*    flex-basis: 50%;*/
     /*    width: 50%;*/
     /*    margin: auto;*/
@@ -1681,32 +1682,54 @@ blockquote-temp p {}
     /*        border: 1px solid rgba(10, 74, 127, 0.23);*/
 }
 
+.empty {
+    display: inline-block;
+    padding: 0px 10px !important;
+    padding-left: 20px;
+    margin: 5px 5px;
+    height: 0px !important;
+    flex: 0 1 calc(23.478%);
+    flex-grow: 1;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    color: #0a4a7f;
+    color: #0a4a7f;
+    visibility: hidden;
+}
 
 /* Responsive columns */
+@media screen and (max-width: 600px) {
+    .empty {
+        display: none !important;
+        visibility: hidden;
+    }
+}
+
+
+/*
 @media screen and (max-width: 1024px) {
     .tabblock .feature-item2 {
         flex-basis: 31.6%;
-        /*        padding: 10px;*/
     }
 }
 
 
-/* Responsive columns */
+
 @media screen and (max-width: 768px) {
     .tabblock .feature-item2 {
         flex-basis: 23.5%;
-        /*        padding: 10px;*/
     }
 }
+*/
 
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .tabblock .feature-item2 {
         flex: 45%;
-        /*        padding: 10px;*/
     }
 }
+
 
 /*
 .tabblock .feature-item2 p {
