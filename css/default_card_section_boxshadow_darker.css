@@ -15,7 +15,7 @@ body {
     -webkit-text-size-adjust: 100%;
     /*padding: 30px;*/
     /*max-width: 100%;*/
-    
+
 }
 
 body p {
@@ -105,7 +105,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .responsive-menu2 .dropdown:hover p {
-        color: #ffffff;
+    color: #ffffff;
 }
 
 .responsive-menu2 .dropdown .dropdown-content {
@@ -196,7 +196,7 @@ font-family: 'PT Sans', sans-serif;
     box-shadow: unset;
     background-color: #e8e8e8;
     border: none;
-/*    display: block;*/
+    /*    display: block;*/
 }
 
 
@@ -208,19 +208,19 @@ font-family: 'PT Sans', sans-serif;
 
 
 
-#menu-section {
-}
-#menu-section #menu-list {
-}
-#menu-section #menu-list a {
-}
-#menu-section li {
-}
+#menu-section {}
+
+#menu-section #menu-list {}
+
+#menu-section #menu-list a {}
+
+#menu-section li {}
+
 #menu-section .dropdown {
     max-height: none;
 }
-#menu-section .dropbtn {
-}
+
+#menu-section .dropbtn {}
 
 
 
@@ -331,7 +331,7 @@ button.dropbtn:focus {
 
 .navunit a p:active {
     /*    text-decoration: none;*/
-    
+
     color: #ff0000;
 }
 
@@ -516,18 +516,18 @@ button.dropbtn:focus {
 
 .responsive-menu2 li {
     color: black !important;
-/*
+    /*
     padding: 10px 50px 25px !important;
     padding: 20px 50px 20px !important;
 */
     font-size: 20px;
     list-style-type: none;
-/*    border-bottom: 1px solid rgba(31, 120, 154, 0.27);*/
+    /*    border-bottom: 1px solid rgba(31, 120, 154, 0.27);*/
     width: 100%;
 }
 
 .responsive-menu2 li:hover {
-/*    color: #d84712 !important;*/
+    /*    color: #d84712 !important;*/
     color: #ffffff !important;
     background-color: #0a4a7f;
 }
@@ -577,11 +577,11 @@ button.dropbtn:focus {
     display: flex;
     justify-content: center;
     margin: auto;
-/*    margin-top: 15px !important;*/
+    /*    margin-top: 15px !important;*/
     padding-top: 30px;
     padding-bottom: 20px;
     text-decoration: none;
-/*    border-top: 1px solid rgba(190, 190, 190, 0.25);*/
+    /*    border-top: 1px solid rgba(190, 190, 190, 0.25);*/
 }
 
 
@@ -1547,8 +1547,8 @@ blockquote-temp p {}
 
 .m-adjust2.propertytype {
     display: flex;
-/*    margin-left: -10px;*/
-/*    margin-right: -10px;*/
+    /*    margin-left: -10px;*/
+    /*    margin-right: -10px;*/
     margin-bottom: 40px;
     flex-direction: row !important;
     flex-wrap: wrap;
@@ -1564,19 +1564,31 @@ blockquote-temp p {}
 }
 
 .m-adjust2 .property-type-block2:nth-child(2) {
-
     border-right: 1px solid #e5e5e5;
 }
 
+@media screen and (max-width: 600px) {
+    .m-adjust2 .property-type-block2:nth-child(2) {
+        border-right: none;
+        border-bottom: none;
+        padding-bottom: none;
+    }
+}
+
+/*
 @media screen and (max-width: 360px) {
     .m-adjust2 .property-type-block2 {
         flex: 45%;
     }
 }
+*/
 
 @media screen and (max-width: 600px) {
     .m-adjust2 .property-type-block2 {
-/*        flex: 45%;*/
+        flex: 100%;
+/*        padding-bottom: 10px;*/
+        border-right: none;
+/*        border-bottom: 1px solid #e5e5e5;*/
     }
 }
 
@@ -1584,7 +1596,27 @@ blockquote-temp p {}
     width: auto;
 }
 
-.property-type-block2 .tabcontent-heading2 h2 {}
+@media screen and (max-width: 600px) {
+    .property-type-block2 .property-h3subheadings {
+        
+        width: 50%;
+        
+    }
+}
+
+
+.property-h3subheadings.tenure{
+}
+
+@media screen and (max-width: 600px) {
+    .property-h3subheadings.tenure {
+        padding-top: 15px;
+        border-top: 1px solid #1f789a;
+        border-top: 1px solid rgba(31, 120, 154, 0.43);
+        border-top: 1px solid #e2e2e2;
+    }
+}
+
 
 .property-page-h2subheadings {
     font-size: 20px;
@@ -1598,6 +1630,7 @@ blockquote-temp p {}
 .property-highlight-p {
     margin: 0px;
     color: rgba(0, 0, 0, 0.8);
+    color: #0a4a7f;
     width: auto;
 }
 
@@ -1697,7 +1730,7 @@ blockquote-temp p {}
     margin: 5px 5px;
     height: 0px !important;
     flex: 1 1 calc(23.478%);
-/*    flex-grow: 1;*/
+    /*    flex-grow: 1;*/
     background-color: #f1f1f1;
     border-radius: 5px;
     color: #0a4a7f;
@@ -1708,7 +1741,7 @@ blockquote-temp p {}
 
 @media screen and (max-width: 600px) {
     .empty {
-/*
+        /*
         display: none !important;
         visibility: hidden;
 */
@@ -1737,7 +1770,7 @@ blockquote-temp p {}
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .tabblock .feature-item2 {
-/*        flex: 45%;*/
+        /*        flex: 45%;*/
     }
 }
 
