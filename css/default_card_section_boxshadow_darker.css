@@ -1484,12 +1484,12 @@ blockquote-temp p {}
 
 
 .tabcontent-heading {
-    margin: 40px 0 15px;
+/*    margin: 40px 0 15px;*/
 }
 
 .tabcontent-heading h2 {
     /*    padding: 40px 0 30px;*/
-    margin: 0;
+    margin: 40px 0 30px;
     /*    font-size: 20px;*/
     font-style: normal;
     /*    font-weight: bold;*/
@@ -1550,6 +1550,7 @@ blockquote-temp p {}
     /*    margin-left: -10px;*/
     /*    margin-right: -10px;*/
     margin-bottom: 40px;
+    margin-bottom: 30px;
     flex-direction: row !important;
     flex-wrap: wrap;
     justify-content: left;
