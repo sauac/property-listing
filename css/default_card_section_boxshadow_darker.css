@@ -1484,7 +1484,7 @@ blockquote-temp p {}
 
 
 .tabcontent-heading {
-/*    margin: 40px 0 15px;*/
+    /*    margin: 40px 0 15px;*/
 }
 
 .tabcontent-heading h2 {
@@ -1546,6 +1546,7 @@ blockquote-temp p {}
 
 
 .m-adjust2.propertytype {
+    margin-top: 50px;
     display: flex;
     /*    margin-left: -10px;*/
     /*    margin-right: -10px;*/
@@ -1589,9 +1590,9 @@ blockquote-temp p {}
 @media screen and (max-width: 600px) {
     .m-adjust2 .property-type-block2 {
         flex: 100%;
-/*        padding-bottom: 10px;*/
+        /*        padding-bottom: 10px;*/
         border-right: none;
-/*        border-bottom: 1px solid #e5e5e5;*/
+        /*        border-bottom: 1px solid #e5e5e5;*/
     }
 }
 
@@ -1601,15 +1602,14 @@ blockquote-temp p {}
 
 @media screen and (max-width: 600px) {
     .property-type-block2 .property-h3subheadings {
-        
+
         width: 50%;
-        
+
     }
 }
 
 
-.property-h3subheadings.tenure{
-}
+.property-h3subheadings.tenure {}
 
 @media screen and (max-width: 600px) {
     .property-h3subheadings.tenure {
@@ -1770,11 +1770,19 @@ blockquote-temp p {}
 }
 
 
-.features-horizontal.circles{
+.features-horizontal.circles {}
+
+.tabblock .features-horizontal.circles {
+    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.tabblock .features-horizontal.circles{
-    justify-content: space-between;
+@media screen and (max-width: 600px) {
+    .tabblock .features-horizontal.circles {
+        justify-content: space-between;
+/*        justify-content: space-evenly;*/
+    }
+
 }
 
 
@@ -1785,7 +1793,7 @@ blockquote-temp p {}
     padding-top: 25px;
     padding-top: 35px;
     margin: 5px 5px;
-/*
+    /*
     height: 100px;
     width: 100px;
 */
@@ -1851,6 +1859,7 @@ blockquote-temp p {}
     padding: 0;
     margin: 0;
     font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: normal;
     /*    color: #505050;*/
@@ -1904,6 +1913,11 @@ blockquote-temp p {}
     top: -2px;
     position: relative;
 }
+
+.tabblock .description-text .property-h3subheadings {
+    margin-bottom: inherit;
+}
+
 
 .tabblock .description-text {
     /*    padding-top: 20px;*/
