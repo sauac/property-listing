@@ -1684,7 +1684,6 @@ blockquote-temp p {}
 }
 
 
-
 .tabblock .features-horizontal {
     display: flex;
     margin-bottom: 35px;
@@ -1698,32 +1697,14 @@ blockquote-temp p {}
     display: inline-block;
     padding: 13px 10px;
     padding-left: 20px;
-    /*    margin-top: 10px;*/
-    /*    margin-bottom: 10px;*/
-    /*    margin-right: 15px;*/
-    /*    margin-right: 10px;*/
     margin: 5px 5px;
-    /*    height: 91.67px;*/
     height: 75px;
-    /*    width: 92px;*/
-    /*    width: auto;*/
     flex: 0 1 calc(23.478%);
     flex-grow: 1;
-    /*    flex-basis: 50%;*/
-    /*    width: 50%;*/
-    /*    margin: auto;*/
-    /*        background-color: #0a4a7f;*/
-    /*    background-color: #eaecf3;*/
     background-color: #f1f1f1;
     border-radius: 5px;
     color: #0a4a7f;
     color: #0a4a7f;
-    /*    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 7px rgba(0, 0, 0, 0.24);*/
-    /*    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);*/
-    /*    border-right: 2px solid white;*/
-    /*    border-radius: 4px;*/
-    /*    border: 1px solid #bcbcbc;*/
-    /*        border: 1px solid rgba(10, 74, 127, 0.23);*/
 }
 
 .empty {
@@ -1733,7 +1714,6 @@ blockquote-temp p {}
     margin: 5px 5px;
     height: 0px !important;
     flex: 1 1 calc(23.478%);
-    /*    flex-grow: 1;*/
     background-color: #f1f1f1;
     border-radius: 5px;
     color: #0a4a7f;
@@ -1744,30 +1724,9 @@ blockquote-temp p {}
 
 @media screen and (max-width: 600px) {
     .empty {
-        /*
-        display: none !important;
-        visibility: hidden;
-*/
         padding: 0;
     }
 }
-
-
-/*
-@media screen and (max-width: 1024px) {
-    .tabblock .feature-item2 {
-        flex-basis: 31.6%;
-    }
-}
-
-
-
-@media screen and (max-width: 768px) {
-    .tabblock .feature-item2 {
-        flex-basis: 23.5%;
-    }
-}
-*/
 
 
 /* Responsive columns */
@@ -1777,89 +1736,6 @@ blockquote-temp p {}
     }
 }
 
-
-/*
-.tabblock .feature-item2 p {
-    display: inline-block;
-    margin: 0px;
-    font-size: 16px;
-    font-weight: bold;
-}
-*/
-
-
-/* Primary original
-
-.tabblock .feature-item2 p {
-    display: inline-block;
-    margin: 0px;
-    font-size: 16px;
-}
-
-.tabblock .feature-item2 .fas {
-    display: inline-block;
-    padding-right: 5px;
-    color: #0a4a7f;
-}
-
-
-.feature-item2 p:nth-child(1) {
-    display: inline-block;
-    padding-left: 0px;
-    padding-right: 10px;
-    font-size: 20px;
-}
-*/
-
-
-
-/* Primary inspiration
-k .feature-item2 p {
-    display: inline-block;
-    margin: 0px;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.tabblock .feature-item2 .fas {
-    display: inline-block;
-    padding-right: 5px;
-    color: #0a4a7f;
-}
-
-
-.feature-item2 p:nth-child(1) {
-    display: inline-block;
-    padding-left: 0px;
-    padding-right: 10px;
-    font-size: 20px;
-}
-*/
-
-
-/* Primary idea 1 
-.feature-item2 p {
-    margin: 15px 0;
-    font-size: 20px;
-    padding: 0px 0 !important;
-}
-
-
-.tabblock .feature-item2 .fas {
-    display: inline-block;
-    padding: 0 10px;
-    padding-left: 5px;
-    color: #0a4a7f;
-    font-size: 20px;
-}
-
-
-.feature-item2 p:nth-child(1) {
-    display: inline-block;
-    padding-left: 0px;
-    font-size: 20px;
-}
-*/
 
 /* Primary idea 3 */
 .feature-item2 p {
@@ -1892,6 +1768,73 @@ k .feature-item2 p {
     color: #0a4a7f;
     color: #0a4a7f;
 }
+
+
+.features-horizontal.circles{
+}
+
+.tabblock .features-horizontal.circles{
+    justify-content: space-between;
+}
+
+
+
+.tabblock .feature-item2.circle {
+    display: inline-block;
+    padding: 20px 10px;
+    padding-top: 25px;
+    padding-top: 35px;
+    margin: 5px 5px;
+/*
+    height: 100px;
+    width: 100px;
+*/
+    height: 120px;
+    width: 120px;
+    flex: 0 1 auto;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    color: #0a4a7f;
+    color: #0a4a7f;
+    text-align: center;
+    border: 3px solid #0a4a7f;
+}
+
+
+.feature-item2.circle p {
+    font-size: 16px;
+    font-size: 18px;
+}
+
+
+.feature-item2.circle p:nth-child(1) {
+    font-size: 18px;
+    font-size: 20px;
+}
+
+.feature-item2.circle .fas {
+    font-size: 16px;
+    font-size: 18px;
+}
+
+
+.feature-item2.empty.circular {
+    display: inline-block;
+    padding: 0px 10px !important;
+    padding-left: 20px;
+    margin: 5px 5px;
+    height: 0px !important;
+    flex: 1 1 calc(23.478%);
+    /* flex-grow: 1; */
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    color: #0a4a7f;
+    color: #0a4a7f;
+    visibility: collapse !important;
+    display: none !important;
+}
+
+
 
 
 .additional-features {
