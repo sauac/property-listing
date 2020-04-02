@@ -1565,6 +1565,7 @@ blockquote-temp p {}
 }
 
 .m-adjust2 .property-type-block2:nth-child(2) {
+    padding-left: 20px;
     border-right: 1px solid #e5e5e5;
 }
 
@@ -1573,6 +1574,7 @@ blockquote-temp p {}
         border-right: none;
         border-bottom: none;
         padding-bottom: none;
+        padding-left: 0px;
     }
 }
 
