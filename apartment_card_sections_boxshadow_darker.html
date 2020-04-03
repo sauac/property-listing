@@ -466,10 +466,11 @@
 
                 <div class="tabblock">
                     <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">
-                            <h2>Description</h2>
+                        <button class="tablinks" onclick="openCity(event, 'London-tab')" id="defaultOpen">
+<!--                            <h2>Description</h2>-->
+                            <h2>Features</h2>
                         </button>
-                        <button class="tablinks" onclick="openCity(event, 'Paris')">
+                        <button class="tablinks" onclick="openCity(event, 'floor-plans-tab')">
                             <h2>Floor Plan</h2>
                         </button>
                         <button class="tablinks" onclick="openCity(event, 'map-tab')">
@@ -481,7 +482,7 @@
                         </button>
                     </div>
 
-                    <div id="London" class="tabcontent">
+                    <div id="London-tab" class="tabcontent">
 
                         <!--
                         <table>
@@ -828,18 +829,26 @@
 
                     </div>
 
-                    <div id="Paris" class="tabcontent floor-plan">
+                    <div id="floor-plans-tab" class="tabcontent floor-plan">
+                       <h3 class="property-h3subheadings">
+                                        Layout</h3>
+<!--
                         <div class="tabcontent-heading floorplan">
                             <h2>Floor Plan</h2>
                         </div>
+-->
                         <!--                        <h3>2 Bed Room Bungalow</h3>-->
                         <div class="floorplan-img"><img src="images/floorplan.jpg" alt="spring-bench"></div>
                     </div>
 
                     <div id="map-tab" class="tabcontent map">
+                       <h3 class="property-h3subheadings">
+                                        Property Location</h3>
+<!--
                         <div class="tabcontent-heading map">
                             <h2>Property Location</h2>
                         </div>
+-->
                         <!--                        <h3>Property location</h3>-->
                         <div class="property-map">
                             <div id="map"></div>

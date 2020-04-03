@@ -1419,6 +1419,26 @@ blockquote-temp p {}
 }
 
 
+#floor-plans-tab {
+}
+#floor-plans-tab.floor-plan{
+}
+#floor-plans-tab.tabcontent{
+}
+
+#floor-plans-tab .property-h3subheadings {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+#map-tab .property-h3subheadings {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+
+
+
 .blog-content.left .tabblock {
     font-family: "Lato", sans-serif;
     /*
@@ -1489,7 +1509,7 @@ blockquote-temp p {}
 
 .tabcontent-heading h2 {
     /*    padding: 40px 0 30px;*/
-    margin: 40px 0 30px;
+    margin: 50px 0 30px;
     /*    font-size: 20px;*/
     font-style: normal;
     /*    font-weight: bold;*/
@@ -1562,12 +1582,12 @@ blockquote-temp p {}
     flex: 1 1 calc(23.478%);
     margin: 30px 10px 0px;
     margin: 5px 5px;
-    border-right: 1px solid #e6e6e6;
+/*    border-right: 1px solid #e6e6e6;*/
 }
 
 .m-adjust2 .property-type-block2:nth-child(2) {
     padding-left: 20px;
-    border-right: 1px solid #e5e5e5;
+/*    border-right: 1px solid #e5e5e5;*/
 }
 
 @media screen and (max-width: 600px) {
@@ -1800,12 +1820,12 @@ blockquote-temp p {}
     height: 120px;
     width: 120px;
     flex: 0 1 auto;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     border-radius: 50%;
     color: #0a4a7f;
     color: #0a4a7f;
     text-align: center;
-    border: 3px solid #0a4a7f;
+    border: 3px solid rgba(10, 74, 127, 0.17);
 }
 
 
