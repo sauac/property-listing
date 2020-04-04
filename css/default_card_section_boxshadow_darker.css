@@ -1623,7 +1623,7 @@ blockquote-temp p {}
 @media screen and (max-width: 600px) {
     .property-type-block2 .property-h3subheadings {
 
-        width: 50%;
+/*        width: 50%;*/
 
     }
 }
@@ -1634,9 +1634,11 @@ blockquote-temp p {}
 @media screen and (max-width: 600px) {
     .property-h3subheadings.tenure {
         padding-top: 15px;
+/*
         border-top: 1px solid #1f789a;
         border-top: 1px solid rgba(31, 120, 154, 0.43);
         border-top: 1px solid #e2e2e2;
+*/
     }
 }
 
