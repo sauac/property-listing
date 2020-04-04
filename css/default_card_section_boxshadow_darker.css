@@ -2018,7 +2018,7 @@ blockquote-temp p {}
 @media screen and (max-width: 875px) {
     .sidebar.blog {
         flex: 0 1 calc(100%);
-        margin-top: 60px;
+        margin-top: 50px;
         /*        padding-top: 60px;*/
         border-radius: 0;
         /*        border-top: 1px solid #e3e3e3;*/
@@ -2034,7 +2034,7 @@ blockquote-temp p {}
         /*        flex-direction: row-reverse;*/
         justify-content: flex-end;
         align-content: flex-end;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 }
 
