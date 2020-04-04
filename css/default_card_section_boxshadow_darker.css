@@ -4068,10 +4068,11 @@ Responsive columns @media screen and (max-width: 1024px) {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 40.7%;
+/*    top: 40.7%;*/
+    top: 42%;
     width: auto;
     padding: 16px;
-    margin-top: -50px;
+/*    margin-top: -50px;*/
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
     font-weight: bold;
@@ -4086,7 +4087,8 @@ Responsive columns @media screen and (max-width: 1024px) {
 
     .prev,
     .next {
-        top: 45%;
+       
+        top: 42%;
     }
 }
 
@@ -4096,6 +4098,7 @@ Responsive columns @media screen and (max-width: 1024px) {
     .prev,
     .next {
         top: 60%;
+        margin-top: -50px;
     }
 }
 
@@ -4136,6 +4139,12 @@ Responsive columns @media screen and (max-width: 1024px) {
     margin: 0;
 }
 
+.m-adjust {
+    margin-left: -5px;
+    margin-right: -5px;
+    display: none;
+}
+
 /* Container for image text */
 .row {}
 
@@ -4152,10 +4161,7 @@ Responsive columns @media screen and (max-width: 1024px) {
     clear: both;
 }
 
-.m-adjust {
-    margin-left: -5px;
-    margin-right: -5px;
-}
+
 
 /* Six columns side by side */
 .columnc {
@@ -4311,7 +4317,7 @@ Responsive columns @media screen and (max-width: 1024px) {
 
 .mySlides {
     height: 380px;
-    margin-bottom: 20px;
+/*    margin-bottom: 20px;*/
 }
 
 /* Responsive columns */
