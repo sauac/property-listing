@@ -2040,7 +2040,7 @@ blockquote-temp p {}
 @media screen and (max-width: 600px) {
     .sidebar.blog {
         flex: 0 1 calc(100%);
-        /*        margin-top: 30px;*/
+                margin-top: 50px;
         /*        padding-top: 20px;*/
         /*        padding-bottom: 0; */
         border-radius: 0;
