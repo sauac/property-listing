@@ -2927,7 +2927,7 @@ table .accent-colour.trim-block {
     /*    padding: 3% 5% 3% 5% !important;*/
     padding-right: 5%;
     padding-right: 20px;
-    padding-right: 2em;
+    padding-right: 1.2em;
     justify-content: space-around;
     /*    justify-content: flex-start;*/
 }
