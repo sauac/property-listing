@@ -2837,6 +2837,35 @@ table .accent-colour.trim-block {
     width: 100%;
 }
 
+.main-content-block.sidebar-recent2 h2 {
+    font-size: 16px;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 600px) {
+    .main-content-block.sidebar-recent2 h2 {
+        font-size: 1em;
+    }
+}
+
+.main-content-block.sidebar-recent2 h1 {
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-content-block.sidebar-recent2 h1 {}
+}
+
+@media screen and (max-width: 876px) {
+    .main-content-block.sidebar-recent2 h1 {}
+}
+
+@media screen and (max-width: 600px) {
+    .main-content-block.sidebar-recent2 h1 {
+        font-size: 1em;
+    }
+}
+
 
 
 
