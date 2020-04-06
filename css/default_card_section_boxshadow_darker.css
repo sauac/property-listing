@@ -1599,13 +1599,6 @@ blockquote-temp p {}
     }
 }
 
-/*
-@media screen and (max-width: 360px) {
-    .m-adjust2 .property-type-block2 {
-        flex: 45%;
-    }
-}
-*/
 
 @media screen and (max-width: 600px) {
     .m-adjust2 .property-type-block2 {
@@ -1634,22 +1627,9 @@ blockquote-temp p {}
 @media screen and (max-width: 600px) {
     .property-h3subheadings.tenure {
         padding-top: 15px;
-/*
-        border-top: 1px solid #1f789a;
-        border-top: 1px solid rgba(31, 120, 154, 0.43);
-        border-top: 1px solid #e2e2e2;
-*/
     }
 }
 
-
-.property-page-h2subheadings {
-    font-size: 20px;
-    font-style: normal;
-    margin-top: 0px;
-    margin-bottom: 0;
-    width: auto;
-}
 
 
 .property-highlight-p {

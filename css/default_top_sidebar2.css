@@ -1536,6 +1536,7 @@ blockquote-temp p {}
 }
 
 
+/*
 .m-adjust2.propertytype {
     display: flex;
     margin-left: -10px;
@@ -1545,16 +1546,29 @@ blockquote-temp p {}
     flex-wrap: wrap;
     justify-content: left;
 }
+*/
+
+.m-adjust2.propertytype {
+    margin-top: 50px;
+    display: flex;
+    /*    margin-left: -10px;*/
+    /*    margin-right: -10px;*/
+    margin-bottom: 40px;
+    margin-bottom: 30px;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: left;
+}
 
 .m-adjust2 .property-type-block2 {
     flex: 0 1 23.5%;
-    margin: 30px 10px 0px;
-    border-right: 1px solid #e6e6e6;
+    margin: 5px 10px 0px;
+/*    border-right: 1px solid #e6e6e6;*/
 }
 
 .m-adjust2 .property-type-block2:nth-child(2) {
 
-    border-right: 1px solid #e5e5e5;
+/*    border-right: 1px solid #e5e5e5;*/
 }
 
 @media screen and (max-width: 1024px) {
