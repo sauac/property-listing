@@ -2774,7 +2774,7 @@ table .accent-colour.trim-block {
     padding: 0 0px;
     margin-bottom: 20px;
     flex-wrap: nowrap;
-/*    flex-direction: row;*/
+    /*    flex-direction: row;*/
     /*    flex-flow: column !important;*/
     -webkit-transition: box-shadow 0.3s ease;
     transition: box-shadow 0.3s ease;
@@ -2784,7 +2784,7 @@ table .accent-colour.trim-block {
 
 .columnx.sidebartype2 a {
     text-decoration: none;
-/*    display: inline-flex;*/
+    /*    display: inline-flex;*/
 }
 
 .card-image.sbar2 {
@@ -2803,7 +2803,7 @@ table .accent-colour.trim-block {
 @media screen and (max-width: 960px) {
     .card-image.sbar2 {
         height: auto;
-        flex: 0 1 24%;
+        flex: 0 1 26%;
     }
 }
 
@@ -2811,7 +2811,7 @@ table .accent-colour.trim-block {
 @media screen and (max-width: 768px) {
     .card-image.sbar2 {
         max-height: 116px;
-        flex: 0 1 24%;
+        flex: 0 1 26%;
     }
 }
 
@@ -2831,7 +2831,7 @@ table .accent-colour.trim-block {
 
 .main-content-block.sidebar-recent2 {
     position: relative;
-    padding: 3% 3% 3% 5% !important;
+    padding: 3% 0% 3% 5% !important;
     flex: 1;
     height: auto;
     width: 100%;
@@ -2929,15 +2929,24 @@ table .accent-colour.trim-block {
     padding-right: 20px;
     padding-right: 1.2em;
     justify-content: space-around;
+    padding-left: 0.5em;
     /*    justify-content: flex-start;*/
 }
 
 @media screen and (max-width: 1024px) {
     .property-likes2 {
-    
-/*    padding-right: 1.1em;*/
-   
+
+        /*    padding-right: 1.1em;*/
+
+    }
 }
+
+@media screen and (max-width: 960px) {
+    .property-likes2 {
+
+            padding-right: 2em;
+
+    }
 }
 
 .property-likes2 .far {
