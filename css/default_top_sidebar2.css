@@ -2713,29 +2713,14 @@ table .accent-colour.trim-block {
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
 }
 
-.columnx.sidebartype2 {
-    display: flex;
-    flex: 100%;
-    padding: 0 0px;
-    margin-bottom: 20px;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    /*    flex-flow: column !important;*/
-    -webkit-transition: box-shadow 0.3s ease;
-    transition: box-shadow 0.3s ease;
-    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-}
+
 
 .columnx.sidebartype a {
     text-decoration: none;
     display: flex;
 }
 
-.columnx.sidebartype2 a {
-    text-decoration: none;
-    display: inline-flex;
-}
+
 
 
 .card-image.sbar {
@@ -2781,6 +2766,27 @@ table .accent-colour.trim-block {
     object-fit: cover;
 }
 
+
+.columnx.sidebartype2 {
+    display: flex;
+    flex: 100%;
+    flex-shrink: 0 !important;
+    padding: 0 0px;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+/*    flex-direction: row;*/
+    /*    flex-flow: column !important;*/
+    -webkit-transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+}
+
+.columnx.sidebartype2 a {
+    text-decoration: none;
+/*    display: inline-flex;*/
+}
+
 .card-image.sbar2 {
     display: inline-flex;
     flex: 0 1 45%;
@@ -2820,6 +2826,15 @@ table .accent-colour.trim-block {
     position: relative;
     border-radius: unset;
     object-fit: cover;
+    max-height: unset;
+}
+
+.main-content-block.sidebar-recent2 {
+    position: relative;
+    padding: 3% 3% 3% 5% !important;
+    flex: 1;
+    height: auto;
+    width: 100%;
 }
 
 
@@ -2891,7 +2906,7 @@ table .accent-colour.trim-block {
 @media screen and (max-width: 1024px) {
     .property-likes2 {
     
-    padding-right: 1.1em;
+/*    padding-right: 1.1em;*/
    
 }
 }
