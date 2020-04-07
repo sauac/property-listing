@@ -1462,11 +1462,12 @@ blockquote-temp p {}
 .tabblock .floorplan-img {
     margin-top: 5px;
     padding: 20px;
-    /*    border: 1px solid #c7c7c7;*/
-    border: 1px solid #fcfcfc;
+    border: 1px solid #ececec;
+/*
     border-radius: 5px;
     -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+*/
 }
 
 /* Responsive columns */
@@ -1974,10 +1975,12 @@ blockquote-temp p {}
 
 .property-map {
     padding: 2px;
-    /*    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+    border: 1px solid #ececec;
+/*
     -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
     border-radius: 5px;
+*/
 }
 
 
