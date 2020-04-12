@@ -1620,6 +1620,7 @@ blockquote-temp p {}
     margin-top: 2px;
     margin-right: 20px;
     color: #0a4a7f;
+    color: #1f789a;
     font-size: 30px;
     font-size: 25px;
 }
@@ -2023,7 +2024,7 @@ blockquote-temp p {}
     font-weight: 900;
     content: "\f45c";
     color: #0a4a7f;
-    color: #0a4a7f;
+    color: #1f789a;
     padding-right: 10px;
     top: -2px;
     position: relative;
@@ -3266,7 +3267,7 @@ h1 {
     color: rgb(255, 255, 255);
     /*    background-color: rgba(149, 116, 27, 0.62);*/
     background-color: #0a4a7f;
-    background-color: #0a4a7f;
+    background-color: #1f789a;
     width: 33px;
     height: 33px;
     /*    border: solid 1px #717171;*/
