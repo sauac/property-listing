@@ -1617,9 +1617,9 @@ blockquote-temp p {}
 
 .property-type-icon {
     margin-top: 2px;
-    margin-right: 10px;
+    margin-right: 20px;
     color: #0a4a7f;
-/*    display: block;*/
+    font-size: 30px
 }
 
 .property-type-text {
