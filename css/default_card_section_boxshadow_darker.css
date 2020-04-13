@@ -658,8 +658,10 @@ button.dropbtn:focus {
     /*    border: solid 2.8px #46749a;*/
     border: solid 1px #5c6686;
     border: solid 1px #b6bcd1;
+    border: solid 0.5px #b6bcd1;
     /* -webkit-text-stroke: 2px #7ac1fd; */
     /* -webkit-text-stroke: 2px #46749a; */
+    border-radius: 3px;
 }
 
 /* Responsive wrapper */
@@ -2344,6 +2346,7 @@ blockquote-temp p {}
     padding: 15px;
     background-color: #3b4146;
     background-color: #515a61;
+    border-radius: 5px;
 }
 
 .contact-agent .fas {
@@ -2355,7 +2358,9 @@ blockquote-temp p {}
     color: #ffffff;
     width: 46px;
     border: solid 1px #b6bcd1;
+    border: solid 0.5px #b6bcd1;
     background-color: #3b4146;
+    border-radius: 3px;
 }
 
 
