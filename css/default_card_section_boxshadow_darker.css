@@ -2343,10 +2343,12 @@ blockquote-temp p {}
 }
 
 .darker {
+/*
     padding: 15px;
     background-color: #3b4146;
     background-color: #515a61;
     border-radius: 5px;
+*/
 }
 
 .contact-agent .fas {
@@ -2357,8 +2359,10 @@ blockquote-temp p {}
     color: #d84712;
     color: #ffffff;
     width: 46px;
+/*
     border: solid 1px #b6bcd1;
     border: solid 0.5px #b6bcd1;
+*/
     background-color: #3b4146;
     border-radius: 3px;
 }
