@@ -1587,7 +1587,7 @@ blockquote-temp p {}
     margin: 5px 5px;
     padding: 10px 20px;
     /*    border-right: 1px solid #e6e6e6;*/
-    background-color: #eef2f3;
+/*    background-color: #eef2f3;*/
     border-radius: 3px;
     display: flex;
 }
