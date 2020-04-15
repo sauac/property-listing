@@ -2349,11 +2349,14 @@ blockquote-temp p {}
     background-color: #515a61;
     border-radius: 5px;
 */
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #fff;
 }
 
 .contact-agent .fas {
     font-size: 28px;
     padding: 10px;
+    padding-left: 11px;
     margin-right: 5px;
     display: inline-block;
     color: #d84712;
@@ -2364,6 +2367,7 @@ blockquote-temp p {}
     border: solid 0.5px #b6bcd1;
 */
     background-color: #3b4146;
+    background-color: #000000;
     border-radius: 3px;
 }
 
