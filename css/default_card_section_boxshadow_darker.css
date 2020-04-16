@@ -2366,8 +2366,10 @@ blockquote-temp p {}
     border: solid 1px #b6bcd1;
     border: solid 0.5px #b6bcd1;
 */
+    border: 0.5px solid #4b97d8;
     background-color: #3b4146;
     background-color: #000000;
+    background-color: #1f789a;
     border-radius: 3px;
 }
 
