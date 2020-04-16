@@ -1568,6 +1568,12 @@ blockquote-temp p {}
 }
 
 
+
+
+.m-adjust2.propertytype.style-circles {
+}
+
+
 .m-adjust2.propertytype {
     margin-top: 50px;
     display: flex;
@@ -1580,12 +1586,41 @@ blockquote-temp p {}
     justify-content: left;
 }
 
+
+.m-adjust2 .property-type-block2.left-aligned {
+    flex: 0 1 23.5%;
+    flex: 1 1 calc(23.478%);
+    margin: 30px 10px 0px;
+    margin: 5px 5px;
+    padding: 10px 20px;
+    padding-left: 0;
+    /*    border-right: 1px solid #e6e6e6;*/
+/*    background-color: #eef2f3;*/
+    border-radius: 3px;
+    display: flex;
+}
+
+.m-adjust2 .property-type-block2.left-aligned:nth-child(2) {
+    padding-left: 0px;
+   
+}
+
+@media screen and (max-width: 600px) {
+    .m-adjust2 .property-type-block2.left-aligned {
+        flex: 100%;
+        border-right: none;
+    }
+}
+
+
+
 .m-adjust2 .property-type-block2 {
     flex: 0 1 23.5%;
     flex: 1 1 calc(23.478%);
     margin: 30px 10px 0px;
     margin: 5px 5px;
     padding: 10px 20px;
+    padding-left: 0;
     /*    border-right: 1px solid #e6e6e6;*/
 /*    background-color: #eef2f3;*/
     border-radius: 3px;
@@ -1593,7 +1628,7 @@ blockquote-temp p {}
 }
 
 .m-adjust2 .property-type-block2:nth-child(2) {
-    padding-left: 20px;
+    padding-left: 0px;
     /*    border-right: 1px solid #e5e5e5;*/
 }
 
@@ -1602,7 +1637,7 @@ blockquote-temp p {}
         border-right: none;
         border-bottom: none;
         padding-bottom: none;
-        padding-left: 20px;
+        padding-left: 0px;
     }
 }
 
@@ -1617,13 +1652,50 @@ blockquote-temp p {}
 }
 
 
+
+
+.property-type-icon.style-circle {
+    margin-top: 2px;
+    margin-right: 15px;
+    color: #ffffff;
+    font-size: 30px;
+    font-size: 22px;
+    padding: 10px;
+    padding-top: 7px;
+    background-color: #3b4146;
+    background-color: #1f789a;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    /* border: solid 1px #b19d53; */
+}
+
+
+.property-type-icon.style-circle.icon-tenure {
+    padding: 14px;
+    padding-top: 8px;
+}
+
+
+
 .property-type-icon {
     margin-top: 2px;
-    margin-right: 20px;
-    color: #0a4a7f;
-    color: #1f789a;
+    margin-right: 15px;
+    color: #ffffff;
     font-size: 30px;
-    font-size: 25px;
+    font-size: 22px;
+    padding: 10px;
+    padding-top: 7px;
+    background-color: #3b4146;
+    background-color: #1f789a;
+    border-radius: 5%;
+    width: 45px;
+    height: 45px;
+}
+
+.property-type-icon.icon-tenure {
+    padding: 14px;
+    padding-top: 8px;
 }
 
 .property-type-text {
