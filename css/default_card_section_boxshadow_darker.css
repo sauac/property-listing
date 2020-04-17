@@ -1654,8 +1654,8 @@ blockquote-temp p {}
     font-size: 22px;
     padding: 10px;
     padding-top: 7px;
-    background-color: #3b4146;
     background-color: #1f789a;
+    background-color: #0a4a7f;
     border-radius: 50%;
     width: 45px;
     height: 45px;
@@ -1678,8 +1678,8 @@ blockquote-temp p {}
     font-size: 22px;
     padding: 10px;
     padding-top: 7px;
-    background-color: #3b4146;
     background-color: #1f789a;
+    background-color: #0a4a7f;
     border-radius: 5%;
     width: 45px;
     height: 45px;
@@ -2102,6 +2102,7 @@ blockquote-temp p {}
     content: "\f45c";
     color: #0a4a7f;
     color: #1f789a;
+    color: #d84712;
     padding-right: 10px;
     top: -2px;
     position: relative;
@@ -2443,9 +2444,9 @@ blockquote-temp p {}
     border: solid 0.5px #b6bcd1;
 */
     border: 0.5px solid #4b97d8;
-    background-color: #3b4146;
-    background-color: #000000;
+    border: 0.5px solid #b6bcd1;
     background-color: #1f789a;
+    background-color: #0a4a7f;
     border-radius: 3px;
 }
 
@@ -3853,6 +3854,7 @@ form .form-button input:hover {
     font-style: normal;
     text-decoration: none !important;
     color: #0a4a7f;
+    color: #d84712;
 }
 
 .fa-ul {
@@ -4614,6 +4616,7 @@ Responsive columns @media screen and (max-width: 1024px) {
 .slider-top .price {
     margin: 0;
     color: #0a4a7f;
+    color: #d84712;
 }
 
 
