@@ -1563,8 +1563,7 @@ blockquote-temp p {}
 
 
 
-.m-adjust2.propertytype.style-circles {
-}
+.m-adjust2.propertytype.style-circles {}
 
 
 .m-adjust2.propertytype {
@@ -1588,14 +1587,14 @@ blockquote-temp p {}
     padding: 10px 20px;
     padding-left: 0;
     /*    border-right: 1px solid #e6e6e6;*/
-/*    background-color: #eef2f3;*/
+    /*    background-color: #eef2f3;*/
     border-radius: 3px;
     display: flex;
 }
 
 .m-adjust2 .property-type-block2.left-aligned:nth-child(2) {
     padding-left: 0px;
-   
+
 }
 
 @media screen and (max-width: 600px) {
@@ -1615,7 +1614,7 @@ blockquote-temp p {}
     padding: 10px 20px;
     padding-left: 0;
     /*    border-right: 1px solid #e6e6e6;*/
-/*    background-color: #eef2f3;*/
+    /*    background-color: #eef2f3;*/
     border-radius: 3px;
     display: flex;
 }
@@ -2420,7 +2419,7 @@ blockquote-temp p {}
 }
 
 .darker {
-/*
+    /*
     padding: 15px;
     background-color: #3b4146;
     background-color: #515a61;
@@ -2439,7 +2438,7 @@ blockquote-temp p {}
     color: #d84712;
     color: #ffffff;
     width: 46px;
-/*
+    /*
     border: solid 1px #b6bcd1;
     border: solid 0.5px #b6bcd1;
 */
@@ -2456,7 +2455,7 @@ blockquote-temp p {}
     .contact-agent .fas {
         font-size: 28px;
         width: 46px;
-/*        margin-bottom: 10px;*/
+        /*        margin-bottom: 10px;*/
     }
 }
 
@@ -2473,10 +2472,10 @@ blockquote-temp p {}
 
 @media screen and (max-width: 600px) {
     .sidebar-info-block .contact-agent-title {
-    margin: 0;
-    font-size: 24px;
-    
-}
+        margin: 0;
+        font-size: 24px;
+
+    }
 }
 
 .contact-agent .contact-agent-title {}
@@ -3002,6 +3001,149 @@ table .accent-colour.trim-block {
     /*    margin-top: 20px;*/
     font-style: normal;
 }
+
+
+
+
+.columnx.sidebartype2 {
+    display: flex;
+    flex: 100%;
+    flex-shrink: 0 !important;
+    padding: 0 0px;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+    /*    flex-direction: row;*/
+    /*    flex-flow: column !important;*/
+    -webkit-transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+}
+
+.columnx.sidebartype2 a {
+    text-decoration: none;
+    /*    display: inline-flex;*/
+}
+
+.card-image.sbar2 {
+    display: inline-flex;
+    flex: 0 1 45%;
+    flex: 0 1 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .card-image.sbar2 {
+        height: 100.625px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .card-image.sbar2 {
+        height: auto;
+        flex: 0 1 26%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .card-image.sbar2 {
+        max-height: 116px;
+        flex: 0 1 26%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-image.sbar2 {
+        height: auto;
+        flex: 0 1 46%;
+    }
+}
+
+.card-image.sbar2 img {
+    position: relative;
+    border-radius: unset;
+    object-fit: cover;
+    max-height: unset;
+}
+
+.main-content-block.sidebar-recent2 {
+    position: relative;
+    padding: 3% 0% 3% 5% !important;
+    flex: 1;
+    height: auto;
+    width: 100%;
+}
+
+.main-content-block.sidebar-recent2 h2 {
+    font-size: 16px;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 600px) {
+    .main-content-block.sidebar-recent2 h2 {
+        font-size: 1em;
+    }
+}
+
+.main-content-block.sidebar-recent2 h1 {
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-content-block.sidebar-recent2 h1 {}
+}
+
+@media screen and (max-width: 876px) {
+    .main-content-block.sidebar-recent2 h1 {}
+}
+
+@media screen and (max-width: 600px) {
+    .main-content-block.sidebar-recent2 h1 {
+        font-size: 1em;
+    }
+}
+
+.property-likes .fas,
+.far {
+    color: #0a4a7f;
+}
+
+.property-likes2 {
+    display: flex;
+    flex-direction: column;
+    /*    padding: 3% 5% 3% 5% !important;*/
+    padding-right: 5%;
+    padding-right: 20px;
+    padding-right: 1.2em;
+    justify-content: space-around;
+    padding-left: 0.5em;
+    /*    justify-content: flex-start;*/
+}
+
+@media screen and (max-width: 1024px) {
+    .property-likes2 {
+
+        /*    padding-right: 1.1em;*/
+
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .property-likes2 {
+
+            padding-right: 2em;
+
+    }
+}
+
+.property-likes2 .far {
+    color: #0a4a7f;
+}
+
+
+
+
 
 
 .columnx.sidebartype {
