@@ -1421,23 +1421,16 @@ blockquote-temp p {}
 }
 
 
-#floor-plans-tab {}
 
-#floor-plans-tab.floor-plan {}
-
-#floor-plans-tab.tabcontent {}
-
-#floor-plans-tab .property-h3subheadings {
+.property-h3subheadings.property-floor-plans {
     margin-top: 55px;
     margin-bottom: 30px;
 }
 
-#map-tab .property-h3subheadings {
+.property-h3subheadings.property-maps {
     margin-top: 55px;
     margin-bottom: 30px;
 }
-
-
 
 
 .blog-content.left .tabblock {
@@ -1696,6 +1689,18 @@ blockquote-temp p {}
 .property-type-icon.icon-tenure {
     padding: 14px;
     padding-top: 8px;
+}
+
+.property-type-icon.icon-map {
+    padding: 13px;
+    padding-top: 7px;
+    font-size: 25px;
+}
+
+.property-type-icon.icon-layout {
+    padding: 12px;
+    padding-top: 7px;
+    font-size: 25px;
 }
 
 .property-type-text {
