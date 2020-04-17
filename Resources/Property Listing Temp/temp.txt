@@ -1,0 +1,15 @@
+line 209 / 260
+
+.dropdown:hover .dropdown-content.level2 {
+    display: none;
+}
+
+
+line 470
+
+.hamburger .responsive-menu2 {
+ visibility: collapse;
+    display: none;
+
+}
+

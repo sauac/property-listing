@@ -1,0 +1,60 @@
+-webkit-text-stroke: 1px #f12323;
+
+
+#747474
+
+
+#0A0F7F
+
+
+#ebebeb
+
+
+
+#a7c2d8
+
+
+#0E66AE
+
+
+.propertysearch-box
+background-color: #0A0F7F;
+
+
+#propertysearch button
+background-color: #0E66AE;  (both buttons)
+
+Version 1
+.navunit .fas {
+    font-size: 36px;
+    padding: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    color: #d84712;
+    background-color: #0A0F7F;
+    width: 35px;
+    border: solid 2.8px #46749a;
+    /* -webkit-text-stroke: 2px #7ac1fd; */
+    /* -webkit-text-stroke: 2px #46749a; */
+}
+
+
+
+
+
+Version 2
+.navunit .fas {
+    font-size: 36px;
+    padding: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    color: #d84712;
+    color: #ffffff;
+    background-color: #0A0F7F;
+    width: 35px;
+    border: solid 2.8px #0E66AE;
+    -webkit-text-stroke: 1px #0E66AE;
+}
+
+
+

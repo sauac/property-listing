@@ -1,0 +1,74 @@
+.responsive-menu2 #menu-section {
+    position: relative !important;
+    margin: 0px 0 0px 0px !important;
+    padding: 70px 0px 30px;
+    padding: 70px 40px 15px;
+    border-top: 1px solid rgba(190, 190, 190, 0.25);
+}
+
+
+.responsive-menu2 #menu-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+-----------------------
+REMOVE FOLLOWING ENTRY
+
+.hamburger li {
+    /* color: black; */
+    /* padding: 10px 0; */
+    /* font-size: 22px; */
+}
+-----------------------
+
+.responsive-menu2 li {
+    color: black !important;
+    /* padding: 10px 50px 25px !important; */
+    /* padding: 20px 50px 20px !important; */
+    font-size: 20px;
+    list-style-type: none;
+    width: 100%;
+}
+
+.responsive-menu2 li p {
+    padding: 60px;
+    padding: 20px 0px 20px 20px !important;
+    /* padding-left: 15px; */
+    border-bottom: 1px solid #1f789a30;
+}
+
+.responsive-menu2 p {
+    /* padding-left: 50px; */
+    margin-top: inherit;
+    margin-bottom: inherit;
+    text-align: left;
+    /* line-height: normal; */
+}
+
+Add p tags th the list item titles eg home, about etc
+
+
+.responsive-menu2 .dropbtn {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 20px 20px 20px !important;
+    border-bottom: 1px solid #ebebeb;
+    height: unset;
+}
+
+
+
+
+.menu-github-section {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px !important;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    /* border-top: 1px solid rgba(190, 190, 190, 0.25); */
+}

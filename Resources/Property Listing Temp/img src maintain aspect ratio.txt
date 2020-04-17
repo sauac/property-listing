@@ -1,0 +1,19 @@
+equivalent to background-size: cover and contain for image elements
+--------------------
+
+img src maintain aspect ratio
+
+object-fit: cover;
+object-fit: contain;
+
+
+It's intended for images, videos and other embeddable media formats in conjunction with the object-position property.
+
+
+
+
+
+-------------
+img {
+max-width: unset; ?
+}

@@ -1,0 +1,25 @@
+/* Responsive columns */
+@media screen and (max-width: 1024px) {
+    .tabblock .feature-item2 {
+        flex-basis: 31.6%;
+        /*        padding: 10px;*/
+    }
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .tabblock .feature-item2 {
+        flex-basis: 23.5%;
+        /*        padding: 10px;*/
+    }
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .tabblock .feature-item2 {
+        flex: 45%;
+        /*        padding: 10px;*/
+    }
+}
