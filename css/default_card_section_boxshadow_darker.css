@@ -4598,7 +4598,7 @@ Responsive columns @media screen and (max-width: 1024px) {
 @media screen and (max-width: 600px) {
     .slider-top .property-h3subheadings.property-area {
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
 }
