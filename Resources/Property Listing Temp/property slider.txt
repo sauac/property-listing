@@ -1,0 +1,7 @@
+width 100% added so main image full width in firefox
+
+
+.propertyslider {
+    width: 100%;
+
+}

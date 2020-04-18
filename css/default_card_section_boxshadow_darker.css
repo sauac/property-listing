@@ -653,6 +653,8 @@ button.dropbtn:focus {
     vertical-align: sub;
     /*    color: #d84712;*/
     color: #d84712;
+    color: #ff5e00;
+    color: #e04208;
     background-color: #0a4a7f;
     width: 35px;
     /*    border: solid 2.8px #46749a;*/
@@ -2103,6 +2105,8 @@ blockquote-temp p {}
     color: #0a4a7f;
     color: #1f789a;
     color: #d84712;
+    color: #ff5e00;
+    color: #e04208;
     padding-right: 10px;
     top: -2px;
     position: relative;
@@ -3855,6 +3859,8 @@ form .form-button input:hover {
     text-decoration: none !important;
     color: #0a4a7f;
     color: #d84712;
+    color: #ff5e00;
+    color: #e04208;
 }
 
 .fa-ul {
@@ -4207,12 +4213,14 @@ p {
 
 .git-hub-button .red-text {
     color: #d84712;
+    color: #e04208;
 }
 
 .fab.fa-github-square {
     font-size: 20px;
     padding-left: 5px;
     color: #d84712;
+    color: #e04208;
 }
 
 .copyright-year-date {
@@ -4555,6 +4563,7 @@ Responsive columns @media screen and (max-width: 1024px) {
     /*    margin-top: 70px;*/
     margin-top: 110px;
     vertical-align: middle;
+    width: 100%;
 }
 
 .propertyslider h2 {
@@ -4617,6 +4626,8 @@ Responsive columns @media screen and (max-width: 1024px) {
     margin: 0;
     color: #0a4a7f;
     color: #d84712;
+    color: #ff5e00;
+    color: #e04208;
 }
 
 
