@@ -1677,28 +1677,33 @@ blockquote-temp p {}
     color: #ffffff;
     font-size: 30px;
     font-size: 20px;
-    padding: 9px;
-    padding-top: 7px;
+    padding: 8px;
+    padding-top: 6px;
     background-color: #1f789a;
+    background-color: #ffffff;
     /* background-color: #0a4a7f; */
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    border: 1px solid #1f789a;
+    -webkit-text-stroke: 0.5px #46749a;
+    -webkit-text-stroke: 1px #d84712;
+    -webkit-text-stroke: 1px #46749a;
 }
 
 .property-type-icon.icon-tenure {
-    padding: 13px;
+    padding: 12px;
     padding-top: 7px;
 }
 
 .property-type-icon.icon-layout {
-    padding: 12px;
+    padding: 10px;
     padding-top: 7px;
     font-size: 20px;
 }
 
 .property-type-icon.icon-map {
-    padding: 13px;
+    padding: 12px;
     padding-top: 7px;
     font-size: 20px;
 }
@@ -2465,20 +2470,20 @@ blockquote-temp p {}
     width: 46px;
     width: auto;
     height: auto;
-   
-    
-/*
+
+
+    /*
     max-height: 100%;
     max-width: 100%;
 */
-    
-/*
+
+    /*
     border: solid 1px #b6bcd1;
     border: solid 0.5px #b6bcd1;
     border: solid 1px #d9d9d9;
 */
 
-/*
+    /*
     border: 0.5px solid #4b97d8;
     border: 0.5px solid #b6bcd1;
 */
@@ -2488,7 +2493,7 @@ blockquote-temp p {}
     background-image: url(../images/business-executive2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-/*    border-radius: 3px;*/
+    /*    border-radius: 3px;*/
 }
 
 
@@ -2496,8 +2501,8 @@ blockquote-temp p {}
 @media screen and (max-width: 600px) {
     .contact-agent .fas {
         font-size: 28px;
-/*        width: 46px;*/
-/*        width: 46px;*/
+        /*        width: 46px;*/
+        /*        width: 46px;*/
         /*        margin-bottom: 10px;*/
     }
 }
@@ -3175,7 +3180,7 @@ table .accent-colour.trim-block {
 @media screen and (max-width: 960px) {
     .property-likes2 {
 
-            padding-right: 2em;
+        padding-right: 2em;
 
     }
 }
