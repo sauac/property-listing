@@ -1,0 +1,20 @@
+// Probably best to create New class and hide icon in html
+
+
+.contact-agent .fas
+
+background-image: url(../images/william.jpg);
+
+
+change  width and height to:
+
+width: auto;
+    
+
+height: auto;
+
+font-size: 28px
+padding: 30px
+background-image: url(../images/william.jpg);
+background-size: cover;
+background-repeat: no-repeat;
