@@ -2436,6 +2436,7 @@ blockquote-temp p {}
     border-bottom: 0.5px solid #d3d3d3;
 }
 
+/*
 .contact-agent .fas {
     font-size: 28px;
     padding: 10px;
@@ -2445,15 +2446,45 @@ blockquote-temp p {}
     color: #d84712;
     color: #ffffff;
     width: 46px;
-    /*
-    border: solid 1px #b6bcd1;
-    border: solid 0.5px #b6bcd1;
-*/
     border: 0.5px solid #4b97d8;
     border: 0.5px solid #b6bcd1;
     background-color: #1f789a;
     background-color: #0a4a7f;
     border-radius: 3px;
+}
+*/
+
+.contact-agent .fas {
+    font-size: 28px;
+    padding: 30px;
+    padding-left: 25px;
+    margin-right: 5px;
+    display: inline-block;
+    color: #d84712;
+    color: rgba(255, 255, 255, 0);
+    width: 46px;
+    width: auto;
+    height: auto;
+   
+    
+/*
+    max-height: 100%;
+    max-width: 100%;
+*/
+    /*
+    border: solid 1px #b6bcd1;
+    border: solid 0.5px #b6bcd1;
+*/
+/*
+    border: 0.5px solid #4b97d8;
+    border: 0.5px solid #b6bcd1;
+*/
+    background-color: #1f789a;
+    background-color: #0a4a7f;
+    background-image: url(../images/william.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+/*    border-radius: 3px;*/
 }
 
 
@@ -2461,7 +2492,7 @@ blockquote-temp p {}
 @media screen and (max-width: 600px) {
     .contact-agent .fas {
         font-size: 28px;
-        width: 46px;
+/*        width: 46px;*/
         /*        margin-bottom: 10px;*/
     }
 }
