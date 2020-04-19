@@ -2471,10 +2471,13 @@ blockquote-temp p {}
     max-height: 100%;
     max-width: 100%;
 */
-    /*
+    
+/*
     border: solid 1px #b6bcd1;
     border: solid 0.5px #b6bcd1;
+    border: solid 1px #d9d9d9;
 */
+
 /*
     border: 0.5px solid #4b97d8;
     border: 0.5px solid #b6bcd1;
@@ -2482,6 +2485,7 @@ blockquote-temp p {}
     background-color: #1f789a;
     background-color: #0a4a7f;
     background-image: url(../images/william.jpg);
+    background-image: url(../images/business-executive2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 /*    border-radius: 3px;*/
@@ -2492,6 +2496,7 @@ blockquote-temp p {}
 @media screen and (max-width: 600px) {
     .contact-agent .fas {
         font-size: 28px;
+/*        width: 46px;*/
 /*        width: 46px;*/
         /*        margin-bottom: 10px;*/
     }
