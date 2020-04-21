@@ -1630,7 +1630,9 @@ blockquote-temp p {}
     margin: 5px 5px;
     padding: 10px 20px;
     padding-left: 0;
-    /*    border-right: 1px solid #e6e6e6;*/
+    padding-left: 13px;
+    border: 1px solid #e8e8e8;
+    border: 0.5px solid #e6e6e6;
     /*    background-color: #eef2f3;*/
     background-color: #eef2f3;
     border-radius: 50px;
@@ -1786,6 +1788,7 @@ blockquote-temp p {}
     margin-top: 2px;
     margin-right: 15px;
     color: #ffffff;
+    color: #1f789a;
     font-size: 30px;
     font-size: 20px;
     /*    font-size: 18px;*/
@@ -1795,12 +1798,17 @@ blockquote-temp p {}
     background-color: #ffffff;
     /* background-color: #0a4a7f; */
     border-radius: 50%;
+    /*    border-radius: 5px;*/
     width: 35px;
     height: 35px;
     border: 1px solid #1f789a;
+    /*    border: 1px solid #0a4a7f;*/
+    /*
     -webkit-text-stroke: 0.5px #46749a;
     -webkit-text-stroke: 1px #d84712;
     -webkit-text-stroke: 1px #46749a;
+    -webkit-text-stroke: 1px #0a4a7f;
+*/
 }
 
 .property-type-icon.icon-tenure {
@@ -1844,9 +1852,16 @@ blockquote-temp p {}
 }
 
 
+.property-h3subheadings.features {
+    color: #4a4a4a;
+}
+
+
+
 
 .property-type-block2 .tabcontent-heading2 {
     width: auto;
+    color: #1f789a;
 }
 
 @media screen and (max-width: 600px) {
@@ -2240,6 +2255,7 @@ blockquote-temp p {}
     font-size: 10px;
     font-weight: 900;
     content: "\f45c";
+    content: "\f111";
     color: #0a4a7f;
     color: #1f789a;
     color: #d84712;
