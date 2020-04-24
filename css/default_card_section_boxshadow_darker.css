@@ -1815,7 +1815,7 @@ blockquote-temp p {}
 .property-type-icon {
     margin-top: 0px;
     margin-top: -2px;
-/*    margin-right: 5px;*/
+    margin-right: 5px;
     color: #ffffff;
     /*
     color: #2F4858;
@@ -1823,7 +1823,7 @@ blockquote-temp p {}
 */
     font-size: 30px;
     font-size: 20px;
-    font-size: 16px;
+/*    font-size: 16px;*/
     padding: 6px;
     padding-top: 4px;
     /*
@@ -1927,7 +1927,7 @@ blockquote-temp p {}
     width: auto;
     font-size: 16px;
     /*    font-style: italic;*/
-    letter-spacing: 3px;
+/*    letter-spacing: 3px;*/
 }
 
 
