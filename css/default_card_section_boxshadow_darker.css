@@ -1413,7 +1413,6 @@ blockquote-temp p {}
     /*    background-color: #ddd;*/
     background-color: #cbd0e0;
     border-bottom: 5px solid #f1f1f1;
-    border-bottom: 5px solid #e04208;
 }
 
 /* Create an active/current tablink class */
@@ -1927,7 +1926,8 @@ blockquote-temp p {}
     color: #ffffff;
     width: auto;
     font-size: 16px;
-    font-style: italic;
+    /*    font-style: italic;*/
+    letter-spacing: 3px;
 }
 
 
@@ -3252,7 +3252,7 @@ table .accent-colour.trim-block {
     flex: 100%;
     padding-top: 20px;
     align-self: flex-start !important;
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid #e2e2e2;
 
 }
 
@@ -3362,6 +3362,12 @@ table .accent-colour.trim-block {
     .main-content-block.sidebar-recent2 h1 {
         font-size: 1em;
     }
+}
+
+
+.property-likes2.filled .fas {
+    color: red;
+    /*    color: #e04208;*/
 }
 
 .property-likes .fas,
