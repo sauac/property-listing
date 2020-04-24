@@ -1534,28 +1534,6 @@ blockquote-temp p {}
 }
 
 
-/*
-.property-type-block {
-    display: inline-block;
-    width: 25%;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    border-right: 1px solid #e6e6e6;
-}
-
-
-@media screen and (max-width: 600px) {
-    .property-type-block {
-        width: 48%;
-    }
-}
-
-.property-type-block:nth-child(3) {
-    padding-left: 20px;
-}
-*/
-
-
 .tabcontent-heading.property-type {
     margin-top: 0px;
     margin-bottom: 0;
@@ -1566,24 +1544,6 @@ blockquote-temp p {}
     font-size: 20px;
     /*    color: #0a4a7f;*/
 }
-
-.tabcontent-heading .fas {
-    padding-right: 10px;
-    color: #0a4a7f;
-    /*    color: #d84712;*/
-}
-
-.property-type-block .property-type-answer {
-    margin-top: 5px;
-    margin-bottom: auto;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-
-
-
-.m-adjust2.propertytype.style-circles {}
-
 
 .m-adjust2.propertytype {
     margin-top: 50px;
