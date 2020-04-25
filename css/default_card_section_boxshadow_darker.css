@@ -3299,6 +3299,7 @@ table .accent-colour.trim-block {
 
 .property-likes2.filled .fas {
     color: red;
+    color: #ff3b3b;
     /*    color: #e04208;*/
 }
 
@@ -4058,9 +4059,11 @@ form .form-button input:hover {
     color: #7e7e7e;
 }
 
-.main-content-block .fa-li .fas {
+
+.columnx .main-content-block .fas {
     color: #4d4f52;
 }
+
 
 .fa-ul li {
     line-height: 1.4;
@@ -4069,19 +4072,17 @@ form .form-button input:hover {
 .fa-ul .fa-li {
     padding-left: 0;
     margin-left: 0;
-    color: #4d4f52;
+/*    color: #4d4f52;*/
 }
 
-.property-type {
+.card-property-type-name {
     padding-right: 10px;
 }
 
-.font-extra {}
 
 .font-extra .fas {
     padding-left: 15px;
     padding-right: 7px;
-    color: #4d4f52;
 }
 
 /* Responsive wrapper */
