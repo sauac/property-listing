@@ -1572,7 +1572,7 @@ blockquote-temp p {}
 
 
 
-.property-type-block.feature-block {
+.property-feature-block {
     flex: 0 1 23.5%;
     flex: 1 1 calc(23.478%);
     margin: 30px 10px 0px;
@@ -1591,7 +1591,7 @@ blockquote-temp p {}
 }
 
 
-.feature-block.empty {
+.property-feature-block.empty {
     display: inline-block;
     padding: 0px 10px !important;
     padding-left: 20px;
@@ -1749,7 +1749,6 @@ blockquote-temp p {}
     border-radius: 50%;
     width: 45px;
     height: 45px;
-    /*        border: 1px solid #2F4858;*/
     border: 1px solid #e04208;
     border: 1px solid #1888b3;
 
@@ -1852,7 +1851,7 @@ blockquote-temp p {}
 
 
 
-.property-type-text {
+.property-info-text {
     /*    display: block;*/
 
 }
@@ -1892,13 +1891,22 @@ blockquote-temp p {}
 }
 
 
-.property-highlight-type {
+.property-info-data {
     margin: 0px;
     color: #ffffff;
     width: auto;
     font-size: 16px;
     /*    font-style: italic;*/
 /*    letter-spacing: 3px;*/
+}
+
+
+.property-feature-quantity {
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.8);
+    color: #0a4a7f;
+    width: auto;
+    font-size: 18px;
 }
 
 
