@@ -1,0 +1,112 @@
+design 2
+------------------
+
+.property-type-block.feature-block {
+    flex: 0 1 23.5%;
+    flex: 1 1 calc(23.478%);
+    margin: 30px 10px 0px;
+    margin: 5px 5px;
+    padding: 10px 20px;
+    padding-left: 0;
+    padding-left: 13px;
+    /* background-color: #eef2f3; */
+    /* background-color: #eef2f3; */
+    border-radius: 50px;
+    display: flex;
+}
+
+
+.property-feature-icon {
+    /* margin-top: 2px; */
+    margin-right: 10px;
+    color: #1888b3;
+    /* color: #ffffff !important; */
+    font-size: 30px;
+    font-size: 18px;
+    padding: 11px;
+    padding-top: 1px;
+    background-color: #1888b3;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #1888b3;
+    /* border: 1px solid #1860cc; */
+    /* -webkit-text-stroke: 1px #1f789a; */
+}
+
+
+//number - add this to the class that controls the number or create the class//
+
+element.style {
+    margin: 0;
+}
+
+
+
+//icon - add this to the class that controls the icon or create the class//
+
+element.style {
+    color: #1888b3;
+    font-size: 18px;
+}
+
+
+//text - change the class below to: .property-h3subheadings property-rooms//
+
+.property-h3subheadings {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    /* font-size: 20px; */
+    font-style: normal;
+    font-weight: normal;
+    /* color: #505050; */
+    color: #000000;
+}
+
+
+
+
+------------------
+design 3
+------------------
+
+.property-type-block.feature-block {
+    flex: 0 1 23.5%;
+    flex: 1 1 calc(23.478%);
+    margin: 30px 10px 0px;
+    margin: 5px 5px;
+    padding: 10px 20px;
+    padding-left: 0;
+    padding-left: 13px;
+    /* background-color: #eef2f3; */
+    /* background-color: #eef2f3; */
+    border-radius: 50px;
+    display: flex;
+}
+
+
+//text & number - change the class below (only in the features block. leave it unchanged in the "m-adjust property-info-top-block" block): 
+
+.property-feature-room-and-quantity-block//
+
+.property-type-text {
+    margin-top: 7px;
+}
+
+
+
+tabcontent-heading2.property-type2 {
+display: inline-flex;
+}
+
+
+.property-highlight-p.number {
+    color: #2f4858;
+    display: inline-flex;
+    padding-left: 5px;
+}
+
+

@@ -988,7 +988,9 @@ a .navunit:hover {
             rgba(189, 175, 107, 1) 50%,
             rgba(191, 143, 84, 1) 100%);
 */
-    background: linear-gradient(90deg, rgba(80, 112, 138, 1) 0%, rgba(10, 74, 127, 1) 100%);
+    /*    background: linear-gradient(90deg, rgba(80, 112, 138, 1) 0%, rgba(10, 74, 127, 1) 100%);*/
+
+    background: linear-gradient(90deg, rgba(80, 112, 138, 1) 0%, #2f4858 100%);
     z-index: -1;
 }
 
@@ -1014,7 +1016,10 @@ a .navunit:hover {
             rgba(189, 175, 107, 1) 50%,
             rgba(191, 143, 84, 1) 100%);
 */
-    background: linear-gradient(90deg, rgba(80, 112, 138, 1) 0%, rgba(10, 74, 127, 1) 100%);
+    /*    background: linear-gradient(90deg, rgba(80, 112, 138, 1) 0%, rgba(10, 74, 127, 1) 100%);*/
+
+    background: linear-gradient(90deg, rgba(80, 112, 138, 1) 0%, #2f4858 100%);
+
     z-index: -1;
 }
 
@@ -1679,7 +1684,7 @@ blockquote-temp p {}
 */
     font-size: 30px;
     font-size: 20px;
-/*    font-size: 16px;*/
+    /*    font-size: 16px;*/
     padding: 6px;
     padding-top: 4px;
     /*
@@ -1793,7 +1798,7 @@ blockquote-temp p {}
 */
     font-size: 30px;
     font-size: 20px;
-/*    font-size: 16px;*/
+    /*    font-size: 16px;*/
     padding: 6px;
     padding-top: 4px;
     /*
@@ -1897,7 +1902,7 @@ blockquote-temp p {}
     width: auto;
     font-size: 16px;
     /*    font-style: italic;*/
-/*    letter-spacing: 3px;*/
+    /*    letter-spacing: 3px;*/
 }
 
 
@@ -3576,6 +3581,16 @@ h1 {
     /*    z-index: 1000 !important;*/
 }
 
+.contact-top .main-content-block h1 {
+    font-style: normal;
+    font-size: 24px;
+    color: #0a4a7f;
+}
+
+.main-content-block.google-map h1 {
+    margin-bottom: 16px;
+}
+
 .main-content-block .postal-address {
     padding-bottom: 20px;
 }
@@ -3757,7 +3772,7 @@ h1 {
 .google-cloud-section {
     display: flex;
     align-items: center;
-    padding-top: 7px;
+    padding-top: 11px;
 }
 
 .google-cloud-section img {
@@ -3770,10 +3785,6 @@ h1 {
     flex: 1;
 }
 
-.contact-top .main-content-block h1 {
-    font-style: normal;
-    color: #0a4a7f;
-}
 
 .main-content-block.contact-info,
 .google-map {
@@ -3782,8 +3793,16 @@ h1 {
 }
 
 #map {
-    height: 270px;
+    height: 288px;
     width: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    #map {
+        height: 270px;
+        width: auto;
+    }
 }
 
 #map img {
@@ -3955,6 +3974,7 @@ form label p {
     padding: 10px 25px;
     color: #ffffff;
     background-color: #0a4a7f;
+    background-color: #1888b3;
     border-radius: 3px;
     border-style: none;
     cursor: pointer;
@@ -4119,7 +4139,7 @@ form .form-button input:hover {
 .fa-ul .fa-li {
     padding-left: 0;
     margin-left: 0;
-/*    color: #4d4f52;*/
+    /*    color: #4d4f52;*/
 }
 
 .card-property-type-name {
