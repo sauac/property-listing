@@ -1955,15 +1955,16 @@ blockquote-temp p {}
     color: #105f7d;
     font-size: 30px;
     font-size: 18px;
-    padding: 16px;
-    padding-top: 6px;
+    padding: 10px;
+    padding-top: 0px;
     background-color: #1f789a;
     background-color: #ffffff;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     border: 1px solid #e04208;
     border: 1px solid #1888b3;
+    border: 2px solid #1888b3;
 
     /*
     background-color: #1f789a;
