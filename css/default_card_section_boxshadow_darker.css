@@ -1955,13 +1955,13 @@ blockquote-temp p {}
     color: #105f7d;
     font-size: 30px;
     font-size: 18px;
-    padding: 10px;
-    padding-top: 0px;
+    padding: 13px;
+    padding-top: 2px;
     background-color: #1f789a;
     background-color: #ffffff;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border: 1px solid #e04208;
     border: 1px solid #1888b3;
     border: 2px solid #1888b3;
@@ -1989,11 +1989,12 @@ blockquote-temp p {}
 .property-feature-icon.fi-d2 {
     border: none;
     border-radius: 0;
-    /* margin-top: -3px; */
+    margin-top: unset;
     padding-top: 0px;
     padding-left: 1px;
     padding-bottom: 5px;
     height: unset;
+    font-size: 20px;
 }
 
 
