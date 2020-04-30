@@ -1,0 +1,58 @@
+.navcontainer {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    max-height: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+
+
+// apply following to the "a" link or create a class that targets the "a":
+
+a {
+    display: inline-flex;
+}
+
+
+
+
+.menu-margin-adjust {
+    display: inline-flex;
+    margin-right: -10px;
+}
+
+// reorder the nav units home. about. etc as they were reversed when floated
+
+.navunit {
+    padding: 0 20px;
+    /* float: right; */
+    height: 70px;
+    max-height: 70px;
+}
+
+.navunit.home {
+    /* display: inline-block; */
+    padding: 0 10px;
+    /* float: left; */
+    margin-left: -5px;
+}
+
+
+
+.hamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    -webkit-user-select: none;
+    user-select: none;
+    /* float: right; */
+}
+
+
+
