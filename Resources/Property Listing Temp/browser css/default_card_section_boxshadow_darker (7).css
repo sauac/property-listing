@@ -3443,10 +3443,7 @@ table .accent-colour.trim-block {
 
 @media screen and (max-width: 600px) {
     .main-content-block.sidebar-recent2 h2 {
-/*
         font-size: 1em;
-        font-size: 1.125em;
-*/
     }
 }
 
@@ -3464,10 +3461,7 @@ table .accent-colour.trim-block {
 
 @media screen and (max-width: 600px) {
     .main-content-block.sidebar-recent2 h1 {
-/*
         font-size: 1em;
-        font-size: 1.125em;
-*/
     }
 }
 
@@ -4185,14 +4179,13 @@ form .form-button input:hover {
 }
 
 
-/*
 .section-wrapper .main-content-block.horizontal {
     padding: 20px;
+    /*    padding-left: 0;*/
     display: inline-block;
     position: relative;
     width: inherit;
 }
-*/
 
 .section-wrapper h1 {
     font-family: "Lato", sans-serif;
@@ -4648,21 +4641,12 @@ p {
     background-color: #efefef;
 }
 
-.section-wrapper .main-content-block.horizontal {
-    padding: 20px;
-    display: inline-block;
-    position: relative;
-    width: inherit;
-    height: 200px;
-}
-
 .horizontal-card {
     background-color: white;
     display: inline-block;
     position: relative;
     height: auto;
-/*    width: 1150px;*/
-    width: 100%;
+    width: 1150px;
     max-width: 100%;
     /*    border-radius: 5px;*/
     margin: 70px;

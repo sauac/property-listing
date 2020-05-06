@@ -1,0 +1,39 @@
+contact page
+------------
+
+
+
+Our Location..
+
+
+.columnx h1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #4d4f52;
+}
+
+element.style {
+    margin-bottom: 16px;
+}
+
+
+
+#map {
+    height: 288px;
+    width: auto;
+}
+
+
+.google-cloud-section {
+    display: flex;
+    align-items: center;
+    padding-top: 11px;
+}
+
+
+about page
+------------
