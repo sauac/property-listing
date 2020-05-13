@@ -1948,6 +1948,7 @@ blockquote-temp p {}
 
 
 .property-feature-quantity.fq-d2 {
+    font-family: 'Merriweather', serif;
     /*    margin-top: 2px;*/
     margin-right: 10px;
     color: #ffffff;
@@ -1956,8 +1957,9 @@ blockquote-temp p {}
     color: #105f7d;
     font-size: 30px;
     font-size: 18px;
-    padding: 13px;
-    padding-top: 2px;
+    font-weight: 400;
+    padding: 15px;
+    padding-top: 3px;
     background-color: #1f789a;
     background-color: #ffffff;
     border-radius: 50%;
@@ -1965,7 +1967,7 @@ blockquote-temp p {}
     height: 40px;
     border: 1px solid #e04208;
     border: 1px solid #1888b3;
-    border: 2px solid #1888b3;
+/*    border: 2px solid #1888b3;*/
 
     /*
     background-color: #1f789a;
@@ -4261,6 +4263,7 @@ form .form-button input:hover {
 }
 
 .main-content-block .price {
+    font-family: 'Merriweather', serif;
     margin: 0;
     /*    font-size: 22px;*/
     font-size: 20px;
@@ -5045,6 +5048,8 @@ Responsive columns @media screen and (max-width: 1024px) {
 }
 
 .slider-top .price {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
     margin: 0;
     color: #0a4a7f;
     color: #d84712;
