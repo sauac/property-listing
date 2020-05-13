@@ -1949,6 +1949,7 @@ blockquote-temp p {}
 
 .property-feature-quantity.fq-d2 {
     font-family: 'Merriweather', serif;
+    font-style: italic;
     /*    margin-top: 2px;*/
     margin-right: 10px;
     color: #ffffff;
