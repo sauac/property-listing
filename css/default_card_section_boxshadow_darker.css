@@ -1954,18 +1954,21 @@ blockquote-temp p {}
     margin-right: 10px;
     color: #ffffff;
     color: #e04208;
+/*
     color: #1888b3;
     color: #105f7d;
+    color: #2F4858;
+*/
     font-size: 30px;
     font-size: 18px;
-    font-weight: 400;
-    padding: 15px;
-    padding-top: 3px;
+    font-weight: 600;
+    padding: 13px;
+    padding-top: 0px;
     background-color: #1f789a;
     background-color: #ffffff;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border: 1px solid #e04208;
     border: 1px solid #1888b3;
 /*    border: 2px solid #1888b3;*/
