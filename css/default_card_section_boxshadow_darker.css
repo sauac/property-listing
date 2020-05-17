@@ -1954,7 +1954,7 @@ blockquote-temp p {}
     margin-right: 10px;
     color: #ffffff;
     color: #e04208;
-/*
+    /*
     color: #1888b3;
     color: #105f7d;
     color: #2F4858;
@@ -1971,7 +1971,7 @@ blockquote-temp p {}
     height: 35px;
     border: 1px solid #e04208;
     border: 1px solid #1888b3;
-/*    border: 2px solid #1888b3;*/
+    /*    border: 2px solid #1888b3;*/
 
     /*
     background-color: #1f789a;
@@ -1989,19 +1989,21 @@ blockquote-temp p {}
 
 .property-h3subheadings.feature.hf-d2 {
     margin-top: -5px;
-
+    color: #2F4858;
 }
 
 
 .property-feature-icon.fi-d2 {
-    border: none;
-    border-radius: 0;
+    font-size: 20px;
     margin-top: unset;
     padding-top: 0px;
     padding-left: 1px;
     padding-bottom: 5px;
     height: unset;
-    font-size: 20px;
+    border: none;
+    border-radius: 0;
+    color: #e04208;
+    
 }
 
 
@@ -3398,7 +3400,7 @@ table .accent-colour.trim-block {
 .card-image.sbar2 {
     display: inline-flex;
     flex: 0 1 45%;
-/*    flex: 0 1 50%;*/
+    /*    flex: 0 1 50%;*/
     height: auto;
 }
 
@@ -3413,7 +3415,7 @@ table .accent-colour.trim-block {
 @media screen and (max-width: 960px) {
     .card-image.sbar2 {
         height: auto;
-/*        flex: 0 1 26%;*/
+        /*        flex: 0 1 26%;*/
     }
 }
 
@@ -3455,7 +3457,7 @@ table .accent-colour.trim-block {
 
 @media screen and (max-width: 600px) {
     .main-content-block.sidebar-recent2 h2 {
-/*
+        /*
         font-size: 1em;
         font-size: 1.125em;
 */
@@ -3471,7 +3473,7 @@ table .accent-colour.trim-block {
 
 @media screen and (max-width: 600px) {
     .main-content-block.sidebar-recent2 h1 {
-/*
+        /*
         font-size: 1em;
         font-size: 1.125em;
 */
@@ -3517,18 +3519,18 @@ table .accent-colour.trim-block {
     right: 1.7em;
     align-self: center;
     font-size: 18px;
-/*    flex-direction: column;*/
+    /*    flex-direction: column;*/
     /*    padding: 3% 5% 3% 5% !important;*/
-/*
+    /*
     padding-right: 5%;
     padding-right: 20px;
     padding-right: 1.2em;
 */
-/*    justify-content: space-around;*/
-/*    padding-left: 0.5em;*/
+    /*    justify-content: space-around;*/
+    /*    padding-left: 0.5em;*/
     /*    justify-content: flex-start;*/
-/*    right: 70px;*/
-    
+    /*    right: 70px;*/
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -4268,11 +4270,17 @@ form .form-button input:hover {
 
 .main-content-block .price {
     font-family: 'Merriweather', serif;
-    margin: 0;
-    /*    font-size: 22px;*/
     font-size: 20px;
+/*
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+*/
     font-weight: 600;
     font-style: normal;
+    margin: 0;
+    /*    font-size: 22px;*/
+
+
     text-decoration: none !important;
     color: #0a4a7f;
     color: #d84712;
@@ -4698,7 +4706,7 @@ p {
     display: inline-block;
     position: relative;
     height: auto;
-/*    width: 1150px;*/
+    /*    width: 1150px;*/
     width: 100%;
     max-width: 100%;
     /*    border-radius: 5px;*/
@@ -5053,6 +5061,10 @@ Responsive columns @media screen and (max-width: 1024px) {
 
 .slider-top .price {
     font-family: 'Merriweather', serif;
+    /*
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+*/
     font-weight: 700;
     margin: 0;
     color: #0a4a7f;
