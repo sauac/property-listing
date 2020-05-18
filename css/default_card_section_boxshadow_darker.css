@@ -1612,11 +1612,13 @@ blockquote-temp p {}
 .property-feature-block {
     flex: 0 1 23.5%;
     flex: 1 1 calc(23.478%);
+    flex: 1;
     margin: 30px 10px 0px;
     margin: 5px 5px;
     padding: 10px 20px;
     padding-left: 0;
     padding-left: 13px;
+    padding-right: 10px;
     /*
     border: 1px solid #e8e8e8;
     border: 0.5px solid #e6e6e6;
@@ -1640,6 +1642,14 @@ blockquote-temp p {}
     color: #0a4a7f;
     color: #0a4a7f;
     /*    visibility: hidden;*/
+}
+
+
+@media screen and (max-width: 600px) {
+    .property-feature-block.empty {
+        display: none;
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width: 600px) {
