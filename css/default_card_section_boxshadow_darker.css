@@ -3774,6 +3774,7 @@ table .accent-colour.trim-block {
 .columnx a {
     text-decoration: none;
     display: flex;
+    flex: 1;
 }
 
 .columnx p,
@@ -3864,6 +3865,10 @@ h1 {
 .columnx .cardz > .card-image {
     filter: brightness(1);
     transition: all 400ms ease;
+}
+
+.card-image img {
+    width: 100%;
 }
 
 .columnx .cardz:hover > .card-image {
