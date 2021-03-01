@@ -4882,7 +4882,7 @@ Responsive columns @media screen and (max-width: 1024px) {
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .card-image.horizontal img {
-        /*        width: 100%;*/
+                width: 100%;
         height: inherit;
         padding-right: 0;
         /*
